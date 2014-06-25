@@ -300,9 +300,9 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-item(5, 1);
     }
     #nice-menu-1 {
-      $zen-columns: 5;
+      //$zen-columns: 5;
       @include zen-grid-container($context: flow);
-      @include zen-grid-item(4, 2);
+      @include zen-grid-item(4, 2, $columns: 5);
       //@include zen-grid-background();
     }
     li.menuparent:nth-child(1) {
