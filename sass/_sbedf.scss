@@ -96,7 +96,7 @@
 // why st bernard layout
 #block-views-why-st-bernard-block {
   $zen-column-count: 5;
-  @include zen-nested-container();
+  @include zen-grid-container($context: flow);
   @include zen-grid-item(5, 1);
   @include zen-grid-background();
   //background: $lightgrey;
@@ -311,11 +311,11 @@
   @include zen-grid-container();
 }
 .views-responsive-grid .views-row {
-  @include zen-clear();
+  @include zen-new-row();
 }
 .views-responsive-grid.views-columns-2 {
   $zen-column-count:  2;
-  @include zen-nested-container();
+  @include zen-grid-container($context: flow);
   .views-column-1 {
     @include zen-grid-item(1, 1);
   }
@@ -325,7 +325,7 @@
 }
 .views-responsive-grid.views-columns-3 {
   $zen-column-count:  3;
-  @include zen-nested-container();
+  @include zen-grid-container($context: flow);
   .views-column-1 {
     @include zen-grid-item(1, 1);
   }
@@ -338,7 +338,7 @@
 }
 .views-responsive-grid.views-columns-4 {
   $zen-column-count:  4;
-  @include zen-nested-container();
+  @include zen-grid-container($context: flow);
   //@include zen-grid-background();  
   .views-column-1 {
     @include zen-grid-item(1, 1);
@@ -355,7 +355,7 @@
 }
 .views-responsive-grid.views-columns-5 {
   $zen-column-count:  5;
-  @include zen-nested-container();
+  @include zen-grid-container($context: flow);
   //@include zen-grid-background();  
   .views-column-1 {
     @include zen-grid-item(1, 1);
