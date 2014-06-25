@@ -261,7 +261,7 @@ $zen-auto-include-grid-item-base: false;
 
   $zen-columns: 5;
   #page {
-    @include zen-grid-background();
+    //@include zen-grid-background();
   }
   #header {
     //@include zen-grid-background();
