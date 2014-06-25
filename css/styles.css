@@ -735,7 +735,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003131}}
   #header li.menuparent:nth-child(1) {
     float: left;
-    width: 20%;
+    width: 33.33333%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -743,48 +743,48 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003134}}
   #header li.menuparent:nth-child(2) {
     float: left;
-    width: 20%;
-    margin-left: 20%;
+    width: 33.33333%;
+    margin-left: 33.33333%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003137}}
   #header li.menuparent:nth-child(3) {
     float: left;
-    width: 20%;
-    margin-left: 40%;
+    width: 33.33333%;
+    margin-left: 66.66667%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003140}}
   #header li.menuparent:nth-child(4) {
     float: left;
-    width: 20%;
-    margin-left: 60%;
+    width: 33.33333%;
+    margin-left: 100%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003143}}
   #header li.menuparent:nth-child(5) {
     float: left;
-    width: 20%;
-    margin-left: 80%;
+    width: 33.33333%;
+    margin-left: 133.33333%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003146}}
   #header li.menuparent:nth-child(6) {
     float: left;
-    width: 20%;
-    margin-left: 100%;
+    width: 33.33333%;
+    margin-left: 166.66667%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003149}}
   #header li.menuparent:nth-child(7) {
     float: left;
-    width: 20%;
-    margin-left: 120%;
+    width: 33.33333%;
+    margin-left: 200%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
