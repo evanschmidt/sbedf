@@ -295,7 +295,6 @@ $zen-auto-include-grid-item-base: false;
     #block-block-6,#block-block-1 {
       @include zen-grid-item(1, 1);
       background: none repeat scroll 0 0 $yellow;
-      color: $white;
       text-align: center;
       position: relative;
       margin-top: 0;
