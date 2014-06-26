@@ -279,15 +279,18 @@ $zen-auto-include-grid-item-base: false;
       //display: none;
       color: $grey;
       font-size: 1em;
-      font-weight: normal;
-      line-height: 1em;
+      font-weight: bold;
+      line-height: 1.25em;
       margin: 0.5em 0;
+      padding: 0 0.5em;
     }
     .block {
       color: $grey;
       margin: 0;
       p {
+        line-height: 1.25em;
         margin: 0;
+        padding: 0 0.5em;
       }
     }
     #logo {
