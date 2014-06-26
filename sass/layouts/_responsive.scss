@@ -334,7 +334,7 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-item(5, 1);
     }
     #nice-menu-1 {
-      //$zen-columns: 5;
+      $zen-columns: 6;
       @include zen-grid-container($context: flow);
       @include zen-grid-item(4, 2, left, $columns: 6);
       @include zen-grid-background();
@@ -344,7 +344,7 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-item(1, 1);
     }
     li:nth-child(2) {
-     @include zen-grid-item(1, 2);
+      @include zen-grid-item(1, 2);
     }
     li:nth-child(3) {
       @include zen-grid-item(1, 3);
