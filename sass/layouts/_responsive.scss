@@ -337,7 +337,7 @@ $zen-auto-include-grid-item-base: false;
       //$zen-columns: 5;
       @include zen-grid-container($context: flow);
       @include zen-grid-item(4, 2, left, $columns: 6);
-      //@include zen-grid-background();
+      @include zen-grid-background();
     }
     li:nth-child(1) {
       @include zen-grid-item(1, 1);
