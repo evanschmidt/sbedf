@@ -303,7 +303,7 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-item(1, 1);
       position: relative;
       margin-top: 0;
-      z-index: 10;
+      z-index: 9;
     }
     #block-block-6 {
       background: none repeat scroll 0 0 $blue;

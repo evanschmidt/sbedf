@@ -1033,7 +1033,7 @@ table {
     *margin-right: -99.9%;
     position: relative;
     margin-top: 0;
-    z-index: 10;
+    z-index: 9;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003308}}
   #header #block-block-6 {
