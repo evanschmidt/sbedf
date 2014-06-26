@@ -347,7 +347,7 @@ $zen-auto-include-grid-item-base: false;
     }
     #nice-menu-1 {
       @include zen-grid-container($context: grid-item);
-      @include zen-grid-item(6, 1, left, $columns: 6);
+      @include zen-grid-item(5, 1, left, $columns: 6);
     }
     li:nth-child(1) {
       @include zen-grid-item(1, 1);
