@@ -2260,7 +2260,7 @@ tr.selected td {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000371}}
 #block-menu-block-1 ul li.active-trail, #block-menu-block-1 ul li.active-trail a, #block-menu-block-1 ul a:hover, #block-menu-block-1 ul li:hover {
   background: none repeat scroll 0 0 #115db1;
-  color: #e6ba00;
+  color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000375}}
 #block-menu-block-1 ul li.even {
