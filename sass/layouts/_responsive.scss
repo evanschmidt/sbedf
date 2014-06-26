@@ -302,17 +302,20 @@ $zen-auto-include-grid-item-base: false;
     }
     #block-block-6 {
       @include zen-grid-item(1, 1, left);
-      z-index: 99;
+      position: relative;
+      z-index: 10;
     }
     #block-block-1 {
       @include zen-grid-item(1, 1, left);
       @include zen-new-row();
-      z-index: 99;
+      position: relative;
+      z-index: 10;
     }
     #block-block-8 {
       @include zen-grid-item(1, 1, left);
       @include zen-new-row();
-      z-index: 99;
+      position: relative;
+      z-index: 10;
     }
     #block-views-header-images-block {
       @include zen-grid-item(5, 1, right);      
