@@ -280,7 +280,9 @@ $zen-auto-include-grid-item-base: false;
       //display: none;
       color: $grey;
       font-size: 1em;
+      font-weight: normal;
       line-height: 1em;
+      margin: 0.5em 0;
     }
     .block {
       color: $grey;
