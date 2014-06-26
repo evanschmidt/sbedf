@@ -1038,8 +1038,8 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003309}}
   #header #block-views-header-images-block {
     float: left;
-    width: 20%;
-    margin-left: 80%;
+    width: 100%;
+    margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
