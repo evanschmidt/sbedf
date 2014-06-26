@@ -989,7 +989,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003268}}
   #header h1 {
     background: none repeat scroll 0 0 #0e4c91;
-    color: #74b3f4;
+    color: #79b3f2;
     font-size: 1.5em;
     font-weight: normal;
     line-height: 1.2em;
@@ -1018,7 +1018,7 @@ table {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003296}}
   #header #logo {
-    background: none repeat scroll 0 0 #0f519c;
+    background: none repeat scroll 0 0 #115db1;
     text-align: center;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003300}}
@@ -2201,7 +2201,7 @@ tr.selected td {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000324}}
 #block-nice-menus-1 ul li.active-trail a, #block-nice-menus-1 ul a:hover {
-  background: none repeat scroll 0 0 #666666;
+  background: none repeat scroll 0 0 #ebebeb;
   color: black;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000328}}
@@ -2255,7 +2255,7 @@ tr.selected td {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000369}}
 #block-menu-block-1 ul li.active-trail, #block-menu-block-1 ul li.active-trail a, #block-menu-block-1 ul a:hover, #block-menu-block-1 ul li:hover {
-  background: none repeat scroll 0 0 #666666;
+  background: none repeat scroll 0 0 #ebebeb;
   color: black;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000373}}
@@ -2365,11 +2365,11 @@ tr.selected td {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003129}}
 #block-views-why-st-bernard-block .views-row-even {
-  background: #666666;
+  background: #ebebeb;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003132}}
 #block-views-why-st-bernard-block .views-row-odd {
-  background: #666666;
+  background: #ebebeb;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003135}}
 #block-views-why-st-bernard-block .views-field-title {
@@ -2451,7 +2451,7 @@ tr.selected td {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003206}}
 .mean-container .mean-bar {
-  background: none repeat scroll 0 0 #0f519c;
+  background: none repeat scroll 0 0 #115db1;
   float: left;
   min-height: 42px;
   padding: 4px 0;
@@ -2465,7 +2465,7 @@ tr.selected td {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003218}}
 .mean-container .mean-nav {
-  background: none repeat scroll 0 0 #0f519c;
+  background: none repeat scroll 0 0 #115db1;
   float: left;
   margin-top: 33px;
   width: 100%;
@@ -2489,7 +2489,7 @@ tr.selected td {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003238}}
 #block-views-header-images-block .flexslider {
-  background: none repeat scroll 0 0 #0f519c;
+  background: none repeat scroll 0 0 #115db1;
   border: medium none;
   box-shadow: none;
   margin: 0 0 0.25em;
