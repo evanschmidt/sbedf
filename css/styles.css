@@ -2530,7 +2530,7 @@ tr.selected td {
   background: none repeat scroll 0 0 #115db1;
   border: medium none;
   box-shadow: none;
-  margin: 0 0 0.25em;
+  margin: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003253}}
 #block-views-header-images-block .flex-direction-nav {
