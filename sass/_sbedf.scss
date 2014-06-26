@@ -100,7 +100,6 @@
   $zen-column-count: 5;
   @include zen-grid-container($context: flow);
   @include zen-grid-item(5, 1);
-  @include zen-grid-background();
   background: none repeat scroll 0 0 $darkgrey;
   color: $white;
   padding-top: 1em;
@@ -111,7 +110,7 @@
   } 
   .views-row {
     margin-bottom: 1em;
-    border: 1px solid $lightergrey;
+    border: 5px solid transparent;
   }  
   .views-row:nth-child(1) {
     @include zen-grid-item(1, 1);
@@ -129,7 +128,7 @@
     @include zen-grid-item(1, 5);
   }
   .views-row-even {
-    background: $lightgrey;
+    background: $darkblue;
   }  
   .views-row-odd {
     background: $lightgrey;
