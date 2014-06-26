@@ -294,8 +294,7 @@ $zen-auto-include-grid-item-base: false;
       }
     }
     #logo {
-      background: none repeat scroll 0 0 $blue; 
-      text-align: center;
+      margin-right: -2.75em;
     }
     #block-block-6,#block-block-1 {
       @include zen-grid-item(1, 1);
