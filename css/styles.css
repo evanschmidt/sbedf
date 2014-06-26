@@ -2351,8 +2351,8 @@ tr.selected td {
   margin-left: 0%;
   margin-right: -100%;
   *margin-right: -99.9%;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 2px;
+  padding-right: 3px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000343}}
 #block-views-why-st-bernard-block .view-why-st-bernard:before, #block-views-why-st-bernard-block .view-why-st-bernard:after {

@@ -109,7 +109,7 @@
   } 
   .view-why-st-bernard {
     @include zen-grid-container($context: grid-item);
-    @include zen-grid-item(5, 1, $columns: 5, $gutters: 20px);    
+    @include zen-grid-item(5, 1, $columns: 5, $gutters: 5px);    
   }
   .views-row {
     margin-bottom: 1em;
