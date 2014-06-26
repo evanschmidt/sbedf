@@ -267,6 +267,7 @@ $zen-auto-include-grid-item-base: false;
     //@include zen-grid-background();
     h1 {
       //display: none;
+      background: none repeat scroll 0 0 $blue;
       color: $white;
       font-size: 1.2em;
       line-height: 1.2em;
@@ -285,7 +286,6 @@ $zen-auto-include-grid-item-base: false;
     }
     #logo, #block-block-6,#block-block-1 {
       @include zen-grid-item(1, 1);
-      background: $blue;
       color: $white;
       text-align: center;
       position: relative;
