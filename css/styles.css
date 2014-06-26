@@ -2244,30 +2244,30 @@ tr.selected td {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000358}}
 #block-menu-block-1 ul li {
-  background: none repeat scroll 0 0 #333333;
+  background: none repeat scroll 0 0 #115db1;
   border: none;
-  padding: 15px 0 15px 10px;
+  padding: 5px 0 5px 10px;
   list-style: none outside none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000363}}
 #block-menu-block-1 ul li a {
-  color: white;
-  padding: 15px 0;
+  color: #79b3f2;
+  padding: 5px 0;
   text-decoration: none;
-  line-height: 2em;
+  line-height: 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000370}}
 #block-menu-block-1 ul li.active-trail, #block-menu-block-1 ul li.active-trail a, #block-menu-block-1 ul a:hover, #block-menu-block-1 ul li:hover {
-  background: none repeat scroll 0 0 #ebebeb;
-  color: black;
+  background: none repeat scroll 0 0 #115db1;
+  color: #e6ba00;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000374}}
 #block-menu-block-1 ul li.even {
-  background: none repeat scroll 0 0 #333333;
+  background: none repeat scroll 0 0 #115db1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000377}}
 #block-menu-block-1 ul li.odd {
-  background: none repeat scroll 0 0 #333333;
+  background: none repeat scroll 0 0 #115db1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000381}}
 #block-menu-block-1 ul ul {
@@ -2285,7 +2285,7 @@ tr.selected td {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000392}}
 #block-menu-block-1 ul ul li a.active-trail {
-  color: white;
+  color: #e6ba00;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000398}}
