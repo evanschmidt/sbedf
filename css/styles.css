@@ -2201,10 +2201,10 @@ tr.selected td {
   padding: 0.75em 0;
   text-align: center;
   text-decoration: none;
+  font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000326}}
 #block-nice-menus-1 ul li.active-trail a, #block-nice-menus-1 ul a:hover {
-  background: none repeat scroll 0 0 #ebebeb;
   color: #e6ba00;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000329}}
