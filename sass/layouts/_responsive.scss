@@ -334,6 +334,7 @@ $zen-auto-include-grid-item-base: false;
       top: 175px;
     }
     .region-header {
+      @include zen-grid-container($context: grid-item);
       @include zen-grid-item(5, 1, right);
     }
     #block-nice-menus-1 {
