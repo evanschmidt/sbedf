@@ -266,7 +266,6 @@ $zen-auto-include-grid-item-base: false;
     //@include zen-grid-background();
   }
   #header {
-    @include zen-grid-container($context: flow);
     h1 {
       //display: none;
       background: none repeat scroll 0 0 $darkblue;
@@ -302,13 +301,13 @@ $zen-auto-include-grid-item-base: false;
       }
     }
     #block-block-6,#block-block-1, #block-block-8 {
-      @include zen-grid-item(1, 1);
+      @include zen-grid-item(1, 1, left);
       position: relative;
       margin-top: 0;
       z-index: 9;
     }
     #block-views-header-images-block {
-      @include zen-grid-item(5, 1, left);      
+      @include zen-grid-item(5, 1, right);      
     }
     #block-block-6 {
       background: none repeat scroll 0 0 $darkblue;
@@ -324,7 +323,7 @@ $zen-auto-include-grid-item-base: false;
       }
     }
     #block-block-8 {
-      @include zen-new-row();
+      //@include zen-new-row();
       background: none repeat scroll 0 0 $yellow;
       padding: 0.7em 0;
     }
