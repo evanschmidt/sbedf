@@ -1066,11 +1066,11 @@ table {
     margin-right: -5px;
     padding-left: 0;
     padding-right: 0;
-    float: right;
+    float: left;
     width: 80%;
-    margin-right: 20%;
-    margin-left: -100%;
-    *margin-left: -99.9%;
+    margin-left: 20%;
+    margin-right: -100%;
+    *margin-right: -99.9%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000343}}
   #header #nice-menu-1:before, #header #nice-menu-1:after {
