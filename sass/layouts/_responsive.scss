@@ -302,7 +302,8 @@ $zen-auto-include-grid-item-base: false;
     }
     #block-block-6,#block-block-1, #block-block-8 {
       @include zen-grid-item(1, 1, left);
-      position: relative;
+      @include zen-new-row();
+//      position: relative;
       margin-top: 0;
       z-index: 9;
     }
