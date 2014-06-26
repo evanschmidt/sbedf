@@ -268,9 +268,13 @@ $zen-auto-include-grid-item-base: false;
     h1 {
       //display: none;
       background: none repeat scroll 0 0 $blue;
-      color: $white;
-      font-size: 1.2em;
+      color: white;
+      font-size: 1.5em;
+      font-weight: normal;
       line-height: 1.2em;
+      margin-top: 0;
+      padding: 1em 0.5em;
+      text-align: left;
     }
     h2 {
       //display: none;
@@ -283,6 +287,9 @@ $zen-auto-include-grid-item-base: false;
       p {
         margin: 0;
       }
+    }
+    #logo {
+      background: none repeat scroll 0 0 $darkblue; 
     }
     #logo, #block-block-6,#block-block-1 {
       @include zen-grid-item(1, 1);
