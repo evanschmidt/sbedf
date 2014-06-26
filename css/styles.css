@@ -1083,6 +1083,8 @@ table {
   #header #nice-menu-1 {
     *position: relative;
     *zoom: 1;
+    padding-left: 0;
+    padding-right: 0;
     float: left;
     width: 83.33333%;
     margin-left: 16.66667%;
