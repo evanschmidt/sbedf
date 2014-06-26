@@ -1016,7 +1016,7 @@ table {
     background: none repeat scroll 0 0 #91baff;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003294}}
-  #header #logo, #header #block-block-6, #header #block-block-1 {
+  #header #block-block-6, #header #block-block-1 {
     float: left;
     width: 20%;
     margin-left: 0%;

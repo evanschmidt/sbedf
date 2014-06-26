@@ -291,7 +291,7 @@ $zen-auto-include-grid-item-base: false;
     #logo {
       background: none repeat scroll 0 0 $darkblue; 
     }
-    #logo, #block-block-6,#block-block-1 {
+    #block-block-6,#block-block-1 {
       @include zen-grid-item(1, 1);
       color: $white;
       text-align: center;
