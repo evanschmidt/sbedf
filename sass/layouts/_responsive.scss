@@ -300,12 +300,16 @@ $zen-auto-include-grid-item-base: false;
         border-left: 5px solid $darkblue;
       }
     }
-    #block-block-6,#block-block-1, #block-block-8 {
+    #block-block-6 {
+      @include zen-grid-item(1, 1, left);
+    }
+    #block-block-1 {
       @include zen-grid-item(1, 1, left);
       @include zen-new-row();
-//      position: relative;
-      margin-top: 0;
-      z-index: 9;
+    }
+    #block-block-8 {
+      @include zen-grid-item(1, 1, left);
+      @include zen-new-row();
     }
     #block-views-header-images-block {
       @include zen-grid-item(5, 1, right);      
