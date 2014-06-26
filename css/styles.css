@@ -2169,11 +2169,6 @@ tr.selected td {
  * Adds styles for St. EDF
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\000039}}
-.front h1, .front .field-name-body {
-  display: none;
-}
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000315}}
 #block-nice-menus-1 ul li {
   border: none;
