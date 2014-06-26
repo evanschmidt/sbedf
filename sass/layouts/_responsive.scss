@@ -301,6 +301,7 @@ $zen-auto-include-grid-item-base: false;
     }
     #block-block-6,#block-block-1, #block-block-8 {
       @include zen-grid-item(1, 1);
+      @include zen-new-row();
       background: none repeat scroll 0 0 $yellow;
       position: relative;
       margin-top: 0;
