@@ -307,6 +307,16 @@ $zen-auto-include-grid-item-base: false;
     }
     #block-block-6 {
       background: none repeat scroll 0 0 $blue;
+      h2 {
+        //display: none;
+        background: none repeat scroll 0 0 $darkblue;
+        color: $lightblue;
+        font-size: 1.75em;
+        font-weight: normal;
+        line-height: 1em;
+        margin: 0;
+        padding: 0.25em;
+      }
     }
     #block-block-8 {
       @include zen-new-row();
