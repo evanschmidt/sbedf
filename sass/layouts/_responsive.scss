@@ -269,9 +269,9 @@ $zen-auto-include-grid-item-base: false;
       //display: none;
       background: none repeat scroll 0 0 $darkblue;
       color: $lightblue;
-      font-size: 1.5em;
+      font-size: 1.75em;
       font-weight: normal;
-      line-height: 1.2em;
+      line-height: 1em;
       margin: 0;
       padding: 0.25em;
     }
@@ -304,7 +304,7 @@ $zen-auto-include-grid-item-base: false;
       background: none repeat scroll 0 0 $yellow;
       position: relative;
       margin-top: 0;
-      z-index: 99;
+      z-index: 10;
     }
     #name-and-slogan {
       @include zen-grid-item(1, 1);

@@ -990,9 +990,9 @@ table {
   #header h1 {
     background: none repeat scroll 0 0 #0e4c91;
     color: #79b3f2;
-    font-size: 1.5em;
+    font-size: 1.75em;
     font-weight: normal;
-    line-height: 1.2em;
+    line-height: 1em;
     margin: 0;
     padding: 0.25em;
   }
@@ -1034,7 +1034,7 @@ table {
     background: none repeat scroll 0 0 #e6ba00;
     position: relative;
     margin-top: 0;
-    z-index: 99;
+    z-index: 10;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003309}}
   #header #name-and-slogan {
