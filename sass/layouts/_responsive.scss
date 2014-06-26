@@ -314,13 +314,14 @@ $zen-auto-include-grid-item-base: false;
         font-size: 1.75em;
         font-weight: normal;
         line-height: 1em;
-        margin: 0;
+        margin: 0.75em 0;
         padding: 0.25em;
       }
     }
     #block-block-8 {
       @include zen-new-row();
       background: none repeat scroll 0 0 $yellow;
+      padding: 0.7em 0;
     }
     #name-and-slogan {
       @include zen-grid-item(1, 1);
