@@ -10,12 +10,13 @@
     display: none;
   }
 }
+
 #block-nice-menus-1 {
   ul {
     li {
       border: none;
       a {
-        color: $white;
+        color: $lightgrey;
         padding: 0.75em 0;
         text-align: center;
         text-decoration: none;
@@ -23,13 +24,13 @@
     }
     li.active-trail a, a:hover {
       background: none repeat scroll 0 0 $lightgrey;
-      color: $black;
+      color: $yellow;
     }
     li.even {
-      background: none repeat scroll 0 0 $grey;
+      background: none repeat scroll 0 0 $darkgrey;
     }
     li.odd {
-      background: none repeat scroll 0 0 $grey;      
+      background: none repeat scroll 0 0 $darkgrey;      
     }
   }
  ul.nice-menu ul {
