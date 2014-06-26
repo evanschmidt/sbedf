@@ -97,7 +97,7 @@
 
 // why st bernard layout
 #block-views-why-st-bernard-block {
-  @include zen-grid-container($context: flow);
+  @include zen-grid-container($context: grid-item);
   @include zen-grid-item(5, 1, $columns: 5);
   background: none repeat scroll 0 0 $darkgrey;
   color: $white;
@@ -109,6 +109,7 @@
   } 
   .views-row {
     margin-bottom: 1em;
+    min-height: 235px;
   }  
   .views-row:nth-child(1) {
     @include zen-grid-item(1, 1);
