@@ -131,18 +131,22 @@
     @include zen-grid-item(1, 5);
   }
   .views-row-even {
-    background: $darkblue;
+//    background: $darkblue;
   }  
   .views-row-odd {
-    background: $darkblue;
+//    background: $darkblue;
   }  
   .views-field-title {
+    background: none repeat scroll 0 0 $darkblue;
+    margin: 0 0.5em;
     padding: 1em;
     font-size: $h2-font-size;
     text-align: left;
   }
   .views-field-field-why-tagline {
-    padding: 0 1em;
+    background: none repeat scroll 0 0 $darkblue;
+    margin: 0 0.6em;
+    padding: 1em;
   }
   .views-field-field-why-image {
     padding: 0 1em;
