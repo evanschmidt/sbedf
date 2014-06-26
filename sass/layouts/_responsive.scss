@@ -333,9 +333,13 @@ $zen-auto-include-grid-item-base: false;
     .region-header {
       @include zen-grid-item(5, 1);
     }
+    #block-nice-menus-1 {
+      @include zen-grid-container($context: grid-item);
+      @include zen-grid-item(4, 2, left, $columns: 5);      
+    }
     #nice-menu-1 {
       @include zen-grid-container($context: grid-item);
-      @include zen-grid-item(4, 2, left, $columns: 5);
+      @include zen-grid-item(4, 2, left, $columns: 6);
       //@include zen-grid-background();
       //height: 600px;
     }
