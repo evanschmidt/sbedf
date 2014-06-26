@@ -110,7 +110,6 @@
   } 
   .views-row {
     margin-bottom: 1em;
-    border: 5px solid transparent;
   }  
   .views-row:nth-child(1) {
     @include zen-grid-item(1, 1);
