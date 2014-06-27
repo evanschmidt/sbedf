@@ -413,7 +413,10 @@ $zen-auto-include-grid-item-base: false;
     .views-row:nth-child(1) {
       @include zen-grid-item(1, 1);
       .views-field-title {
-        margin-left: 0.3px;
+        margin-left: 0.5em;
+      }
+      .views-field-field-why-tagline {
+        margin-left: 0.5em;
       }
     }
     .views-row:nth-child(2) {
@@ -427,6 +430,12 @@ $zen-auto-include-grid-item-base: false;
     }
     .views-row:nth-child(5) {
       @include zen-grid-item(1, 5);
+      .views-field-title {
+        margin-right: 0.5em;
+      }
+      .views-field-field-why-tagline {
+        margin-right: 0.5em;
+      }
     }
     .views-row-even {
   //    background: $darkblue;
