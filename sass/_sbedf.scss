@@ -103,13 +103,22 @@
   color: $white;
   padding-top: 1em;
   h2 {
+    background: none repeat scroll 0 0 $darkgrey;
     color: $lightgrey;
+    font-size: 2em;
+    font-weight: normal;
+    margin: 0 auto;
+    position: relative;
     text-align: center;
-    padding-left: 1em;
+    width: 260px;
+    z-index: 1;
   } 
   .view-why-st-bernard {
     @include zen-grid-container($context: none);
     @include zen-grid-item(5, 1, $columns: 5, $gutters: 10px);    
+    border-top: 1px solid #fff;
+    margin-top: -1em;
+    padding-top: 2em;
   }
   .views-row {
     margin-bottom: 1em;
