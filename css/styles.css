@@ -2457,26 +2457,32 @@ tr.selected td {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003129}}
 #block-views-why-st-bernard-block .views-row:nth-child(1) {
   float: left;
-  width: 20%;
+  width: 100%;
   margin-left: 0%;
   margin-right: -100%;
   *margin-right: -99.9%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003132}}
 #block-views-why-st-bernard-block .views-row:nth-child(2) {
   float: left;
-  width: 20%;
-  margin-left: 20%;
+  width: 100%;
+  margin-left: 100%;
   margin-right: -100%;
   *margin-right: -99.9%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003135}}
 #block-views-why-st-bernard-block .views-row:nth-child(3) {
   float: left;
-  width: 20%;
-  margin-left: 40%;
+  width: 100%;
+  margin-left: 200%;
   margin-right: -100%;
   *margin-right: -99.9%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003138}}
 #block-views-why-st-bernard-block .views-row:nth-child(4) {
