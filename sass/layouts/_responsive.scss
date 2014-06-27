@@ -407,7 +407,6 @@ $zen-auto-include-grid-item-base: false;
       padding-top: 2em;
     }
     .views-row {
-      background: none repeat scroll 0 0 $darkblue;
       margin-bottom: 1em;
       min-height: 235px;
     }  
@@ -433,17 +432,17 @@ $zen-auto-include-grid-item-base: false;
   //    background: $darkblue;
     }  
     .views-field-title {
-//      background: none repeat scroll 0 0 $darkblue;
+      background: none repeat scroll 0 0 $darkblue;
 //      margin: 0 0.25em;
-//      padding: 1em;
+      padding: 1em;
       font-size: $h2-font-size;
       text-align: left;
     }
     .views-field-field-why-tagline {
-//      background: none repeat scroll 0 0 $darkblue;
+      background: none repeat scroll 0 0 $darkblue;
 //      margin: 0 0.285em;
       min-height: 170px;
-//      padding: 1em;
+      padding: 1em;
     }
     .views-field-field-why-image {
       padding: 0 1em;
