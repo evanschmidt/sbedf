@@ -2436,21 +2436,8 @@ tr.selected td {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003124}}
 #block-views-why-st-bernard-block .views-row {
-  *position: relative;
-  *zoom: 1;
-  padding-left: 0;
-  padding-right: 0;
   margin-bottom: 1em;
   min-height: 235px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000343}}
-#block-views-why-st-bernard-block .views-row:before, #block-views-why-st-bernard-block .views-row:after {
-  content: "";
-  display: table;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000348}}
-#block-views-why-st-bernard-block .views-row:after {
-  clear: both;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003129}}
 #block-views-why-st-bernard-block .views-row:nth-child(1) {
