@@ -412,6 +412,9 @@ $zen-auto-include-grid-item-base: false;
     }  
     .views-row:nth-child(1) {
       @include zen-grid-item(1, 1);
+      .views-field-title {
+        margin-left: 0.3px;
+      }
     }
     .views-row:nth-child(2) {
       @include zen-grid-item(1, 2);
