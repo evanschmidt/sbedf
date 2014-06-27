@@ -121,6 +121,7 @@
     padding-top: 2em;
   }
   .views-row {
+    @include zen-grid-container($context: flow);
     margin-bottom: 1em;
     min-height: 235px;
   }  
@@ -154,7 +155,7 @@
   }
   .views-field-field-why-tagline {
     background: none repeat scroll 0 0 $darkblue;
-    margin: 0 0.25em;
+    margin: 0 0.285em;
     min-height: 170px;
     padding: 1em;
   }
