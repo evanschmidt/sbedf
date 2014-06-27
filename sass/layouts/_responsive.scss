@@ -382,8 +382,8 @@ $zen-auto-include-grid-item-base: false;
     @include zen-grid-item-base();
     @include zen-grid-container($context:  grid-item);
     @include zen-grid-item(5, 1, $columns: 5);
-    @include zen-grid-background($grid-color:#CCC);
-    //background: none repeat scroll 0 0 $darkgrey;
+    //@include zen-grid-background($grid-color:#CCC);
+    background: none repeat scroll 0 0 $darkgrey;
     color: $white;
     padding-top: 1em;
     min-height: 260px;
@@ -401,7 +401,7 @@ $zen-auto-include-grid-item-base: false;
     .view-why-st-bernard {
       @include zen-grid-container($context:  none);
       @include zen-grid-item(5, 1, $columns: 5);    
-      @include zen-grid-background();
+      //@include zen-grid-background();
       border-top: 1px solid #fff;
       margin-top: -1em;
       padding-top: 2em;
@@ -440,7 +440,7 @@ $zen-auto-include-grid-item-base: false;
     }
     .views-field-field-why-tagline {
       background: none repeat scroll 0 0 $darkblue;
-      margin: 0 0.25em;
+      margin: 0 0.285em;
       min-height: 170px;
       ul {
         margin: 0;
