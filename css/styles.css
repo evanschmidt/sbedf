@@ -2415,6 +2415,8 @@ tr.selected td {
   margin-left: 0%;
   margin-right: -100%;
   *margin-right: -99.9%;
+  padding-left: 10px;
+  padding-right: 10px;
   border-top: 1px solid #fff;
   margin-top: -1em;
   padding-top: 2em;
