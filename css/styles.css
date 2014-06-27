@@ -1261,6 +1261,8 @@ table {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003402}}
   #block-views-why-st-bernard-block .view-why-st-bernard {
+    *position: relative;
+    *zoom: 1;
     float: left;
     width: 100%;
     margin-left: 0%;
@@ -1272,6 +1274,15 @@ table {
     border-top: 1px solid #fff;
     margin-top: -1em;
     padding-top: 2em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000343}}
+  #block-views-why-st-bernard-block .view-why-st-bernard:before, #block-views-why-st-bernard-block .view-why-st-bernard:after {
+    content: "";
+    display: table;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000348}}
+  #block-views-why-st-bernard-block .view-why-st-bernard:after {
+    clear: both;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003410}}
   #block-views-why-st-bernard-block .views-row {
