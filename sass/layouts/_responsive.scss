@@ -468,6 +468,7 @@ $zen-auto-include-grid-item-base: false;
     @include zen-grid-background();
     h2 {
       color: $grey;
+      font-weight: normal;
     }
     .block {
       min-height: 250px;
