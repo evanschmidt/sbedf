@@ -379,7 +379,7 @@ $zen-auto-include-grid-item-base: false;
   }
   // why st bernard layout
   #block-views-why-st-bernard-block {
-    @include zen-grid-container($context: flow);
+    @include zen-grid-container($context:  grid-item);
     @include zen-grid-item(5, 1, $columns: 5);
     $zen-gutters:  40px;
     @include zen-grid-background($grid-color:#CCC);
@@ -400,7 +400,7 @@ $zen-auto-include-grid-item-base: false;
     } 
     .view-why-st-bernard {
       $zen-gutters:  40px;
-      @include zen-grid-container($context: flow);
+      @include zen-grid-container($context:  grid-item);
       @include zen-grid-item(5, 1, $columns: 5);    
       @include zen-grid-background();
       border-top: 1px solid #fff;

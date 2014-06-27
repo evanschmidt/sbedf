@@ -1217,8 +1217,6 @@ table {
   #block-views-why-st-bernard-block {
     *position: relative;
     *zoom: 1;
-    margin-left: -5px;
-    margin-right: -5px;
     padding-left: 0;
     padding-right: 0;
     float: left;
@@ -1258,8 +1256,6 @@ table {
   #block-views-why-st-bernard-block .view-why-st-bernard {
     *position: relative;
     *zoom: 1;
-    margin-left: -20px;
-    margin-right: -20px;
     padding-left: 0;
     padding-right: 0;
     float: left;
