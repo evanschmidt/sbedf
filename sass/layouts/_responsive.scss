@@ -400,8 +400,7 @@ $zen-auto-include-grid-item-base: false;
       z-index: 1;
     } 
     .view-why-st-bernard {
-      $zen-gutters:  40px;
-      @include zen-grid-container($context:  grid-item);
+//      @include zen-grid-container($context:  grid-item);
       @include zen-grid-item(5, 1, $columns: 5);    
       @include zen-grid-background();
       border-top: 1px solid #fff;
