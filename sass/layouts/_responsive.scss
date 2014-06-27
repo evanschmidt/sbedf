@@ -11,8 +11,8 @@
 // We are going to create a fluid grid with 1, 3, or 5 columns and 20px gutters
 // between columns (applied as 10px of left/right padding on each column).
 $zen-columns:  1 !global;
-$zen-gutters:  10% !global;
-$zen-gutter-method: margin !global;
+$zen-gutters:  10px !global;
+$zen-gutter-method: padding !global;
 $zen-grid-width: 100%;
 
 // If you need IE6/7 support for box-sizing: border-box (default), see _base.scss
@@ -379,9 +379,10 @@ $zen-auto-include-grid-item-base: false;
   }
   // why st bernard layout
   #block-views-why-st-bernard-block {
+    @include zen-grid-item-base();
     @include zen-grid-container($context:  grid-item);
     @include zen-grid-item(5, 1, $columns: 5);
-    $zen-gutters:  40%;
+    $zen-gutters:  40px;
     @include zen-grid-background($grid-color:#CCC);
     //background: none repeat scroll 0 0 $darkgrey;
     color: $white;
@@ -399,7 +400,7 @@ $zen-auto-include-grid-item-base: false;
       z-index: 1;
     } 
     .view-why-st-bernard {
-      $zen-gutters:  40%;
+      $zen-gutters:  40px;
       @include zen-grid-container($context:  grid-item);
       @include zen-grid-item(5, 1, $columns: 5);    
       @include zen-grid-background();
