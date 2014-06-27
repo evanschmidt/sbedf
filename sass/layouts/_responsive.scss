@@ -405,6 +405,7 @@ $zen-auto-include-grid-item-base: false;
       border-top: 1px solid #fff;
       margin-top: -1em;
       padding-top: 2em;
+      text-align: center;
     }
     .views-row {
       margin-bottom: 1em;
@@ -448,7 +449,6 @@ $zen-auto-include-grid-item-base: false;
       margin: 0 0.25em;
       padding: 1em;
       font-size: $h2-font-size;
-      text-align: left;
     }
     .views-field-field-why-tagline {
       background: none repeat scroll 0 0 $darkblue;
