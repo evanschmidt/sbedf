@@ -2410,6 +2410,10 @@ tr.selected td {
 #block-views-why-st-bernard-block .view-why-st-bernard {
   *position: relative;
   *zoom: 1;
+  margin-left: -5px;
+  margin-right: -5px;
+  padding-left: 0;
+  padding-right: 0;
   float: left;
   width: 100%;
   margin-left: 0%;

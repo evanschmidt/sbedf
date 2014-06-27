@@ -114,7 +114,7 @@
     z-index: 1;
   } 
   .view-why-st-bernard {
-    @include zen-grid-container($context: none);
+    @include zen-grid-container($context: flow);
     @include zen-grid-item(5, 1, $columns: 5, $gutters: 20px);    
     border-top: 1px solid #fff;
     margin-top: -1em;
