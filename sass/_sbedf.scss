@@ -121,7 +121,7 @@
     padding-top: 2em;
   }
   .views-row {
-    @include zen-grid-container($context: flow);
+    @include zen-grid-container($context: grid-item);
     margin-bottom: 1em;
     min-height: 235px;
   }  
