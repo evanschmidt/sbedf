@@ -266,10 +266,10 @@ $zen-auto-include-grid-item-base: false;
     //@include zen-grid-background();
   }
   #header {
-    @include zen-grid-container($context: grid-item);
-    @include zen-grid-item(5, 1, right);
     @include zen-grid-background();
     .region-header {
+      @include zen-grid-container($context: grid-item);
+      @include zen-grid-item(5, 1, right);
     }
     h1 {
       //display: none;
