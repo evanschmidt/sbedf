@@ -201,6 +201,12 @@
     box-shadow: none;
     margin: 0;
   }
+  div#flexslider-1 ul.slides li {
+    display: none !important;
+  }
+  div#flexslider-1 ul.slides li.flex-active-slide {
+    display: block !important;
+  } 
   .flex-direction-nav {
     *height: 0;
     a {
