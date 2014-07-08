@@ -272,11 +272,7 @@ $zen-auto-include-grid-item-base: false;
     .views-field-field-header-text {
       background: none repeat scroll 0 0 $white;
       color: $darkblue;
-      left: 20%;
-      padding-left: 100px;
-      position: relative;
-      top: -48%;
-      width: 200px;
+      @include zen-grid-item(1, 3);
     }
   }
   #header {
