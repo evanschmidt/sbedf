@@ -319,7 +319,7 @@ $zen-auto-include-grid-item-base: false;
       z-index: 10;
     }
     #block-views-header-images-block {
-      @include zen-grid-item(4, 1, right);      
+      @include zen-grid-item(5, 1, left);      
     }
     #block-block-6 {
       background: none repeat scroll 0 0 $darkblue;
