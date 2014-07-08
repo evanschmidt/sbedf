@@ -267,6 +267,9 @@ $zen-auto-include-grid-item-base: false;
   #page {
     //@include zen-grid-background();
   }
+  #above-header {
+    @include zen-grid-item(5, 1);
+  }
   #header {
     @include zen-grid-background();
     .region-header {

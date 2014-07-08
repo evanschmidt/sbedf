@@ -992,12 +992,21 @@ table {
  */
 @media all and (min-width: 960px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003270}}
+  #above-header {
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    *margin-right: -99.9%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003273}}
   #header {
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 10% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAc5JREFUeNqslM9KAlEUxp0xzSTNDHMoCiIKKRChXbgIAldKEK5y4Up9A5dufAMRRB8gwnW7lkV/EBcR0WzaBMEQFRNFlkNO34E7MU23msyBHzNz58x373fOPdeh67qDGMRFOkOccQEMg3EwBlyW7xp4AHega/2ZJ0gCM2AFLIARy/cOkMEJuAZvX5ZpsRwEyUajsa9pms4jn89vI2bVOhnpiJwVkt2JcDg82U8eeZZpEqd5IJPJHDebzVtmj3J3BBReDsU/LoAEn1keSazXl2AikQghd0mw2Wq10vF4nAo2DTx9CWaz2XnjORaLSYVCYR2Pc8BnR5BsdURR/NgO1Wr1rFKpnBvvkUiEChYCXjtFobx0U6nUHu4XxgSlUmnZCJAkycfEXHYE3dQh7XY7HY1Gp2igXC63e72e1Y2T55BnmQI9ZgG/3+/Fu5OTGltVfqFelWX5xhgIBAJuc4CiKI+4PbG+dvzWeqNgLZfL7XzXevV6/QAxG9RRVi2eIFmbBVvFYnEXK703hFRVfa3Vaoe0k8Aiy/cnQcEQEwTBWhjauEvsxAmyicjmJTgFVyw9uh1BYwf4KYXsVBFYu6nsPOyaxX6y/K8TW3QM+HoXYACXiuXQRCn2XAAAAABJRU5ErkJggg==") 10% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 30% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAW5JREFUeNqslDFLw0AYhpOaSFuiDjqViiUKVhACDpJCQycX/TVChCz+Evf8ALtlCGZyCW6uOiR4QusgSgtmiO/BBZJ4l1qSg4dwd19e7vvuvU9K01SiNDGojpyJybLMi9kEu2AHqGwtAZ/gA/ysI6iAPjgHx6DD1pfgGTwCUhaUKlLeBheO49wnSZLmwfotGPJSblWUZAscmKY55Ox1ciUoDJGgwmrXm0wmg3UuRiTYpWK2bY80TVN93yd1BWm6/fF4fEgnQRDM6ggW0iWELKbT6byOYCFdz/OIwJ9d3sW0BOn2LMvS6cR13TeBpfaZ4f96p+TDI3ATRdF32X8ZcRx/IeYa6P/x4YbIY7kfZZEXeYL0rS7wFIUdg+0tWWxxj/OW98AZOM0ag2EYgzAMr7IAVVXv8PHAA5jnU1Y4B6Cd5Am8sJvU2+32ZSnmHbyy2JUnLOzTGwcjcMLqVtltVgnyemJlP5Sa7tiNC/4KMAAbxb+98QKR2gAAAABJRU5ErkJggg==") 30% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 50% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 50% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAW5JREFUeNqslDFLw0AYhpOaSFuiDjqViiUKVhACDpJCQycX/TVChCz+Evf8ALtlCGZyCW6uOiR4QusgSgtmiO/BBZJ4l1qSg4dwd19e7vvuvU9K01SiNDGojpyJybLMi9kEu2AHqGwtAZ/gA/ysI6iAPjgHx6DD1pfgGTwCUhaUKlLeBheO49wnSZLmwfotGPJSblWUZAscmKY55Ox1ciUoDJGgwmrXm0wmg3UuRiTYpWK2bY80TVN93yd1BWm6/fF4fEgnQRDM6ggW0iWELKbT6byOYCFdz/OIwJ9d3sW0BOn2LMvS6cR13TeBpfaZ4f96p+TDI3ATRdF32X8ZcRx/IeYa6P/x4YbIY7kfZZEXeYL0rS7wFIUdg+0tWWxxj/OW98AZOM0ag2EYgzAMr7IAVVXv8PHAA5jnU1Y4B6Cd5Am8sJvU2+32ZSnmHbyy2JUnLOzTGwcjcMLqVtltVgnyemJlP5Sa7tiNC/4KMAAbxb+98QKR2gAAAABJRU5ErkJggg==") 70% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 70% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAc5JREFUeNqslM9KAlEUxp0xzSTNDHMoCiIKKRChXbgIAldKEK5y4Up9A5dufAMRRB8gwnW7lkV/EBcR0WzaBMEQFRNFlkNO34E7MU23msyBHzNz58x373fOPdeh67qDGMRFOkOccQEMg3EwBlyW7xp4AHega/2ZJ0gCM2AFLIARy/cOkMEJuAZvX5ZpsRwEyUajsa9pms4jn89vI2bVOhnpiJwVkt2JcDg82U8eeZZpEqd5IJPJHDebzVtmj3J3BBReDsU/LoAEn1keSazXl2AikQghd0mw2Wq10vF4nAo2DTx9CWaz2XnjORaLSYVCYR2Pc8BnR5BsdURR/NgO1Wr1rFKpnBvvkUiEChYCXjtFobx0U6nUHu4XxgSlUmnZCJAkycfEXHYE3dQh7XY7HY1Gp2igXC63e72e1Y2T55BnmQI9ZgG/3+/Fu5OTGltVfqFelWX5xhgIBAJuc4CiKI+4PbG+dvzWeqNgLZfL7XzXevV6/QAxG9RRVi2eIFmbBVvFYnEXK703hFRVfa3Vaoe0k8Aiy/cnQcEQEwTBWhjauEvsxAmyicjmJTgFVyw9uh1BYwf4KYXsVBFYu6nsPOyaxX6y/K8TW3QM+HoXYACXiuXQRCn2XAAAAABJRU5ErkJggg==") 90% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 90% bottom no-repeat, -moz-linear-gradient(left, #ffdede 10%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 20%, #ffdede 20%, #ffdede 30%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 40%, #ffdede 40%, #ffdede 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 60%, #ffdede 60%, #ffdede 70%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 80%, #ffdede 80%, #ffdede 90%, rgba(0, 0, 0, 0) 90%) 5px top no-repeat, -moz-linear-gradient(left, rgba(0, 0, 0, 0) 10%, #ffdede 10%, #ffdede 20%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 30%, #ffdede 30%, #ffdede 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 50%, #ffdede 50%, #ffdede 60%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0) 70%, #ffdede 70%, #ffdede 80%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0) 90%, #ffdede 90%) -5px top no-repeat;
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 10% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAc5JREFUeNqslM9KAlEUxp0xzSTNDHMoCiIKKRChXbgIAldKEK5y4Up9A5dufAMRRB8gwnW7lkV/EBcR0WzaBMEQFRNFlkNO34E7MU23msyBHzNz58x373fOPdeh67qDGMRFOkOccQEMg3EwBlyW7xp4AHega/2ZJ0gCM2AFLIARy/cOkMEJuAZvX5ZpsRwEyUajsa9pms4jn89vI2bVOhnpiJwVkt2JcDg82U8eeZZpEqd5IJPJHDebzVtmj3J3BBReDsU/LoAEn1keSazXl2AikQghd0mw2Wq10vF4nAo2DTx9CWaz2XnjORaLSYVCYR2Pc8BnR5BsdURR/NgO1Wr1rFKpnBvvkUiEChYCXjtFobx0U6nUHu4XxgSlUmnZCJAkycfEXHYE3dQh7XY7HY1Gp2igXC63e72e1Y2T55BnmQI9ZgG/3+/Fu5OTGltVfqFelWX5xhgIBAJuc4CiKI+4PbG+dvzWeqNgLZfL7XzXevV6/QAxG9RRVi2eIFmbBVvFYnEXK703hFRVfa3Vaoe0k8Aiy/cnQcEQEwTBWhjauEvsxAmyicjmJTgFVyw9uh1BYwf4KYXsVBFYu6nsPOyaxX6y/K8TW3QM+HoXYACXiuXQRCn2XAAAAABJRU5ErkJggg==") 10% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 30% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAW5JREFUeNqslDFLw0AYhpOaSFuiDjqViiUKVhACDpJCQycX/TVChCz+Evf8ALtlCGZyCW6uOiR4QusgSgtmiO/BBZJ4l1qSg4dwd19e7vvuvU9K01SiNDGojpyJybLMi9kEu2AHqGwtAZ/gA/ysI6iAPjgHx6DD1pfgGTwCUhaUKlLeBheO49wnSZLmwfotGPJSblWUZAscmKY55Ox1ciUoDJGgwmrXm0wmg3UuRiTYpWK2bY80TVN93yd1BWm6/fF4fEgnQRDM6ggW0iWELKbT6byOYCFdz/OIwJ9d3sW0BOn2LMvS6cR13TeBpfaZ4f96p+TDI3ATRdF32X8ZcRx/IeYa6P/x4YbIY7kfZZEXeYL0rS7wFIUdg+0tWWxxj/OW98AZOM0ag2EYgzAMr7IAVVXv8PHAA5jnU1Y4B6Cd5Am8sJvU2+32ZSnmHbyy2JUnLOzTGwcjcMLqVtltVgnyemJlP5Sa7tiNC/4KMAAbxb+98QKR2gAAAABJRU5ErkJggg==") 30% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 50% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 50% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAW5JREFUeNqslDFLw0AYhpOaSFuiDjqViiUKVhACDpJCQycX/TVChCz+Evf8ALtlCGZyCW6uOiR4QusgSgtmiO/BBZJ4l1qSg4dwd19e7vvuvU9K01SiNDGojpyJybLMi9kEu2AHqGwtAZ/gA/ysI6iAPjgHx6DD1pfgGTwCUhaUKlLeBheO49wnSZLmwfotGPJSblWUZAscmKY55Ox1ciUoDJGgwmrXm0wmg3UuRiTYpWK2bY80TVN93yd1BWm6/fF4fEgnQRDM6ggW0iWELKbT6byOYCFdz/OIwJ9d3sW0BOn2LMvS6cR13TeBpfaZ4f96p+TDI3ATRdF32X8ZcRx/IeYa6P/x4YbIY7kfZZEXeYL0rS7wFIUdg+0tWWxxj/OW98AZOM0ag2EYgzAMr7IAVVXv8PHAA5jnU1Y4B6Cd5Am8sJvU2+32ZSnmHbyy2JUnLOzTGwcjcMLqVtltVgnyemJlP5Sa7tiNC/4KMAAbxb+98QKR2gAAAABJRU5ErkJggg==") 70% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 70% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAc5JREFUeNqslM9KAlEUxp0xzSTNDHMoCiIKKRChXbgIAldKEK5y4Up9A5dufAMRRB8gwnW7lkV/EBcR0WzaBMEQFRNFlkNO34E7MU23msyBHzNz58x373fOPdeh67qDGMRFOkOccQEMg3EwBlyW7xp4AHega/2ZJ0gCM2AFLIARy/cOkMEJuAZvX5ZpsRwEyUajsa9pms4jn89vI2bVOhnpiJwVkt2JcDg82U8eeZZpEqd5IJPJHDebzVtmj3J3BBReDsU/LoAEn1keSazXl2AikQghd0mw2Wq10vF4nAo2DTx9CWaz2XnjORaLSYVCYR2Pc8BnR5BsdURR/NgO1Wr1rFKpnBvvkUiEChYCXjtFobx0U6nUHu4XxgSlUmnZCJAkycfEXHYE3dQh7XY7HY1Gp2igXC63e72e1Y2T55BnmQI9ZgG/3+/Fu5OTGltVfqFelWX5xhgIBAJuc4CiKI+4PbG+dvzWeqNgLZfL7XzXevV6/QAxG9RRVi2eIFmbBVvFYnEXK703hFRVfa3Vaoe0k8Aiy/cnQcEQEwTBWhjauEvsxAmyicjmJTgFVyw9uh1BYwf4KYXsVBFYu6nsPOyaxX6y/K8TW3QM+HoXYACXiuXQRCn2XAAAAABJRU5ErkJggg==") 90% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 90% bottom no-repeat, -webkit-linear-gradient(left, #ffdede 10%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 20%, #ffdede 20%, #ffdede 30%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 40%, #ffdede 40%, #ffdede 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 60%, #ffdede 60%, #ffdede 70%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 80%, #ffdede 80%, #ffdede 90%, rgba(0, 0, 0, 0) 90%) 5px top no-repeat, -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 10%, #ffdede 10%, #ffdede 20%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 30%, #ffdede 30%, #ffdede 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 50%, #ffdede 50%, #ffdede 60%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0) 70%, #ffdede 70%, #ffdede 80%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0) 90%, #ffdede 90%) -5px top no-repeat;
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 10% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAc5JREFUeNqslM9KAlEUxp0xzSTNDHMoCiIKKRChXbgIAldKEK5y4Up9A5dufAMRRB8gwnW7lkV/EBcR0WzaBMEQFRNFlkNO34E7MU23msyBHzNz58x373fOPdeh67qDGMRFOkOccQEMg3EwBlyW7xp4AHega/2ZJ0gCM2AFLIARy/cOkMEJuAZvX5ZpsRwEyUajsa9pms4jn89vI2bVOhnpiJwVkt2JcDg82U8eeZZpEqd5IJPJHDebzVtmj3J3BBReDsU/LoAEn1keSazXl2AikQghd0mw2Wq10vF4nAo2DTx9CWaz2XnjORaLSYVCYR2Pc8BnR5BsdURR/NgO1Wr1rFKpnBvvkUiEChYCXjtFobx0U6nUHu4XxgSlUmnZCJAkycfEXHYE3dQh7XY7HY1Gp2igXC63e72e1Y2T55BnmQI9ZgG/3+/Fu5OTGltVfqFelWX5xhgIBAJuc4CiKI+4PbG+dvzWeqNgLZfL7XzXevV6/QAxG9RRVi2eIFmbBVvFYnEXK703hFRVfa3Vaoe0k8Aiy/cnQcEQEwTBWhjauEvsxAmyicjmJTgFVyw9uh1BYwf4KYXsVBFYu6nsPOyaxX6y/K8TW3QM+HoXYACXiuXQRCn2XAAAAABJRU5ErkJggg==") 10% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 30% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAW5JREFUeNqslDFLw0AYhpOaSFuiDjqViiUKVhACDpJCQycX/TVChCz+Evf8ALtlCGZyCW6uOiR4QusgSgtmiO/BBZJ4l1qSg4dwd19e7vvuvU9K01SiNDGojpyJybLMi9kEu2AHqGwtAZ/gA/ysI6iAPjgHx6DD1pfgGTwCUhaUKlLeBheO49wnSZLmwfotGPJSblWUZAscmKY55Ox1ciUoDJGgwmrXm0wmg3UuRiTYpWK2bY80TVN93yd1BWm6/fF4fEgnQRDM6ggW0iWELKbT6byOYCFdz/OIwJ9d3sW0BOn2LMvS6cR13TeBpfaZ4f96p+TDI3ATRdF32X8ZcRx/IeYa6P/x4YbIY7kfZZEXeYL0rS7wFIUdg+0tWWxxj/OW98AZOM0ag2EYgzAMr7IAVVXv8PHAA5jnU1Y4B6Cd5Am8sJvU2+32ZSnmHbyy2JUnLOzTGwcjcMLqVtltVgnyemJlP5Sa7tiNC/4KMAAbxb+98QKR2gAAAABJRU5ErkJggg==") 30% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 50% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 50% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAW5JREFUeNqslDFLw0AYhpOaSFuiDjqViiUKVhACDpJCQycX/TVChCz+Evf8ALtlCGZyCW6uOiR4QusgSgtmiO/BBZJ4l1qSg4dwd19e7vvuvU9K01SiNDGojpyJybLMi9kEu2AHqGwtAZ/gA/ysI6iAPjgHx6DD1pfgGTwCUhaUKlLeBheO49wnSZLmwfotGPJSblWUZAscmKY55Ox1ciUoDJGgwmrXm0wmg3UuRiTYpWK2bY80TVN93yd1BWm6/fF4fEgnQRDM6ggW0iWELKbT6byOYCFdz/OIwJ9d3sW0BOn2LMvS6cR13TeBpfaZ4f96p+TDI3ATRdF32X8ZcRx/IeYa6P/x4YbIY7kfZZEXeYL0rS7wFIUdg+0tWWxxj/OW98AZOM0ag2EYgzAMr7IAVVXv8PHAA5jnU1Y4B6Cd5Am8sJvU2+32ZSnmHbyy2JUnLOzTGwcjcMLqVtltVgnyemJlP5Sa7tiNC/4KMAAbxb+98QKR2gAAAABJRU5ErkJggg==") 70% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 70% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAc5JREFUeNqslM9KAlEUxp0xzSTNDHMoCiIKKRChXbgIAldKEK5y4Up9A5dufAMRRB8gwnW7lkV/EBcR0WzaBMEQFRNFlkNO34E7MU23msyBHzNz58x373fOPdeh67qDGMRFOkOccQEMg3EwBlyW7xp4AHega/2ZJ0gCM2AFLIARy/cOkMEJuAZvX5ZpsRwEyUajsa9pms4jn89vI2bVOhnpiJwVkt2JcDg82U8eeZZpEqd5IJPJHDebzVtmj3J3BBReDsU/LoAEn1keSazXl2AikQghd0mw2Wq10vF4nAo2DTx9CWaz2XnjORaLSYVCYR2Pc8BnR5BsdURR/NgO1Wr1rFKpnBvvkUiEChYCXjtFobx0U6nUHu4XxgSlUmnZCJAkycfEXHYE3dQh7XY7HY1Gp2igXC63e72e1Y2T55BnmQI9ZgG/3+/Fu5OTGltVfqFelWX5xhgIBAJuc4CiKI+4PbG+dvzWeqNgLZfL7XzXevV6/QAxG9RRVi2eIFmbBVvFYnEXK703hFRVfa3Vaoe0k8Aiy/cnQcEQEwTBWhjauEvsxAmyicjmJTgFVyw9uh1BYwf4KYXsVBFYu6nsPOyaxX6y/K8TW3QM+HoXYACXiuXQRCn2XAAAAABJRU5ErkJggg==") 90% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 90% bottom no-repeat, linear-gradient(to right, #ffdede 10%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 20%, #ffdede 20%, #ffdede 30%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 40%, #ffdede 40%, #ffdede 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 60%, #ffdede 60%, #ffdede 70%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 80%, #ffdede 80%, #ffdede 90%, rgba(0, 0, 0, 0) 90%) 5px top no-repeat, linear-gradient(to right, rgba(0, 0, 0, 0) 10%, #ffdede 10%, #ffdede 20%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 30%, #ffdede 30%, #ffdede 40%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 50%, #ffdede 50%, #ffdede 60%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0) 70%, #ffdede 70%, #ffdede 80%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0) 90%, #ffdede 90%) -5px top no-repeat;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003275}}
   #header .region-header {
     *position: relative;
     *zoom: 1;
@@ -1018,7 +1027,7 @@ table {
   #header .region-header:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003279}}
   #header h1 {
     background: none repeat scroll 0 0 #0e4c91;
     color: #79b3f2;
@@ -1028,7 +1037,7 @@ table {
     margin: 0;
     padding: 0.25em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003286}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003289}}
   #header h2 {
     color: #333333;
     font-size: 1em;
@@ -1037,26 +1046,26 @@ table {
     margin: 0.5em 0;
     padding: 0 0.5em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003295}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003298}}
   #header .block {
     color: #333333;
     margin: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003301}}
   #header .block p {
     line-height: 1.25em;
     margin: 0;
     padding: 0 0.5em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003307}}
   #header #logo {
     margin-right: -2.75em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003309}}
   #header #logo img {
     border-left: 5px solid #0e4c91;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003313}}
   #header #block-block-6 {
     float: left;
     width: 20%;
@@ -1066,7 +1075,7 @@ table {
     position: relative;
     z-index: 10;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003318}}
   #header #block-block-1 {
     float: left;
     width: 20%;
@@ -1077,7 +1086,7 @@ table {
     position: relative;
     z-index: 10;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003324}}
   #header #block-block-8 {
     float: left;
     width: 20%;
@@ -1088,7 +1097,7 @@ table {
     position: relative;
     z-index: 10;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003330}}
   #header #block-views-header-images-block {
     float: right;
     width: 100%;
@@ -1096,11 +1105,11 @@ table {
     margin-left: -100%;
     *margin-left: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003333}}
   #header #block-block-6 {
     background: none repeat scroll 0 0 #0e4c91;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003335}}
   #header #block-block-6 h2 {
     background: none repeat scroll 0 0 #0e4c91;
     color: #79b3f2;
@@ -1110,12 +1119,12 @@ table {
     margin: 0.75em 0;
     padding: 0.25em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003346}}
   #header #block-block-8 {
     background: none repeat scroll 0 0 #e6ba00;
     padding: 0.7em 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003351}}
   #header #name-and-slogan {
     float: left;
     width: 20%;
@@ -1125,7 +1134,7 @@ table {
     position: relative;
     top: 175px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003356}}
   #header #block-nice-menus-1 {
     *position: relative;
     *zoom: 1;
@@ -1146,7 +1155,7 @@ table {
   #header #block-nice-menus-1:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003360}}
   #header #nice-menu-1 {
     *position: relative;
     *zoom: 1;
@@ -1167,7 +1176,7 @@ table {
   #header #nice-menu-1:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003364}}
   #header li:nth-child(1) {
     float: left;
     width: 20%;
@@ -1175,7 +1184,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003367}}
   #header li:nth-child(2) {
     float: left;
     width: 20%;
@@ -1183,7 +1192,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003370}}
   #header li:nth-child(3) {
     float: left;
     width: 20%;
@@ -1191,7 +1200,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003373}}
   #header li:nth-child(4) {
     float: left;
     width: 20%;
@@ -1199,7 +1208,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003376}}
   #header li:nth-child(5) {
     float: left;
     width: 20%;
@@ -1207,7 +1216,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003379}}
   #header li:nth-child(6) {
     float: left;
     width: 20%;
@@ -1215,7 +1224,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003382}}
   #header li:nth-child(7) {
     float: left;
     width: 20%;
@@ -1224,7 +1233,7 @@ table {
     *margin-right: -99.9%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003386}}
   #block-views-header-images-block {
     float: right;
     width: 100%;
@@ -1233,7 +1242,7 @@ table {
     *margin-left: -99.9%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003390}}
   #block-views-why-st-bernard-block {
     padding-left: 5px;
     padding-right: 5px;
@@ -1265,7 +1274,7 @@ table {
   #block-views-why-st-bernard-block:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003399}}
   #block-views-why-st-bernard-block h2 {
     background: none repeat scroll 0 0 #333333;
     color: #ebebeb;
@@ -1277,7 +1286,7 @@ table {
     width: 260px;
     z-index: 1;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003410}}
   #block-views-why-st-bernard-block .view-why-st-bernard {
     *position: relative;
     *zoom: 1;
@@ -1300,12 +1309,12 @@ table {
   #block-views-why-st-bernard-block .view-why-st-bernard:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003416}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003419}}
   #block-views-why-st-bernard-block .views-row {
     margin-bottom: 1em;
     min-height: 235px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003420}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003423}}
   #block-views-why-st-bernard-block .views-row:nth-child(1) {
     float: left;
     width: 20%;
@@ -1313,15 +1322,15 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003422}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003425}}
   #block-views-why-st-bernard-block .views-row:nth-child(1) .views-field-title {
     margin-left: 0.5em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003425}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003428}}
   #block-views-why-st-bernard-block .views-row:nth-child(1) .views-field-field-why-tagline {
     margin-left: 0.6em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003432}}
   #block-views-why-st-bernard-block .views-row:nth-child(2) {
     float: left;
     width: 20%;
@@ -1329,7 +1338,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003432}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003435}}
   #block-views-why-st-bernard-block .views-row:nth-child(3) {
     float: left;
     width: 20%;
@@ -1337,7 +1346,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003435}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003438}}
   #block-views-why-st-bernard-block .views-row:nth-child(4) {
     float: left;
     width: 20%;
@@ -1345,7 +1354,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003438}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003441}}
   #block-views-why-st-bernard-block .views-row:nth-child(5) {
     float: left;
     width: 20%;
@@ -1353,53 +1362,53 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003440}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003443}}
   #block-views-why-st-bernard-block .views-row:nth-child(5) .views-field-title {
     margin-right: 0.5em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003443}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003446}}
   #block-views-why-st-bernard-block .views-row:nth-child(5) .views-field-field-why-tagline {
     margin-right: 0.6em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003453}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003456}}
   #block-views-why-st-bernard-block .views-field-title {
     background: none repeat scroll 0 0 #0e4c91;
     margin: 0 0.25em;
     padding: 1em;
     font-size: 20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003459}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003462}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline {
     background: none repeat scroll 0 0 #0e4c91;
     margin: 0 0.285em;
     min-height: 170px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003463}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003466}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline ul {
     margin: 0;
     padding: 1em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003468}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003471}}
   #block-views-why-st-bernard-block .views-field-field-why-image {
     padding: 0 1em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003472}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003475}}
   #content-bottom {
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 16.66667% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 16.66667% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 50% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 50% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 83.33333% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 83.33333% bottom no-repeat, -moz-linear-gradient(left, #ffdede 16.66667%, rgba(0, 0, 0, 0) 16.66667%, rgba(0, 0, 0, 0) 33.33333%, #ffdede 33.33333%, #ffdede 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 66.66667%, #ffdede 66.66667%, #ffdede 83.33333%, rgba(0, 0, 0, 0) 83.33333%) 5px top no-repeat, -moz-linear-gradient(left, rgba(0, 0, 0, 0) 16.66667%, #ffdede 16.66667%, #ffdede 33.33333%, rgba(0, 0, 0, 0) 33.33333%, rgba(0, 0, 0, 0) 50%, #ffdede 50%, #ffdede 66.66667%, rgba(0, 0, 0, 0) 66.66667%, rgba(0, 0, 0, 0) 83.33333%, #ffdede 83.33333%) -5px top no-repeat;
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 16.66667% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 16.66667% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 50% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 50% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 83.33333% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 83.33333% bottom no-repeat, -webkit-linear-gradient(left, #ffdede 16.66667%, rgba(0, 0, 0, 0) 16.66667%, rgba(0, 0, 0, 0) 33.33333%, #ffdede 33.33333%, #ffdede 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 66.66667%, #ffdede 66.66667%, #ffdede 83.33333%, rgba(0, 0, 0, 0) 83.33333%) 5px top no-repeat, -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 16.66667%, #ffdede 16.66667%, #ffdede 33.33333%, rgba(0, 0, 0, 0) 33.33333%, rgba(0, 0, 0, 0) 50%, #ffdede 50%, #ffdede 66.66667%, rgba(0, 0, 0, 0) 66.66667%, rgba(0, 0, 0, 0) 83.33333%, #ffdede 83.33333%) -5px top no-repeat;
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 16.66667% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 16.66667% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 50% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 50% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 83.33333% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 83.33333% bottom no-repeat, linear-gradient(to right, #ffdede 16.66667%, rgba(0, 0, 0, 0) 16.66667%, rgba(0, 0, 0, 0) 33.33333%, #ffdede 33.33333%, #ffdede 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 66.66667%, #ffdede 66.66667%, #ffdede 83.33333%, rgba(0, 0, 0, 0) 83.33333%) 5px top no-repeat, linear-gradient(to right, rgba(0, 0, 0, 0) 16.66667%, #ffdede 16.66667%, #ffdede 33.33333%, rgba(0, 0, 0, 0) 33.33333%, rgba(0, 0, 0, 0) 50%, #ffdede 50%, #ffdede 66.66667%, rgba(0, 0, 0, 0) 66.66667%, rgba(0, 0, 0, 0) 83.33333%, #ffdede 83.33333%) -5px top no-repeat;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003475}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003478}}
   #content-bottom h2 {
     color: #333333;
     font-weight: normal;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003479}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003482}}
   #content-bottom .block {
     min-height: 250px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003482}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003485}}
   #content-bottom .block:nth-child(1) {
     float: left;
     width: 33.33333%;
@@ -1407,7 +1416,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003485}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003488}}
   #content-bottom .block:nth-child(2) {
     float: left;
     width: 33.33333%;
@@ -1415,7 +1424,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003488}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003491}}
   #content-bottom .block:nth-child(3) {
     float: left;
     width: 33.33333%;
@@ -1423,7 +1432,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003491}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003494}}
   #content-bottom .block:nth-child(4) {
     float: left;
     width: 33.33333%;
@@ -1435,12 +1444,12 @@ table {
   /**
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003498}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003501}}
   .sidebar-first {
     /* Span 4 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003501}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003504}}
   .sidebar-first #content {
     float: left;
     width: 80%;
@@ -1448,7 +1457,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003506}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003509}}
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 20%;
@@ -1460,12 +1469,12 @@ table {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003514}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003517}}
   .sidebar-second {
     /* Span 4 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003516}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003519}}
   .sidebar-second #content {
     float: left;
     width: 80%;
@@ -1473,7 +1482,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003521}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003524}}
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 20%;
@@ -1485,13 +1494,13 @@ table {
   /**
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003529}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003532}}
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003531}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003534}}
   .two-sidebars #content {
     float: left;
     width: 60%;
@@ -1499,7 +1508,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003536}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003539}}
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 20%;
@@ -1507,7 +1516,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003541}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003544}}
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 20%;
