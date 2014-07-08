@@ -385,6 +385,7 @@ $zen-auto-include-grid-item-base: false;
     @include zen-grid-item-base();
     @include zen-grid-container($context:  grid-item);
     @include zen-grid-item(5, 1, $columns: 5);
+    @include zen-new-row();
     //@include zen-grid-background($grid-color:#CCC);
     background: none repeat scroll 0 0 $darkgrey;
     color: $white;
