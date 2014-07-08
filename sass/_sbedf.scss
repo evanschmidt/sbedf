@@ -195,18 +195,13 @@
 }
 #block-views-header-images-block {
   color: $white;
+  margin-bottom: 0;
   .flexslider {
     background: none repeat scroll 0 0 $blue;
     border: medium none;
     box-shadow: none;
     margin: 0;
   }
-  div#flexslider-1 ul.slides li {
-    display: none !important;
-  }
-  div#flexslider-1 ul.slides li.flex-active-slide {
-    display: block !important;
-  } 
   .flex-direction-nav {
     *height: 0;
     a {
