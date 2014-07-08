@@ -282,7 +282,7 @@ $zen-auto-include-grid-item-base: false;
     }
   }
   #header {
-    @include zen-grid-background();
+    //@include zen-grid-background();
     .region-header {
       @include zen-grid-container($context: grid-item);
       @include zen-grid-item(5, 1, right);
