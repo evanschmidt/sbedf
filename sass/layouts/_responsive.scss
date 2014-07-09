@@ -287,7 +287,7 @@ $zen-auto-include-grid-item-base: false;
     }
   }
   #header {
-    @include zen-grid-background();
+    //@include zen-grid-background();
     .region-header {
       @include zen-grid-container($context: grid-item);
       @include zen-grid-item(5, 1, right);
@@ -321,8 +321,7 @@ $zen-auto-include-grid-item-base: false;
       }
     }
     #logo {
-      @include zen-grid-item(2, 2, right);
-      @include zen-grid-background();
+      @include zen-grid-item(6, 1);
       img {
         position: relative;
         left: 5px;
