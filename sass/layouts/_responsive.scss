@@ -322,7 +322,6 @@ $zen-auto-include-grid-item-base: false;
     }
     #logo {
       @include zen-grid-item(6, 1);
-      margin-right: -2.75em;
       img {
         border-left: 5px solid $darkblue;
       }
