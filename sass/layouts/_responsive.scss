@@ -323,6 +323,8 @@ $zen-auto-include-grid-item-base: false;
     #logo {
       @include zen-grid-item(6, 1);
       img {
+        position: relative;
+        left: 5px;
       }
     }
     #block-block-6 {
