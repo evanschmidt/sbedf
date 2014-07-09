@@ -423,7 +423,7 @@ $zen-auto-include-grid-item-base: false;
     } 
     .view-why-st-bernard {
       @include zen-grid-container($context:  none);
-      @include zen-grid-item(5, 1, $columns: 5);    
+      @include zen-grid-item(5, 1, $columns: 5, $gutters: 5px);    
       //@include zen-grid-background();
       border-top: 1px solid $newgrey;
       margin-top: -1em;
@@ -437,10 +437,10 @@ $zen-auto-include-grid-item-base: false;
     .views-row:nth-child(1) {
       @include zen-grid-item(1, 1);
       .views-field-title {
-        margin-left: 0.5em;
+//        margin-left: 0.5em;
       }
       .views-field-field-why-tagline {
-        margin-left: 0.6em;
+ //       margin-left: 0.6em;
       }
     }
     .views-row:nth-child(2) {
@@ -455,10 +455,10 @@ $zen-auto-include-grid-item-base: false;
     .views-row:nth-child(5) {
       @include zen-grid-item(1, 5);
       .views-field-title {
-        margin-right: 0.5em;
+  //      margin-right: 0.5em;
       }
       .views-field-field-why-tagline {
-        margin-right: 0.6em;
+  //      margin-right: 0.6em;
       }
     }
     .views-row-even {
@@ -469,13 +469,13 @@ $zen-auto-include-grid-item-base: false;
     }  
     .views-field-title {
       background: none repeat scroll 0 0 $darkblue;
-      margin: 0 0.25em;
+      //margin: 0 0.25em;
       padding: 1em;
       font-size: $h2-font-size;
     }
     .views-field-field-why-tagline {
       background: none repeat scroll 0 0 $darkblue;
-      margin: 0 0.285em;
+      //margin: 0 0.285em;
       min-height: 170px;
       ul {
         margin: 0;
