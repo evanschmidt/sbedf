@@ -457,6 +457,7 @@ $zen-auto-include-grid-item-base: false;
     }
     .views-row:nth-child(5) {
       @include zen-grid-item(1, 5);
+      border-left: 5px solid $darkgrey;
       .views-field-title {
   //      margin-right: 0.5em;
       }
