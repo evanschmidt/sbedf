@@ -395,7 +395,7 @@ $zen-auto-include-grid-item-base: false;
     }
   }
   #block-views-header-images-block {
-    @include zen-grid-item(5, 1, right);      
+    @include zen-grid-item(4, 1, right);      
   }
   // why st bernard layout
   #block-views-why-st-bernard-block {
