@@ -435,7 +435,8 @@ $zen-auto-include-grid-item-base: false;
       min-height: 235px;
     }  
     .views-row:nth-child(1) {
-      @include zen-grid-item(1, 1);
+      @include zen-grid-container($context: flow);
+      @include zen-grid-item(1, 1, $columns: 1, $gutters: 40px);
       .views-field-title {
 //        margin-left: 0.5em;
       }
