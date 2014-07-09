@@ -1265,6 +1265,8 @@ table {
     *word-wrap: break-word;
     *position: relative;
     *zoom: 1;
+    margin-left: 0px;
+    margin-right: 0px;
     padding-left: 0;
     padding-right: 0;
     float: left;
@@ -1272,6 +1274,8 @@ table {
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
+    padding-left: 10px;
+    padding-right: 10px;
     background: none repeat scroll 0 0 #333333;
     color: white;
     padding-top: 1em;
