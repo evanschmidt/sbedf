@@ -403,7 +403,7 @@ $zen-auto-include-grid-item-base: false;
   // why st bernard layout
   #block-views-why-st-bernard-block {
     @include zen-grid-item-base();
-    @include zen-grid-container($context:  flow);
+    @include zen-grid-container($context: flow);
     @include zen-grid-item(5, 1, $columns: 5, $gutters: 20px);
     //@include zen-grid-background($grid-color:#CCC);
     background: none repeat scroll 0 0 $darkgrey;
@@ -422,8 +422,8 @@ $zen-auto-include-grid-item-base: false;
       z-index: 1;
     } 
     .view-why-st-bernard {
-      @include zen-grid-container($context:  none);
-      @include zen-grid-item(5, 1, $columns: 5);    
+      @include zen-grid-container($context: grid-item);
+      @include zen-grid-item(5, 1, $columns: 5, $gutters: 20px);    
       //@include zen-grid-background();
       border-top: 1px solid $newgrey;
       margin-top: -1em;
@@ -435,7 +435,7 @@ $zen-auto-include-grid-item-base: false;
       min-height: 235px;
     }  
     .views-row:nth-child(1) {
-      @include zen-grid-item(1, 1, $gutters: 40px);
+      @include zen-grid-item(1, 1);
       .views-field-title {
 //        margin-left: 0.5em;
       }
@@ -444,16 +444,16 @@ $zen-auto-include-grid-item-base: false;
       }
     }
     .views-row:nth-child(2) {
-      @include zen-grid-item(1, 2, $gutters: 40px);
+      @include zen-grid-item(1, 2);
     }
     .views-row:nth-child(3) {
-      @include zen-grid-item(1, 3, $gutters: 40px);
+      @include zen-grid-item(1, 3);
     }
     .views-row:nth-child(4) {
-      @include zen-grid-item(1, 4, $gutters: 40px);
+      @include zen-grid-item(1, 4);
     }
     .views-row:nth-child(5) {
-      @include zen-grid-item(1, 5, $gutters: 40px);
+      @include zen-grid-item(1, 5);
       .views-field-title {
   //      margin-right: 0.5em;
       }

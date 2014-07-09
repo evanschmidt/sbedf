@@ -1306,11 +1306,15 @@ table {
   #block-views-why-st-bernard-block .view-why-st-bernard {
     *position: relative;
     *zoom: 1;
+    padding-left: 0;
+    padding-right: 0;
     float: left;
     width: 100%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
+    padding-left: 10px;
+    padding-right: 10px;
     border-top: 1px solid #909090;
     margin-top: -1em;
     padding-top: 2em;
@@ -1337,8 +1341,6 @@ table {
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003446}}
   #block-views-why-st-bernard-block .views-row:nth-child(2) {
@@ -1347,8 +1349,6 @@ table {
     margin-left: 20%;
     margin-right: -100%;
     *margin-right: -99.9%;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003449}}
   #block-views-why-st-bernard-block .views-row:nth-child(3) {
@@ -1357,8 +1357,6 @@ table {
     margin-left: 40%;
     margin-right: -100%;
     *margin-right: -99.9%;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003452}}
   #block-views-why-st-bernard-block .views-row:nth-child(4) {
@@ -1367,8 +1365,6 @@ table {
     margin-left: 60%;
     margin-right: -100%;
     *margin-right: -99.9%;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003455}}
   #block-views-why-st-bernard-block .views-row:nth-child(5) {
@@ -1377,8 +1373,6 @@ table {
     margin-left: 80%;
     margin-right: -100%;
     *margin-right: -99.9%;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003470}}
   #block-views-why-st-bernard-block .views-field-title {
