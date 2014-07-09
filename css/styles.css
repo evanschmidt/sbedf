@@ -1246,7 +1246,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003397}}
   #block-views-header-images-block {
     float: right;
-    width: 80%;
+    width: 100%;
     margin-right: 0%;
     margin-left: -100%;
     *margin-left: -99.9%;
