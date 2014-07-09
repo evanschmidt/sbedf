@@ -436,7 +436,7 @@ $zen-auto-include-grid-item-base: false;
     }  
     .views-row:nth-child(1) {
       @include zen-grid-container($context: flow);
-      @include zen-grid-item(1, 1, $columns: 5, $gutters: 40px);
+      @include zen-grid-item(1, 1, $gutters: 40px);
       .views-field-title {
 //        margin-left: 0.5em;
       }
@@ -445,16 +445,24 @@ $zen-auto-include-grid-item-base: false;
       }
     }
     .views-row:nth-child(2) {
-      @include zen-grid-item(1, 2);
+      @include zen-grid-container($context: flow);
+      @include zen-grid-item(1, 2, $gutters: 40px);
+      //@include zen-grid-item(1, 2);
     }
     .views-row:nth-child(3) {
-      @include zen-grid-item(1, 3);
+      @include zen-grid-container($context: flow);
+      @include zen-grid-item(1, 3, $gutters: 40px);
+      //@include zen-grid-item(1, 3);
     }
     .views-row:nth-child(4) {
-      @include zen-grid-item(1, 4);
+      @include zen-grid-container($context: flow);
+      @include zen-grid-item(1, 4, $gutters: 40px);
+      //@include zen-grid-item(1, 4);
     }
     .views-row:nth-child(5) {
-      @include zen-grid-item(1, 5);
+      @include zen-grid-container($context: flow);
+      @include zen-grid-item(1, 5, $gutters: 40px);
+      //@include zen-grid-item(1, 5);
       .views-field-title {
   //      margin-right: 0.5em;
       }
@@ -470,13 +478,13 @@ $zen-auto-include-grid-item-base: false;
     }  
     .views-field-title {
       background: none repeat scroll 0 0 $darkblue;
-      margin: 0 0.1em;
+      //margin: 0 0.1em;
       padding: 1em;
       font-size: $h2-font-size;
     }
     .views-field-field-why-tagline {
       background: none repeat scroll 0 0 $darkblue;
-      margin: 0 0.15em;
+      //margin: 0 0.15em;
       min-height: 170px;
       ul {
         margin: 0;
