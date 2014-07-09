@@ -270,6 +270,9 @@ $zen-auto-include-grid-item-base: false;
   #above-header {
     @include zen-grid-item(5, 1);
     padding-top: 2.78em;
+    #block-views-header-images-block {
+      @include zen-grid-item(5, 1, right);      
+    }
     .views-field-field-header-text {
       background: none repeat scroll 0 0 $white;
       color: $darkblue;
@@ -394,9 +397,6 @@ $zen-auto-include-grid-item-base: false;
     li:nth-child(7) {
       @include zen-grid-item(1, 7);
     }
-  }
-  #block-views-header-images-block {
-    @include zen-grid-item(4, 1, right);      
   }
   // why st bernard layout
   #block-views-why-st-bernard-block {
