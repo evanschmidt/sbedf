@@ -11,7 +11,7 @@
 // We are going to create a fluid grid with 1, 3, or 5 columns and 20px gutters
 // between columns (applied as 10px of left/right padding on each column).
 $zen-columns:  1 !global;
-$zen-gutters:  10px !global;
+$zen-gutters:  0px !global;
 $zen-gutter-method: padding !global;
 $zen-grid-width: 100%;
 
