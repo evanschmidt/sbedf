@@ -321,7 +321,7 @@ $zen-auto-include-grid-item-base: false;
       }
     }
     #logo {
-      @include zen-grid-item(5, 1);
+      @include zen-grid-item(6, 1);
       img {
       }
     }
