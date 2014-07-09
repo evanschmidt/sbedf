@@ -412,7 +412,7 @@ $zen-auto-include-grid-item-base: false;
     height: 290px;
     h2 {
       background: none repeat scroll 0 0 $darkgrey;
-      color: $grey;
+      color: $lightgrey;
       font-size: 2.3em;
       font-weight: lighter;
       margin: 0 auto;
@@ -425,7 +425,7 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-container($context:  none);
       @include zen-grid-item(5, 1, $columns: 5);    
       //@include zen-grid-background();
-      border-top: 1px solid $darkgrey;
+      border-top: 1px solid $lightgrey;
       margin-top: -1em;
       padding-top: 2em;
       text-align: center;
