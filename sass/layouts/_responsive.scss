@@ -321,9 +321,8 @@ $zen-auto-include-grid-item-base: false;
       }
     }
     #logo {
-      @include zen-grid-item(6, 1);
+      @include zen-grid-item(7, 1);
       img {
-        border-left: 5px solid $darkblue;
       }
     }
     #block-block-6 {
