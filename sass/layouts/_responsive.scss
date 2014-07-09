@@ -347,8 +347,8 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-item(5, 1, right);      
     }
     #block-block-6 {
-      background: none repeat scroll 0 0 $darkblue;
-      margin-bottom: -0.35em;
+      //background: none repeat scroll 0 0 $darkblue;
+      margin-bottom: -0.4em;
       h2 {
         //display: none;
         background: none repeat scroll 0 0 $darkblue;
