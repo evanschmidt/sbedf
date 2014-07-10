@@ -297,8 +297,9 @@
   }
 }
 .views-responsive-grid.views-columns-3 {
-  $zen-column-count:  3;
+  //$zen-column-count:  3;
   @include zen-grid-container($context: flow);
+  @include zen-grid-item(5, 1, $columns: 3);
   @include zen-grid-background();  
   .views-column-1 {
     @include zen-grid-item(1, 1);
