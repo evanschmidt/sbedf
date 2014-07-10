@@ -513,7 +513,7 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-item(1, 1);
     }
   }
-  #content {
+  .not-front #content {
     padding: 3em;
   }
   #block-block-9, #block-views-announcements-block-1 {
