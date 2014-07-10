@@ -269,7 +269,7 @@ $zen-auto-include-grid-item-base: false;
   }
   #above-header {
     @include zen-grid-item(5, 1);
-    padding-top: 2.7em;
+    padding-top: 2.6em;
     margin-bottom: -1.1em;
     .block {
       @include zen-grid-item(4, 1, right);      
