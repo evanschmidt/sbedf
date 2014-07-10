@@ -513,6 +513,9 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-item(1, 1);
     }
   }
+  #content {
+    padding: 3em;
+  }
   /**
    * The layout when there is only one sidebar, the left one.
    */
