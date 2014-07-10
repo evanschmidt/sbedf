@@ -128,6 +128,9 @@
 }
 .view-id-partners.view-display-id-page {
   text-align: center;
+  .views-field-field-partner-logo {
+    padding: 0.25em;
+  }
 }
 
 //content bottom layout
@@ -303,7 +306,7 @@
 .views-responsive-grid.views-columns-3 {
   $zen-columns:  3;
   @include zen-grid-container($context: flow);
-  @include zen-grid-background();  
+  //@include zen-grid-background();  
   .views-column-1 {
     @include zen-grid-item(1, 1);
   }
