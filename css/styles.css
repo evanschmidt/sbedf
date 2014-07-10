@@ -1012,7 +1012,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003277}}
   #above-header .views-field-field-header-text {
     background: none repeat scroll 0 0 white;
-    color: #0e4c91;
+    color: #333333;
     float: left;
     width: 20%;
     margin-left: 0%;
@@ -1024,9 +1024,10 @@ table {
     padding-top: 1em;
     position: relative;
     top: -15.5em;
+    min-height: 150px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003291}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003292}}
   #header .region-header {
     *position: relative;
     *zoom: 1;
@@ -1047,7 +1048,7 @@ table {
   #header .region-header:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003295}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003296}}
   #header h1 {
     background: none repeat scroll 0 0 #0e4c91;
     color: #79b3f2;
@@ -1057,7 +1058,7 @@ table {
     margin: 0;
     padding: 0.25em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003305}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003306}}
   #header h2 {
     color: #333333;
     font-size: 1em;
@@ -1066,18 +1067,18 @@ table {
     margin: 0.5em 0;
     padding: 0 0.5em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003315}}
   #header .block {
     color: #333333;
     margin: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003318}}
   #header .block p {
     line-height: 1.25em;
     margin: 0;
     padding: 0 0.5em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003324}}
   #header #logo {
     float: left;
     width: 120%;
@@ -1086,12 +1087,12 @@ table {
     *margin-right: -99.9%;
     overflow: hidden;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003327}}
   #header #logo img {
     position: relative;
     left: -5px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003332}}
   #header #block-block-6 {
     float: left;
     width: 20%;
@@ -1101,7 +1102,7 @@ table {
     position: relative;
     z-index: 10;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003337}}
   #header #block-block-1 {
     float: left;
     width: 20%;
@@ -1112,7 +1113,7 @@ table {
     position: relative;
     z-index: 10;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003343}}
   #header #block-block-8 {
     float: left;
     width: 20%;
@@ -1123,7 +1124,7 @@ table {
     position: relative;
     z-index: 10;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003349}}
   #header #block-views-header-images-block {
     float: right;
     width: 100%;
@@ -1131,11 +1132,11 @@ table {
     margin-left: -100%;
     *margin-left: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003352}}
   #header #block-block-6 {
     margin-bottom: -0.4em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003355}}
   #header #block-block-6 h2 {
     background: none repeat scroll 0 0 #0e4c91;
     color: #79b3f2;
@@ -1145,12 +1146,12 @@ table {
     margin: 0;
     padding: 0.25em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003366}}
   #header #block-block-8 {
     background: none repeat scroll 0 0 #e6ba00;
     padding: 0 0 0.9em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003371}}
   #header #name-and-slogan {
     float: left;
     width: 20%;
@@ -1160,7 +1161,7 @@ table {
     position: relative;
     top: 175px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003376}}
   #header #block-nice-menus-1 {
     *position: relative;
     *zoom: 1;
@@ -1181,7 +1182,7 @@ table {
   #header #block-nice-menus-1:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003380}}
   #header #nice-menu-1 {
     *position: relative;
     *zoom: 1;
@@ -1202,7 +1203,7 @@ table {
   #header #nice-menu-1:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003384}}
   #header li:nth-child(1) {
     float: left;
     width: 20%;
@@ -1210,7 +1211,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003387}}
   #header li:nth-child(2) {
     float: left;
     width: 20%;
@@ -1218,7 +1219,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003390}}
   #header li:nth-child(3) {
     float: left;
     width: 20%;
@@ -1226,7 +1227,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003393}}
   #header li:nth-child(4) {
     float: left;
     width: 20%;
@@ -1234,7 +1235,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003396}}
   #header li:nth-child(5) {
     float: left;
     width: 20%;
@@ -1242,7 +1243,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003399}}
   #header li:nth-child(6) {
     float: left;
     width: 20%;
@@ -1250,7 +1251,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003401}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003402}}
   #header li:nth-child(7) {
     float: left;
     width: 20%;
@@ -1259,7 +1260,7 @@ table {
     *margin-right: -99.9%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003406}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003407}}
   #block-views-why-st-bernard-block {
     padding-left: 0px;
     padding-right: 0px;
@@ -1295,7 +1296,7 @@ table {
   #block-views-why-st-bernard-block:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003415}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003416}}
   #block-views-why-st-bernard-block h2 {
     background: none repeat scroll 0 0 #333333;
     color: #909090;
@@ -1307,7 +1308,7 @@ table {
     width: 500px;
     z-index: 1;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003426}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003427}}
   #block-views-why-st-bernard-block .view-why-st-bernard {
     *position: relative;
     *zoom: 1;
@@ -1330,12 +1331,12 @@ table {
   #block-views-why-st-bernard-block .view-why-st-bernard:after {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003435}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003436}}
   #block-views-why-st-bernard-block .views-row {
     margin-bottom: 1em;
     min-height: 235px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003439}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003440}}
   #block-views-why-st-bernard-block .views-row:nth-child(1) {
     float: left;
     width: 20%;
@@ -1343,7 +1344,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003448}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003449}}
   #block-views-why-st-bernard-block .views-row:nth-child(2) {
     float: left;
     width: 20%;
@@ -1351,7 +1352,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003451}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003452}}
   #block-views-why-st-bernard-block .views-row:nth-child(3) {
     float: left;
     width: 20%;
@@ -1359,7 +1360,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003454}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003455}}
   #block-views-why-st-bernard-block .views-row:nth-child(4) {
     float: left;
     width: 20%;
@@ -1367,7 +1368,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003457}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003458}}
   #block-views-why-st-bernard-block .views-row:nth-child(5) {
     float: left;
     width: 20%;
@@ -1375,45 +1376,45 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003472}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003473}}
   #block-views-why-st-bernard-block .views-field-title {
     background: none repeat scroll 0 0 #0e4c91;
     margin: 0 0.1em;
     padding: 1em;
     font-size: 20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003478}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003479}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline {
     background: none repeat scroll 0 0 #0e4c91;
     margin: 0 0.15em;
     min-height: 170px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003482}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003483}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline ul {
     margin: 0;
     padding: 1em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003487}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003488}}
   #block-views-why-st-bernard-block .views-field-field-why-image {
     padding: 0 1em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003491}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003492}}
   #content-bottom {
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 16.66667% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 16.66667% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 50% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 50% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 83.33333% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 83.33333% bottom no-repeat, -moz-linear-gradient(left, #ffdede 16.66667%, rgba(0, 0, 0, 0) 16.66667%, rgba(0, 0, 0, 0) 33.33333%, #ffdede 33.33333%, #ffdede 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 66.66667%, #ffdede 66.66667%, #ffdede 83.33333%, rgba(0, 0, 0, 0) 83.33333%) 0px top no-repeat, -moz-linear-gradient(left, rgba(0, 0, 0, 0) 16.66667%, #ffdede 16.66667%, #ffdede 33.33333%, rgba(0, 0, 0, 0) 33.33333%, rgba(0, 0, 0, 0) 50%, #ffdede 50%, #ffdede 66.66667%, rgba(0, 0, 0, 0) 66.66667%, rgba(0, 0, 0, 0) 83.33333%, #ffdede 83.33333%) 0px top no-repeat;
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 16.66667% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 16.66667% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 50% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 50% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 83.33333% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 83.33333% bottom no-repeat, -webkit-linear-gradient(left, #ffdede 16.66667%, rgba(0, 0, 0, 0) 16.66667%, rgba(0, 0, 0, 0) 33.33333%, #ffdede 33.33333%, #ffdede 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 66.66667%, #ffdede 66.66667%, #ffdede 83.33333%, rgba(0, 0, 0, 0) 83.33333%) 0px top no-repeat, -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 16.66667%, #ffdede 16.66667%, #ffdede 33.33333%, rgba(0, 0, 0, 0) 33.33333%, rgba(0, 0, 0, 0) 50%, #ffdede 50%, #ffdede 66.66667%, rgba(0, 0, 0, 0) 66.66667%, rgba(0, 0, 0, 0) 83.33333%, #ffdede 83.33333%) 0px top no-repeat;
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 16.66667% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 16.66667% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 50% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdBJREFUeNqslL9LQlEUx3367AdamdCQaVjQ0uAQBS+hxbVBhEcESoOG/0SDS9HakDYGEU0huLa1GW4tGtkkURBlQRn4LPseOBdej0u+ygsffByvH98995zj6Ha7DqIfizyKkCmKYv1eBaPAB4ZpP3gDz/zZ+Y1wAEyBeTAH/OATPIBrUAP3oG0VOiRHVli2nslkTmu12pNhGF2iUqncxePxI3yngwDv7SkcAstYeSEy02w229FodB97NN77TeiU5NYDJlOp1KII5HK5y2QyWaZnr9frxvMSv6HH+mOZkPI3EgwGfSJQr9db5g2hUGiMZW47wg/QUlXVMAd1XQ+I50aj8cI3bUhrx5JD+ucI2ADb4DASiZyZ80j5pTzLcigTOlkaBqtgp1gs3ghZqVS6QmyTTm73lkXpTIBEOp0umm9Y07QDxFdkF/KTcBAsgC3k61UI8/n8BWJJrlOnXaEo7BQJhKxarTYR2+OiDnM1OOwWtkbFS0cUwlgsdo74MdgFa2AauOwIqW8ThUKhLOsUIpvNnmBPlIdGz06h1fH7/a6/jDDZtKEjz/ClzFrfAuudpw1d0C03wo/jS2HpOM9Da3tRd1CnPNodX/+a2H0XfgkwAIVYVeQ1/9a6AAAAAElFTkSuQmCC") 50% bottom no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNqslM1LAkEYxnX7lL62CAmTwENkhyKwDkZg185dgvDQwS7RUQkvkRfzKNQfIF5CukjRJelk4EWwDmVUEJinaNlSMLPWnhdmYFvWGqiFH44z8z7zzjPvjKXZbFqI//hIx8rFrFarfkwCNiCDPtABNFADKngFH6KC1BgEE2ASOEE3E1DALbgCZfBuFLSYbJmC51wu1046nb5pNBpNTrFYVEKh0DHGV8AoW/xXQTsFJJPJC72YHq/Xu485Xrb4N0HJxFvybsjtdtt5Rzwev04kEvf8v9/v97CFbcbgdhPBT/AmSZLGOxRFaRgyoa22scP7VbACih6PZ5cdzAjoSqVS03xCoVB4wM8zLWxaOwYPaZEBMAXWI5HIud6/TCZTQv82mBX18MfP5/M5Y7HYAprDlLlIhpTdPNgEe+AQHOVyuSeeJZUT+taAQyRDuhnufD6/heANsBwOh8ey2ewTn+BwOPrZCXcYg80EycMeTdNa2lGpVN5ZNWgiglQitWq1Wtd3yrLcydvlclll1VAX8ZAehCUYf9rqpgQCgQPMWQS9IlePtuyiCxGNRs9UVa1zoVKpVA0GgycYWwVjrLiFnq9OFjADxlkm5NcLuAOX4NHstWklyEVlBvfvjb2HL8xri8iW//Ri/7vglwADAMZnRpCsTg8QAAAAAElFTkSuQmCC") 83.33333% top no-repeat, url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNpi/P//PwMMMDIyMpALYOawEKEWpIYPiAWg7M9A/B6If4LMwaaYkGHiQKwFxJpAzA3E94H4LBA/BOJfWJ0Kw0iAFYhFgFgHiIOBuPHGjRtvf//+/X/WrFmHgHxPqIsxzGHC4TJ+IDYCYu+EhIQ4oGG5ysrKQiCJX79+cQApXqilDMR6mROI5Z8+fVotJibGS0rk4HLhd1AYSUtLd8rLyy/78uXLb0oN/AjE54D44LNnz27euXPnHaUGglz0BoifAvEHaniZbDBq4BA0EJR8vjAxMf2FCbCxsf2AljhYEzsjgfIQlKe1gVgPiCWAGGTwbWylDcwcQgayQIssASj9D5qLMMpDYg0kucSmeqQABBgAsyJrV7MArsMAAAAASUVORK5CYII=") 83.33333% bottom no-repeat, linear-gradient(to right, #ffdede 16.66667%, rgba(0, 0, 0, 0) 16.66667%, rgba(0, 0, 0, 0) 33.33333%, #ffdede 33.33333%, #ffdede 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 66.66667%, #ffdede 66.66667%, #ffdede 83.33333%, rgba(0, 0, 0, 0) 83.33333%) 0px top no-repeat, linear-gradient(to right, rgba(0, 0, 0, 0) 16.66667%, #ffdede 16.66667%, #ffdede 33.33333%, rgba(0, 0, 0, 0) 33.33333%, rgba(0, 0, 0, 0) 50%, #ffdede 50%, #ffdede 66.66667%, rgba(0, 0, 0, 0) 66.66667%, rgba(0, 0, 0, 0) 83.33333%, #ffdede 83.33333%) 0px top no-repeat;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003494}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003495}}
   #content-bottom h2 {
     color: #333333;
     font-weight: normal;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003498}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003499}}
   #content-bottom .block {
     min-height: 250px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003501}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003502}}
   #content-bottom .block:nth-child(1) {
     float: left;
     width: 33.33333%;
@@ -1421,7 +1422,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003504}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003505}}
   #content-bottom .block:nth-child(2) {
     float: left;
     width: 33.33333%;
@@ -1429,7 +1430,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003507}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003508}}
   #content-bottom .block:nth-child(3) {
     float: left;
     width: 33.33333%;
@@ -1437,7 +1438,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003510}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003511}}
   #content-bottom .block:nth-child(4) {
     float: left;
     width: 33.33333%;
@@ -1449,12 +1450,12 @@ table {
   /**
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003517}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003518}}
   .sidebar-first {
     /* Span 4 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003521}}
   .sidebar-first #content {
     float: left;
     width: 80%;
@@ -1462,7 +1463,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003525}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003526}}
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 20%;
@@ -1474,12 +1475,12 @@ table {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003533}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003534}}
   .sidebar-second {
     /* Span 4 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003535}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003536}}
   .sidebar-second #content {
     float: left;
     width: 80%;
@@ -1487,7 +1488,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003540}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003541}}
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 20%;
@@ -1499,13 +1500,13 @@ table {
   /**
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003548}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003549}}
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003550}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003551}}
   .two-sidebars #content {
     float: left;
     width: 60%;
@@ -1513,7 +1514,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003555}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003556}}
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 20%;
@@ -1521,7 +1522,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003560}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003561}}
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 20%;
