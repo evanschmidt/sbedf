@@ -2577,7 +2577,7 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003107}}
 #block-views-partners-block-1 {
   border-top: 1px solid #333333;
-  padding-top: 1em;
+  padding: 1em;
   /* homepage flexslider */
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003110}}
