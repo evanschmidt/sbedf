@@ -277,6 +277,7 @@ $zen-auto-include-grid-item-base: false;
     .views-field-field-header-text {
       background: none repeat scroll 0 0 $white;
       color: $darkgrey;
+      font-size: 1.875em;
       @include zen-grid-item(1, 1, left);
       margin-bottom: -100%;
       min-height: 95px;
