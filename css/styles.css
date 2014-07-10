@@ -1002,7 +1002,7 @@ table {
     margin-bottom: -1.1em;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003274}}
-  #above-header #block-views-header-images-block, #above-header #block-views-page-header-image-block {
+  #above-header .block {
     float: right;
     width: 80%;
     margin-right: 0%;
