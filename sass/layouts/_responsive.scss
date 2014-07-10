@@ -278,13 +278,12 @@ $zen-auto-include-grid-item-base: false;
       background: none repeat scroll 0 0 $white;
       color: $darkgrey;
       @include zen-grid-item(1, 1, left);
-      margin-bottom: -4em;
-      padding-bottom: 1em;
-      padding-left: 5%;
-      padding-top: 1em;
-      position: relative;
-      top: -15.5em;
-      min-height: 150px;
+      margin-bottom: -100%;
+      min-height: 95px;
+      padding: 3em 3em 0;
+      position: absolute;
+      top: 23.5%;
+      width: auto;      
     }
   }
   #header {
