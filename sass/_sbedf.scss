@@ -209,7 +209,10 @@
   }
 }
 #above-header .block {
-  margin-bottom: 0;  
+  margin-bottom: 0;
+  p {
+    margin: 0;
+  } 
 }
 #block-views-header-images-block {
   background: none repeat scroll 0 0 $darkgrey;
