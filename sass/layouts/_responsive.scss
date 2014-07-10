@@ -365,7 +365,7 @@ $zen-auto-include-grid-item-base: false;
     #block-block-8 {
       //@include zen-new-row();
       background: none repeat scroll 0 0 $yellow;
-      padding: 0 0 0.5em;
+      padding: 0 0 0.9em;
     }
     #name-and-slogan {
       @include zen-grid-item(1, 1);
