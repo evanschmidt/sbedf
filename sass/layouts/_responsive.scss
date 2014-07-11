@@ -89,7 +89,28 @@ $zen-auto-include-grid-item-base: false;
 #page {
   @include zen-grid-background();
 }
-
+  #above-header {
+    $zen-columns: 5;
+    @include zen-grid-item(5, 1);
+    padding-top: 2.6em;
+    margin-bottom: -1.1em;
+    .block {
+      @include zen-grid-item(4, 1, right);      
+    }
+    .views-field-field-header-text {
+      background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
+      color: $darkgrey;
+      font-size: 1.875em;
+      @include zen-grid-item(1, 1, left);
+      height: 3.25em;
+      line-height: 1em;
+      margin-bottom: -100%;
+      padding: 1.5em 0 0 2em;
+      position: absolute;
+      top: 23.5%;
+      width: 470px;
+    }
+  }
   #header {
     //@include zen-grid-background();
     $zen-columns: 5;
