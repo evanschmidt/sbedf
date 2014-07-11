@@ -10,6 +10,10 @@
 
 <div id="page">
 
+  <div class="above-header" id="above-header">
+    <?php print render($page['above_header']); ?>
+  </div>
+
   <header class="header" id="header" role="banner">
 
     <?php if ($logo): ?>
