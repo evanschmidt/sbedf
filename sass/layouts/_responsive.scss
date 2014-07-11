@@ -87,7 +87,7 @@ $zen-auto-include-grid-item-base: false;
 
   $zen-columns: 3;
 #page {
-  //@include zen-grid-background();
+  @include zen-grid-background();
 }
 
 #header {
