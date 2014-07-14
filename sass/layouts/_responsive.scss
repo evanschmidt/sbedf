@@ -576,8 +576,12 @@ $zen-auto-include-grid-item-base: false;
       margin: 0 0.15em;
       min-height: 170px;
       ul {
+        list-style: none inside none;
         margin: 0;
         padding: 1em;
+        li {
+          margin: 1em;
+        }
       }
     }
     .views-field-field-why-image {

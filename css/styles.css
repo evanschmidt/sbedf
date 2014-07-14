@@ -1580,29 +1580,34 @@ table {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003578}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline ul {
+    list-style: none inside none;
     margin: 0;
     padding: 1em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003586}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003582}}
+  #block-views-why-st-bernard-block .views-field-field-why-tagline ul li {
+    margin: 1em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003590}}
   #block-views-why-st-bernard-block .views-field-edit-node {
     border: 1px solid #0e4c91;
     margin: 0 0.15em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003591}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003595}}
   #content-bottom {
     padding: 1em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003595}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003599}}
   #content-bottom h2 {
     color: #333333;
     font-weight: normal;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003599}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003603}}
   #content-bottom .block {
     min-height: 250px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003602}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003606}}
   #content-bottom .block:nth-child(1) {
     float: left;
     width: 33.33333%;
@@ -1610,7 +1615,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003605}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003609}}
   #content-bottom .block:nth-child(2) {
     float: left;
     width: 33.33333%;
@@ -1618,7 +1623,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003608}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003612}}
   #content-bottom .block:nth-child(3) {
     float: left;
     width: 33.33333%;
@@ -1626,7 +1631,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003611}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003615}}
   #content-bottom .block:nth-child(4) {
     float: left;
     width: 33.33333%;
@@ -1635,12 +1640,12 @@ table {
     *margin-right: -99.9%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003616}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003620}}
   .not-front #content {
     padding: 3em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003621}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003625}}
   #block-block-9, #block-views-announcements-block-1 {
     padding: 1em;
   }
@@ -1648,12 +1653,12 @@ table {
   /**
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003627}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003631}}
   .sidebar-first {
     /* Span 4 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003630}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003634}}
   .sidebar-first #content {
     float: left;
     width: 80%;
@@ -1661,7 +1666,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003635}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003639}}
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 20%;
@@ -1673,12 +1678,12 @@ table {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003643}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003647}}
   .sidebar-second {
     /* Span 4 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003645}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003649}}
   .sidebar-second #content {
     float: left;
     width: 80%;
@@ -1686,7 +1691,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003650}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003654}}
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 20%;
@@ -1698,13 +1703,13 @@ table {
   /**
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003658}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003662}}
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003660}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003664}}
   .two-sidebars #content {
     float: left;
     width: 60%;
@@ -1712,7 +1717,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003665}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003669}}
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 20%;
@@ -1720,7 +1725,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003670}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003674}}
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 20%;
