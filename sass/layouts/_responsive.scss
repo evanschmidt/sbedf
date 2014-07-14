@@ -487,7 +487,7 @@ $zen-auto-include-grid-item-base: false;
     @include zen-grid-item(5, 1, $columns: 5, $gutters: 40px);
     //@include zen-grid-background($grid-color:#CCC);
     background: none repeat scroll 0 0 $darkgrey;
-    color: $white;
+    color: $lightergrey;
     padding-top: 1em;
     height: 290px;
     h2 {
@@ -551,7 +551,7 @@ $zen-auto-include-grid-item-base: false;
       background: none repeat scroll 0 0 $darkblue;
       margin: 0 0.1em;
       padding: 1em;
-      font-size: $h2-font-size;
+      font-size: 1.6em;
     }
     .views-field-field-why-tagline {
       background: none repeat scroll 0 0 $darkblue;
