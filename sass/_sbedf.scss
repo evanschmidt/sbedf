@@ -136,6 +136,14 @@
   }
 }
 
+//content bottom layout
+#content-bottom {
+  .block {
+    a {
+      color: $grey;
+    }
+  }
+}
 // board member view layout
 .view-board-members {
   h3 {
