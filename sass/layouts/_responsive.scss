@@ -432,9 +432,9 @@ $zen-auto-include-grid-item-base: false;
         //display: none;
         background: none repeat scroll 0 0 $darkblue;
         color: $lightblue;
-        font-size: 1.75em;
+        font-size: 2em;
         font-weight: normal;
-        line-height: 1em;
+        line-height: 0.97em;
         margin: 0;
         padding: 0.25em;
       }
@@ -443,7 +443,7 @@ $zen-auto-include-grid-item-base: false;
       //@include zen-new-row();
       background: none repeat scroll 0 0 $yellow;
       font-size: 0.85em;
-      padding: 0 0 0.9em;
+      padding: 0 0 1em;
     }
     #name-and-slogan {
       @include zen-grid-item(1, 1);
