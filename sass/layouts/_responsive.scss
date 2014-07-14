@@ -489,7 +489,7 @@ $zen-auto-include-grid-item-base: false;
     background: none repeat scroll 0 0 $darkgrey;
     color: $lightergrey;
     padding-top: 1em;
-    height: 290px;
+    height: 360px;
     h2 {
       background: none repeat scroll 0 0 $darkgrey;
       color: $newgrey;
@@ -567,7 +567,7 @@ $zen-auto-include-grid-item-base: false;
     }  
     .views-field-title {
 //      background: none repeat scroll 0 0 $darkblue;
-      margin: 0 0.1em;
+      margin: 0 0.09em;
       padding: 1em;
       font-size: 1.6em;
     }
@@ -581,7 +581,7 @@ $zen-auto-include-grid-item-base: false;
       }
     }
     .views-field-field-why-image {
-      padding: 0 1em;
+      //padding: 0 1em;
     }    
   }
   #content-bottom {
