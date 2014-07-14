@@ -600,9 +600,15 @@ $zen-auto-include-grid-item-base: false;
   #content-bottom {
     //$zen-columns: 3;
     //padding: 6em;
-    @include zen-grid-container($context:  grid-item);
-    @include zen-grid-item(5, 1, $columns: 3, $gutters: 30px);
-    @include zen-grid-background();
+    @include zen-grid-item-base();
+    @include zen-grid-container($context: flow);
+    @include zen-grid-item(5, 1, $columns: 5, $gutters: 40px);
+    //@include zen-grid-background($grid-color:#CCC);
+    .region-content-bottom {
+      @include zen-grid-item-base();
+      @include zen-grid-container($context: flow);
+      @include zen-grid-item(5, 1, $columns: 3, $gutters: 40px);      
+    }
     h2 {
       color: $blue;
       font-weight: normal;
