@@ -1453,7 +1453,7 @@ table {
     color: #909090;
     font-size: 2.3em;
     font-weight: lighter;
-    margin: 0 auto;
+    margin: 1em auto;
     position: relative;
     text-align: center;
     width: 500px;
@@ -1469,8 +1469,8 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
     border-top: 1px solid #909090;
-    margin-top: -1em;
-    padding-top: 2em;
+    margin-top: -3em;
+    padding-top: 3em;
     text-align: center;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000343}}
