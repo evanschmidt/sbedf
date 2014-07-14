@@ -86,9 +86,9 @@ $zen-auto-include-grid-item-base: false;
 @media all and (min-width: 480px) and (max-width: 959px) {
 
   $zen-columns: 3;
-#page {
-  @include zen-grid-background();
-}
+  #page {
+    @include zen-grid-background();
+  }
   #above-header {
     $zen-columns: 5;
     @include zen-grid-item(5, 1);
@@ -551,6 +551,9 @@ $zen-auto-include-grid-item-base: false;
       margin: 0 0.1em;
       padding: 1em;
       font-size: $h2-font-size;
+      span {
+        border: 5px solid pink;
+      }
     }
     .views-field-field-why-tagline {
       background: none repeat scroll 0 0 $darkblue;

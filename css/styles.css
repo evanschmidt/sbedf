@@ -1533,36 +1533,40 @@ table {
     padding: 1em;
     font-size: 20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003555}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003554}}
+  #block-views-why-st-bernard-block .views-field-title span {
+    border: 5px solid pink;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003558}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline {
     background: none repeat scroll 0 0 #0e4c91;
     margin: 0 0.15em;
     min-height: 170px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003559}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003562}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline ul {
     margin: 0;
     padding: 1em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003564}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003567}}
   #block-views-why-st-bernard-block .views-field-field-why-image {
     padding: 0 1em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003568}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003571}}
   #content-bottom {
     padding: 1em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003572}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003575}}
   #content-bottom h2 {
     color: #333333;
     font-weight: normal;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003576}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003579}}
   #content-bottom .block {
     min-height: 250px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003579}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003582}}
   #content-bottom .block:nth-child(1) {
     float: left;
     width: 33.33333%;
@@ -1570,7 +1574,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003582}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003585}}
   #content-bottom .block:nth-child(2) {
     float: left;
     width: 33.33333%;
@@ -1578,7 +1582,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003585}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003588}}
   #content-bottom .block:nth-child(3) {
     float: left;
     width: 33.33333%;
@@ -1586,7 +1590,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003588}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003591}}
   #content-bottom .block:nth-child(4) {
     float: left;
     width: 33.33333%;
@@ -1595,12 +1599,12 @@ table {
     *margin-right: -99.9%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003592}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003595}}
   .not-front #content {
     padding: 3em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003595}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003598}}
   #block-block-9, #block-views-announcements-block-1 {
     padding: 1em;
   }
@@ -1608,12 +1612,12 @@ table {
   /**
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003601}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003604}}
   .sidebar-first {
     /* Span 4 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003604}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003607}}
   .sidebar-first #content {
     float: left;
     width: 80%;
@@ -1621,7 +1625,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003609}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003612}}
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 20%;
@@ -1633,12 +1637,12 @@ table {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003617}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003620}}
   .sidebar-second {
     /* Span 4 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003619}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003622}}
   .sidebar-second #content {
     float: left;
     width: 80%;
@@ -1646,7 +1650,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003624}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003627}}
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 20%;
@@ -1658,13 +1662,13 @@ table {
   /**
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003632}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003635}}
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003634}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003637}}
   .two-sidebars #content {
     float: left;
     width: 60%;
@@ -1672,7 +1676,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003639}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003642}}
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 20%;
@@ -1680,7 +1684,7 @@ table {
     margin-right: -100%;
     *margin-right: -99.9%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003644}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003647}}
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 20%;
@@ -2601,6 +2605,11 @@ tr.selected td {
  * Adds styles for St. EDF
  *
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/_sbedf\.scss}line{font-family:\000038}}
+body {
+  background: none repeat scroll 0 0 #333333;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000311}}
 #page {
   background: none repeat scroll 0 0 white;
