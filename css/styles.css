@@ -1582,7 +1582,7 @@ table {
   #block-views-why-st-bernard-block .views-field-field-why-tagline ul {
     list-style: none inside none;
     margin: 0;
-    padding: 1em;
+    padding: 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003582}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline ul li {
