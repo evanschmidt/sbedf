@@ -599,7 +599,7 @@ $zen-auto-include-grid-item-base: false;
   }
   #content-bottom {
     $zen-columns: 3;
-    @include zen-grid-background();
+    //@include zen-grid-background();
     padding: 6em;
     h2 {
       color: $blue;
