@@ -2601,11 +2601,6 @@ tr.selected td {
  * Adds styles for St. EDF
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/_sbedf\.scss}line{font-family:\000038}}
-body {
-  background: none repeat scroll 0 0 #333333;
-}
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Pran\%202011\/E\/edf\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000311}}
 #page {
   background: none repeat scroll 0 0 white;
