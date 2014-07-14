@@ -115,6 +115,10 @@
   }
   .view-footer {
     text-align: right;
+    a {
+      color: $grey;
+      text-decoration: none;
+    }
   }
 /* homepage flexslider */
   .flexslider {
@@ -168,6 +172,7 @@
 }
 //footer block 
 #block-block-2 {
+  border-top: 1px solid $grey;
   font-size: 0.9em;
   line-height: 1.25em;
   p {
