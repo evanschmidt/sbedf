@@ -607,9 +607,11 @@ $zen-auto-include-grid-item-base: false;
       color: $blue;
       font-weight: normal;
       font-size: 1.6em;
+      margin-bottom: 1.5em;
     }
     .block {
       min-height: 250px;
+      margin-top: 1em;
       p {
         margin: 0.5em 3em 0.5em 0;
       }
