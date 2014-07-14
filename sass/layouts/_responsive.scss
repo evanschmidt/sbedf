@@ -617,12 +617,7 @@ $zen-auto-include-grid-item-base: false;
       }
       .views-field-title {
         margin-right: 3em;
-        font-weight: bold;
-        a {
-          text-decoration: none;
-        }
       }
-
     }
     .block:nth-child(1) {
       @include zen-grid-item(1, 1);

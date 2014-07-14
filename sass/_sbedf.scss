@@ -141,6 +141,10 @@
   .block {
     a {
       color: $grey;
+          text-decoration: none;
+    }
+    .views-field-title {
+      font-weight: bold;
     }
   }
 }
