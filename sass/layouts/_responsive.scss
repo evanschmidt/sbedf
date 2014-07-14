@@ -582,7 +582,10 @@ $zen-auto-include-grid-item-base: false;
     }
     .views-field-field-why-image {
       //padding: 0 1em;
-    }    
+    }
+    .views-field-edit-node {
+      border: 1px solid $darkblue;
+    }
   }
   #content-bottom {
     $zen-columns: 3;
