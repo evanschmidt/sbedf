@@ -1624,8 +1624,8 @@ table {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003619}}
   #content-bottom .block .views-field-title {
-    font-size: 1.25em;
     margin-right: 3em;
+    font-weight: bold;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003622}}
   #content-bottom .block .views-field-title a {
