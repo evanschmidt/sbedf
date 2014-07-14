@@ -600,6 +600,7 @@ $zen-auto-include-grid-item-base: false;
   #content-bottom {
     //$zen-columns: 3;
     //padding: 6em;
+    @include zen-grid-container($context:  grid-item);
     @include zen-grid-item(5, 1, $columns: 3, $gutters: 30px);
     @include zen-grid-background();
     h2 {
