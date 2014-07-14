@@ -600,7 +600,9 @@ $zen-auto-include-grid-item-base: false;
   #content-bottom {
     $zen-columns: 3;
     //@include zen-grid-background();
-    padding: 6em;
+    .region-content-bottom {
+      padding: 4em;
+    }
     h2 {
       color: $blue;
       font-weight: normal;
