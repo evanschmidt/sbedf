@@ -517,10 +517,10 @@ $zen-auto-include-grid-item-base: false;
     .views-row:nth-child(1) {
       @include zen-grid-item(1, 1);
       .views-field-title {
-        background: none repeat scroll 0 0 #DE4C91;
+        background: none repeat scroll 0 0 #0E4C91;
       }
       .views-field-field-why-tagline {
-        background: none repeat scroll 0 0 #DE4C91;
+        background: none repeat scroll 0 0 #0E4C91;
       }
    }
     .views-row:nth-child(2) {
