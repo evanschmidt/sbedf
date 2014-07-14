@@ -613,6 +613,15 @@ $zen-auto-include-grid-item-base: false;
       p {
         margin-right: 3em;
       }
+      .views-field-title {
+        font-size: 1.25em;
+        p {
+          margin: 0;
+        }
+        a {
+          text-decoration: none;
+        }
+      }
     }
     .block:nth-child(1) {
       @include zen-grid-item(1, 1);
