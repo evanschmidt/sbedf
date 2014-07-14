@@ -610,6 +610,9 @@ $zen-auto-include-grid-item-base: false;
     }
     .block {
       min-height: 250px;
+      p {
+        margin-right: 1em;
+      }
     }
     .block:nth-child(1) {
       @include zen-grid-item(1, 1);
