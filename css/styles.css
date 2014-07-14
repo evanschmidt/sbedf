@@ -1436,7 +1436,7 @@ table {
     background: none repeat scroll 0 0 #333333;
     color: #cccccc;
     padding-top: 1em;
-    height: 360px;
+    height: 375px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass-extensions\/zen-grids\/zen-grids\/_grids\.scss}line{font-family:\0000343}}
   #block-views-why-st-bernard-block:before, #block-views-why-st-bernard-block:after {
@@ -1576,17 +1576,17 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003574}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline {
     margin: 0 0.15em;
-    min-height: 170px;
+    min-height: 210px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003578}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline ul {
     list-style: none inside none;
     margin: 0;
-    padding: 0.5em;
+    padding: 1em 0.5em 0.5em;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003582}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline ul li {
-    margin: 0.5em 0;
+    margin: 1em 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003584}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline ul li p {

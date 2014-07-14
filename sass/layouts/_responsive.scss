@@ -489,7 +489,7 @@ $zen-auto-include-grid-item-base: false;
     background: none repeat scroll 0 0 $darkgrey;
     color: $lightergrey;
     padding-top: 1em;
-    height: 360px;
+    height: 375px;
     h2 {
       background: none repeat scroll 0 0 $darkgrey;
       color: $newgrey;
@@ -574,13 +574,13 @@ $zen-auto-include-grid-item-base: false;
     .views-field-field-why-tagline {
 //      background: none repeat scroll 0 0 $darkblue;
       margin: 0 0.15em;
-      min-height: 170px;
+      min-height: 210px;
       ul {
         list-style: none inside none;
         margin: 0;
-        padding: 0.5em;
+        padding: 1em 0.5em 0.5em;
         li {
-          margin: 0.5em 0;
+          margin: 1em 0;
           p {
             margin: 0;
             padding: 0;
