@@ -10,10 +10,14 @@
  }
  #main {
   background: none repeat scroll 0 0 $white;
+  margin: 0 5px;
  }
 .front {
   h1.page__title, .field-name-body {
     display: none;
+  }
+  #content {
+    padding: 0;
   }
 }
 
