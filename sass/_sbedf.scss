@@ -172,6 +172,20 @@
     line-height: 1.25em;
   }
 }
+// backpage address
+#block-block-9 {
+  background: none repeat scroll 0 0 $darkergrey;
+  p {
+    margin: 0;
+  }
+  strong {
+    color: $blue;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
 //footer block 
 #block-block-2 {
   border-top: 2px solid $grey;
