@@ -349,17 +349,25 @@ $zen-auto-include-grid-item-base: false;
 
   #content-bottom {
     $zen-columns: 3;
-    margin-top: -0.5em;
-    background: $lightergrey;
     //@include zen-grid-background();
+    .region-content-bottom {
+      padding: 4em;
+    }
     h2 {
-      color: $grey;
-      text-align: left;
-      padding-left: 1em;
+      color: $blue;
+      font-weight: normal;
+      font-size: 1.6em;
+      margin-bottom: 1em;
     }
     .block {
-      background: $lightergrey;
-      min-height: 300px;
+      min-height: 250px;
+      margin-top: 1em;
+      p {
+        margin: 0.5em 3em 0.5em 0;
+      }
+      .views-field-title {
+        margin-right: 3em;
+      }
     }
     .block:nth-child(1) {
       @include zen-grid-item(1, 1);
@@ -374,7 +382,7 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-item(1, 1);
     }
   }
-
+  
   /**
    * The layout when there is only one sidebar, the left one.
    */
