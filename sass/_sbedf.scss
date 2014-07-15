@@ -173,9 +173,11 @@
 }
 //footer block 
 #block-block-2 {
-  border-top: 1px solid $grey;
+  border-top: 2px solid $grey;
+  color: $grey;
   font-size: 0.9em;
   line-height: 1.25em;
+  padding: 1.5em;
   p {
     margin: 0;
   }
