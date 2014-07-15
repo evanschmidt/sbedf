@@ -645,13 +645,13 @@ $zen-auto-include-grid-item-base: false;
 
   #block-views-announcements-block-1 {
     padding-right: 3em;
-    font-size: 0.9em;      
     .views-row {
       border-bottom: 1px solid $grey;
       margin-bottom: 1em;
       padding-bottom: 1em;
     }
     .views-field-title {
+      font-size: 0.9em;      
       a {
         text-decoration: none;
       }
@@ -708,7 +708,7 @@ $zen-auto-include-grid-item-base: false;
     /* Span 1 column, starting in 5th column from left. */
     .region-sidebar-second {
       @include zen-grid-item(1, 5);
-      padding-top: 11em;
+      padding-top: 7em;
       h2 {
         color: $blue;
         font-weight: 200;
