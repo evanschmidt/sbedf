@@ -3083,7 +3083,18 @@ h1 {
   padding-left: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003332}}
+.view-announcements.view-display-id-page .views-row {
+  margin: 1em 0;
+  border-bottom: 1px solid #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003336}}
+.view-announcements.view-display-id-page .views-row h2 a {
+  color: #115db1;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003345}}
 .views-responsive-grid {
   padding-left: 5px;
   padding-right: 5px;
@@ -3105,12 +3116,12 @@ h1 {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003349}}
 .views-responsive-grid .views-row {
   clear: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003352}}
 .views-responsive-grid.views-columns-2 {
   *position: relative;
   *zoom: 1;
@@ -3128,7 +3139,7 @@ h1 {
 .views-responsive-grid.views-columns-2:after {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003355}}
 .views-responsive-grid.views-columns-2 .views-column-1 {
   float: left;
   width: 50%;
@@ -3136,7 +3147,7 @@ h1 {
   margin-right: -100%;
   *margin-right: -99.9%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003358}}
 .views-responsive-grid.views-columns-2 .views-column-2 {
   float: left;
   width: 50%;
@@ -3145,7 +3156,7 @@ h1 {
   *margin-right: -99.9%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003362}}
 .views-responsive-grid.views-columns-3 {
   *position: relative;
   *zoom: 1;
@@ -3163,7 +3174,7 @@ h1 {
 .views-responsive-grid.views-columns-3:after {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003366}}
 .views-responsive-grid.views-columns-3 .views-column-1 {
   float: left;
   width: 33.33333%;
@@ -3171,7 +3182,7 @@ h1 {
   margin-right: -100%;
   *margin-right: -99.9%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003369}}
 .views-responsive-grid.views-columns-3 .views-column-2 {
   float: left;
   width: 33.33333%;
@@ -3179,7 +3190,7 @@ h1 {
   margin-right: -100%;
   *margin-right: -99.9%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003372}}
 .views-responsive-grid.views-columns-3 .views-column-3 {
   float: left;
   width: 33.33333%;
@@ -3188,7 +3199,7 @@ h1 {
   *margin-right: -99.9%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003376}}
 .views-responsive-grid.views-columns-4 {
   *position: relative;
   *zoom: 1;
@@ -3206,7 +3217,7 @@ h1 {
 .views-responsive-grid.views-columns-4:after {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003380}}
 .views-responsive-grid.views-columns-4 .views-column-1 {
   float: left;
   width: 25%;
@@ -3214,7 +3225,7 @@ h1 {
   margin-right: -100%;
   *margin-right: -99.9%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003383}}
 .views-responsive-grid.views-columns-4 .views-column-2 {
   float: left;
   width: 25%;
@@ -3222,7 +3233,7 @@ h1 {
   margin-right: -100%;
   *margin-right: -99.9%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003386}}
 .views-responsive-grid.views-columns-4 .views-column-3 {
   float: left;
   width: 25%;
@@ -3230,7 +3241,7 @@ h1 {
   margin-right: -100%;
   *margin-right: -99.9%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003389}}
 .views-responsive-grid.views-columns-4 .views-column-4 {
   float: left;
   width: 25%;
@@ -3239,7 +3250,7 @@ h1 {
   *margin-right: -99.9%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003393}}
 .views-responsive-grid.views-columns-5 {
   *position: relative;
   *zoom: 1;
@@ -3257,7 +3268,7 @@ h1 {
 .views-responsive-grid.views-columns-5:after {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003397}}
 .views-responsive-grid.views-columns-5 .views-column-1 {
   float: left;
   width: 20%;
@@ -3265,7 +3276,7 @@ h1 {
   margin-right: -100%;
   *margin-right: -99.9%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003400}}
 .views-responsive-grid.views-columns-5 .views-column-2 {
   float: left;
   width: 20%;
@@ -3273,7 +3284,7 @@ h1 {
   margin-right: -100%;
   *margin-right: -99.9%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003403}}
 .views-responsive-grid.views-columns-5 .views-column-3 {
   float: left;
   width: 20%;
@@ -3281,7 +3292,7 @@ h1 {
   margin-right: -100%;
   *margin-right: -99.9%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003406}}
 .views-responsive-grid.views-columns-5 .views-column-4 {
   float: left;
   width: 20%;
@@ -3289,7 +3300,7 @@ h1 {
   margin-right: -100%;
   *margin-right: -99.9%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003409}}
 .views-responsive-grid.views-columns-5 .views-column-5 {
   float: left;
   width: 20%;
