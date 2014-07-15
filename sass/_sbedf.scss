@@ -175,11 +175,12 @@
 // backpage address
 #block-block-9 {
   background: none repeat scroll 0 0 $yellow;
+  font-size: 0.85em;
+  padding: 0 0 1em;
   p {
+    line-height: 1.25em;
     margin: 0;
-  }
-  strong {
-    color: $blue;
+    padding: 0 0.5em;
   }
   a {
     color: $blue;
