@@ -187,11 +187,11 @@ blockquote {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_normalize\.scss}line{font-family:\00003184}}
 h1 {
   /* Set the font-size and line-height while keeping a proper vertical rhythm. */
-  font-size: 1.75em;
-  line-height: 1.71429em;
+  font-size: 2em;
+  line-height: 1.5em;
   /* Set 1 unit of vertical rhythm on the top and bottom margins. */
-  margin-top: 0.85714em;
-  margin-bottom: 0.85714em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_normalize\.scss}line{font-family:\00003192}}
@@ -1864,8 +1864,8 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/components\/_misc\.scss}line{font-family:\00003100}}
 .header__site-name {
   margin: 0;
-  font-size: 1.75em;
-  line-height: 1.71429em;
+  font-size: 2em;
+  line-height: 1.5em;
 }
 
 /* The link around the name of the website. */
