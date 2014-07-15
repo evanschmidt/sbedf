@@ -75,7 +75,7 @@ h1 {
     font-size: 1.25em;
     list-style: none outside none;
     margin: 0;
-    padding: 1em;
+    padding: 1em 0 1em 1em;
     li {
       border: none;
       padding: 5px 0 5px 10px;
@@ -87,9 +87,11 @@ h1 {
         text-decoration: none;
         line-height: 1em;
       }
+      a:hover, a.active-trail {
+      }
     }
     li.active-trail, li.active-trail a, a:hover, li:hover {
-      background: none repeat scroll 0 0 $blue;
+      background: url("../images/arrow.png") no-repeat scroll right center $blue;    
       color: $white;
     }
     li.even {
