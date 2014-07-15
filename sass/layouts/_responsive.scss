@@ -708,7 +708,7 @@ $zen-auto-include-grid-item-base: false;
     /* Span 1 column, starting in 5th column from left. */
     .region-sidebar-second {
       @include zen-grid-item(1, 5);
-      padding-top: 3em;
+      padding-top: 11em;
       h2 {
         color: $blue;
         font-weight: 200;
