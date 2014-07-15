@@ -330,8 +330,9 @@ h1 {
 //announcement layout
 .view-announcements.view-display-id-page {
   .views-row {
-    margin: 1em 0;
     border-bottom: 1px solid $grey;
+    margin: 1em 0;
+    padding: 1em 0;
     h2 {
       a {
         color: $blue;
