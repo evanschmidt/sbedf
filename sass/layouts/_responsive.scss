@@ -645,17 +645,18 @@ $zen-auto-include-grid-item-base: false;
 
   #block-views-announcements-block-1 {
     padding: 1em;
+    font-size: 0.9em;      
+    .views-row {
+      border-bottom: 1px solid $grey;
+      margin-bottom: 1em;
+    }
     .views-field-title {
-      font-weight: bold;
       a {
         text-decoration: none;
       }
       a:hover {
         text-decoration: underline;
       }
-    }
-    .views-field-body {
-      font-size: 0.9em;      
     }
   }
   /**
