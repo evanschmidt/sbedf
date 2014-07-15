@@ -342,6 +342,11 @@ $zen-auto-include-grid-item-base: false;
   #page {
     //@include zen-grid-background();
   }
+  .front {
+    #above-header {
+      padding-top: 2.6em;
+    }
+  }
   #above-header {
     @include zen-grid-item(5, 1);
     padding-top: 3.6em;
