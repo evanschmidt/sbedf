@@ -328,7 +328,9 @@ h1 {
 }
 
 //announcement layout
-.view-announcements.view-display-id-page {
+.view-announcements.view-display-id-page,
+.view-accomplishments.view-display-id-page,
+.view-edf-projects.view-display-id-page {
   .views-row {
     border-bottom: 1px solid $grey;
     margin: 1em 0;
