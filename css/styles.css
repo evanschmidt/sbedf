@@ -2792,10 +2792,10 @@ h1 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000373}}
 #block-menu-block-1 ul {
   border-bottom: 40px solid #e6ba00;
+  font-size: 1.25em;
   list-style: none outside none;
-  padding: 0;
   margin: 0;
-  font-size: 2em;
+  padding: 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000379}}
 #block-menu-block-1 ul li {
