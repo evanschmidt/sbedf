@@ -645,6 +645,18 @@ $zen-auto-include-grid-item-base: false;
 
   #block-views-announcements-block-1 {
     padding: 1em;
+    .views-field-title {
+      font-weight: bold;
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+    .views-field-body {
+      font-size: 0.9em;      
+    }
   }
   /**
    * The layout when there is only one sidebar, the left one.
@@ -699,9 +711,6 @@ $zen-auto-include-grid-item-base: false;
         color: $blue;
         font-weight: 200;
         margin-bottom: 0.5em;
-      }
-      .view-content {
-        font-size: 0.9em;
       }
     }
   }
