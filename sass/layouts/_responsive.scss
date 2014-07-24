@@ -230,6 +230,7 @@ $zen-auto-include-grid-item-base: false;
     #nice-menu-1 {
       @include zen-grid-container($context: grid-item);
       @include zen-grid-item(5, 1, left, $columns: 5);
+      @include zen-grid-background();
       font-size: 0.8em;
     }
     li:nth-child(1) {
