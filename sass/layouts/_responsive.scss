@@ -342,7 +342,7 @@ $zen-auto-include-grid-item-base: false;
             margin: 0;
             padding: 0;
             br {
-              float: left;
+              display: none;
             }
           }
         }
