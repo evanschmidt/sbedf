@@ -712,6 +712,9 @@ $zen-auto-include-grid-item-base: false;
             padding: 0;
           }
         }
+        li.first {
+          margin-top: 0;
+        }
       }
     }
     .views-field-field-why-image {
