@@ -61,6 +61,19 @@ $zen-auto-include-grid-item-base: false;
 #footer {
   @include zen-grid-container();
 }
+.views-field-field-why-tagline {
+  ul {
+    li {
+      display: inline-block;
+      margin: 0;
+      p {
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+}
 
 /* Navigation bar */
 @media all and (min-width: 480px) {
@@ -76,20 +89,6 @@ $zen-auto-include-grid-item-base: false;
     height: $nav-height;
     width: $zen-grid-width;
   }
-  .views-field-field-why-tagline {
-    ul {
-      li {
-        display: inline-block;
-        margin: 0;
-        p {
-          br {
-            display: none;
-          }
-        }
-      }
-    }
-  }
-
 }
 
 } // End of @if $zen-reverse-all-floats == true
