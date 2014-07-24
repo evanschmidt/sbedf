@@ -166,10 +166,12 @@ h1 {
     h2 {
       background: none repeat scroll 0 0 $darkgrey;
       color: $newgrey;
+      font-size: 2.3em;
       font-weight: lighter;
       margin: 1em auto;
       position: relative;
       text-align: center;
+      width: 500px;
       z-index: 1;
     } 
     .view-why-st-bernard {
@@ -219,9 +221,8 @@ h1 {
     .views-field-title {
       color: $lightestblue;
       margin: 0 0.09em;
-      padding: 0.5em 0 0.75em;
-      text-transform: uppercase;
       font-size: 1.6em;
+      text-transform: uppercase;
       letter-spacing: 0.02em;
     }
     .views-field-field-why-tagline {
@@ -229,22 +230,16 @@ h1 {
       ul {
         list-style: none inside none;
         margin: 0;
-        padding: 0 0.5em 0.5em;
         li {
           line-height: 1.25em;
-          margin: 1em 0;
           p {
             margin: 0;
             padding: 0;
           }
         }
-        li.first {
-          margin-top: 0;
-        }
       }
     }
     .views-field-field-why-image {
-      padding: 2em 0 0;
       margin: 0 0.15em;
       img {
         opacity: 0.2;
@@ -256,7 +251,6 @@ h1 {
       margin: 0 0.15em;
     }
   }
-
 //content bottom layout
 #content-bottom {
   .block {
