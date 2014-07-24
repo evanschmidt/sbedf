@@ -362,6 +362,7 @@ $zen-auto-include-grid-item-base: false;
   #content-bottom {
     $zen-columns: 3;
     //@include zen-grid-background();
+    @include zen-new-row();
     .region-content-bottom {
       padding: 4em;
     }
