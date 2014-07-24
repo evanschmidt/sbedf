@@ -158,6 +158,104 @@ h1 {
     padding: 0.25em;
   }
 }
+  // why st bernard layout
+  #block-views-why-st-bernard-block {
+    background: none repeat scroll 0 0 $darkgrey;
+    color: $lightergrey;
+    padding-top: 1em;
+    h2 {
+      background: none repeat scroll 0 0 $darkgrey;
+      color: $newgrey;
+      font-weight: lighter;
+      margin: 1em auto;
+      position: relative;
+      text-align: center;
+      z-index: 1;
+    } 
+    .view-why-st-bernard {
+      border-top: 1px solid $newgrey;
+      margin-top: -3.75em;
+      padding-top: 3.75em;
+      text-align: center;
+    }
+    .views-row {
+      margin-bottom: 1em;
+    }  
+    .views-row:nth-child(1) {
+      .views-field-title,
+      .views-field-field-why-image,
+      .views-field-field-why-tagline {
+        background: none repeat scroll 0 0 #0E4C91;
+      }
+   }
+    .views-row:nth-child(2) {
+      .views-field-title,
+      .views-field-field-why-image,
+      .views-field-field-why-tagline {
+        background: none repeat scroll 0 0 #0F529E;
+      }
+    }
+    .views-row:nth-child(3) {
+      .views-field-title,
+      .views-field-field-why-image,
+      .views-field-field-why-tagline {
+        background: none repeat scroll 0 0 #1059AA;
+      }
+    }
+    .views-row:nth-child(4) {
+      .views-field-title,
+      .views-field-field-why-image,
+      .views-field-field-why-tagline {
+        background: none repeat scroll 0 0 #115DB1;
+      }
+    }
+    .views-row:nth-child(5) {
+      .views-field-title,
+      .views-field-field-why-image,
+      .views-field-field-why-tagline {
+        background: none repeat scroll 0 0 #1262BB;
+      }
+    }
+    .views-field-title {
+      color: $lightestblue;
+      margin: 0 0.09em;
+      padding: 0.5em 0 0.75em;
+      text-transform: uppercase;
+      font-size: 1.6em;
+      letter-spacing: 0.02em;
+    }
+    .views-field-field-why-tagline {
+      margin: 0 0.15em;
+      ul {
+        list-style: none inside none;
+        margin: 0;
+        padding: 0 0.5em 0.5em;
+        li {
+          line-height: 1.25em;
+          margin: 1em 0;
+          p {
+            margin: 0;
+            padding: 0;
+          }
+        }
+        li.first {
+          margin-top: 0;
+        }
+      }
+    }
+    .views-field-field-why-image {
+      padding: 2em 0 0;
+      margin: 0 0.15em;
+      img {
+        opacity: 0.2;
+        filter: alpha(opacity=20); /* For IE8 and earlier */
+      }
+    }
+    .views-field-edit-node {
+      border: 1px solid $darkblue;
+      margin: 0 0.15em;
+    }
+  }
 
 //content bottom layout
 #content-bottom {
