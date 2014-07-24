@@ -374,8 +374,7 @@ $zen-auto-include-grid-item-base: false;
       margin-bottom: 1em;
     }
     .block {
-      min-height: 250px;
-      margin-top: 1em;
+      border-bottom: 1px solid $blue;
       p {
         margin: 0.5em 3em 0.5em 0;
       }
