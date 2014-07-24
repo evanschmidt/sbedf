@@ -286,7 +286,7 @@ $zen-auto-include-grid-item-base: false;
       }
     }
     .views-row:nth-child(3) {
-      @include zen-grid-item(1, 4);
+      @include zen-grid-item(1, 5);
       .views-field-title,
       .views-field-field-why-image,
       .views-field-field-why-tagline {
