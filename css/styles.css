@@ -1657,7 +1657,7 @@ table {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003596}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline ul li p br {
-    display: block;
+    display: inline;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003601}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline ul li.first {
