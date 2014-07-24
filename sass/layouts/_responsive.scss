@@ -699,7 +699,7 @@ $zen-auto-include-grid-item-base: false;
     .views-field-field-why-tagline {
 //      background: none repeat scroll 0 0 $darkblue;
       margin: 0 0.15em;
-      height: 200px;
+      //height: 200px;
       ul {
         list-style: none inside none;
         margin: 0;
@@ -719,6 +719,7 @@ $zen-auto-include-grid-item-base: false;
     }
     .views-field-field-why-image {
       padding: 1em;
+      margin: 0 0.15em;
       img {
         opacity: 0.2;
         filter: alpha(opacity=20); /* For IE8 and earlier */
