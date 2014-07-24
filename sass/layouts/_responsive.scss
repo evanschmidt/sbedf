@@ -258,7 +258,7 @@ $zen-auto-include-grid-item-base: false;
     } 
     .view-why-st-bernard {
       @include zen-grid-container($context:  none);
-      @include zen-grid-item(5, 1, $columns: 5);    
+      @include zen-grid-item(5, 1, $columns: 3);    
       //@include zen-grid-background();
       border-top: 1px solid $newgrey;
       margin-top: -3em;
@@ -270,7 +270,7 @@ $zen-auto-include-grid-item-base: false;
       min-height: 235px;
     }  
     .views-row:nth-child(1) {
-      @include zen-grid-item(2, 1);
+      @include zen-grid-item(1, 1);
       .views-field-title,
       .views-field-field-why-image,
       .views-field-field-why-tagline {
@@ -278,7 +278,7 @@ $zen-auto-include-grid-item-base: false;
       }
    }
     .views-row:nth-child(2) {
-      @include zen-grid-item(2, 3);
+      @include zen-grid-item(1, 2);
       .views-field-title,
       .views-field-field-why-image,
       .views-field-field-why-tagline {
@@ -286,7 +286,7 @@ $zen-auto-include-grid-item-base: false;
       }
     }
     .views-row:nth-child(3) {
-      @include zen-grid-item(1, 5);
+      @include zen-grid-item(1, 3);
       .views-field-title,
       .views-field-field-why-image,
       .views-field-field-why-tagline {
@@ -294,8 +294,8 @@ $zen-auto-include-grid-item-base: false;
       }
     }
     .views-row:nth-child(4) {
-      @include zen-grid-item(2, 1);
-      @include zen-new-row();
+      display: none;
+      @include zen-grid-item(1, 4);
       .views-field-title,
       .views-field-field-why-image,
       .views-field-field-why-tagline {
@@ -303,7 +303,8 @@ $zen-auto-include-grid-item-base: false;
       }
     }
     .views-row:nth-child(5) {
-      @include zen-grid-item(2, 3);
+      display: none;
+      @include zen-grid-item(1, 5);
       .views-field-title,
       .views-field-field-why-image,
       .views-field-field-why-tagline {
