@@ -80,7 +80,9 @@ $zen-auto-include-grid-item-base: false;
     }
   }
 }
-
+#above-header {
+  display: none;
+}
 /* Navigation bar */
 @media all and (min-width: 480px) {
   #main {
@@ -112,6 +114,7 @@ $zen-auto-include-grid-item-base: false;
     //@include zen-grid-background();
   }
   #above-header {
+    display: block;
     $zen-columns: 5;
     @include zen-grid-item(5, 1);
     padding-top: 2.6em;
@@ -440,6 +443,7 @@ $zen-auto-include-grid-item-base: false;
     }
   }
   #above-header {
+    display: block;
     @include zen-grid-item(5, 1);
     padding-top: 3.6em;
     margin-bottom: -1.1em;
