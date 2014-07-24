@@ -275,7 +275,6 @@ $zen-auto-include-grid-item-base: false;
       ul {
         padding: 1em 0.5em 0.5em;
         li {
-          display: inline-block;
           line-height: 1.25em;
           margin: 0;
           p {
@@ -593,6 +592,7 @@ $zen-auto-include-grid-item-base: false;
       ul {
         padding: 0 0.5em 0.5em;
         li {
+          display: block;          
           line-height: 1.25em;
           margin: 1em 0;
           p {
