@@ -76,6 +76,20 @@ $zen-auto-include-grid-item-base: false;
     height: $nav-height;
     width: $zen-grid-width;
   }
+  .views-field-field-why-tagline {
+    ul {
+      li {
+        display: inline-block;
+        margin: 0;
+        p {
+          br {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
 }
 
 } // End of @if $zen-reverse-all-floats == true
@@ -590,12 +604,12 @@ $zen-auto-include-grid-item-base: false;
       ul {
         padding: 0 0.5em 0.5em;
         li {
-          display: block!important;
+          display: block;
           line-height: 1.25em;
-          margin: 1em 0!important;
+          margin: 1em 0;
           p {
             br {
-              display: block!important;
+              display: block;
             }
           }
         }
