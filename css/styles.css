@@ -1760,7 +1760,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003692}}
   #block-views-why-st-bernard-block .views-field-title {
     margin: 0 0.09em;
-    padding: 1.5em 1em 0;
+    padding: 0.5em 1em 0.75em;
     text-transform: uppercase;
     font-size: 1.6em;
   }
@@ -1790,7 +1790,7 @@ table {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003720}}
   #block-views-why-st-bernard-block .views-field-field-why-image {
-    padding: 1em;
+    padding: 1em 0 0;
     margin: 0 0.15em;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003723}}
