@@ -575,7 +575,7 @@ $zen-auto-include-grid-item-base: false;
     @include zen-grid-item-base();
     @include zen-grid-container($context: flow);
     @include zen-grid-item(5, 1, $columns: 5, $gutters: 40px);
-    height: 375px;
+    height: 475px;
     h2 {
     } 
     .view-why-st-bernard {
