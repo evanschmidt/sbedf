@@ -587,16 +587,14 @@ $zen-auto-include-grid-item-base: false;
     }
     #block-nice-menus-1 {
       @include zen-grid-container($context: grid-item);
-      @include zen-grid-item(4, 2, left, $columns: 6);      
+      @include zen-grid-item(4, 2, left, $columns: 5);      
     }
     #nice-menu-1 {
       @include zen-grid-container($context: grid-item);
-      @include zen-grid-item(6, 1, left, $columns: 6);
-      @include zen-grid-background();
+      @include zen-grid-item(5, 1, left, $columns: 6);
     }
     li:nth-child(1) {
       @include zen-grid-item(1, 1);
-      @include zen-grid-background();
     }
     li:nth-child(2) {
       @include zen-grid-item(1, 2);
