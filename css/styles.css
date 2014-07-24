@@ -1652,13 +1652,13 @@ table {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003592}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline ul li {
-    display: block;
+    display: block !important;
     line-height: 1.25em;
     margin: 1em 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003597}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline ul li p br {
-    display: inline-block;
+    display: block !important;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003602}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline ul li.first {
