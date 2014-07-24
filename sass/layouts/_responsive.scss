@@ -259,7 +259,7 @@ $zen-auto-include-grid-item-base: false;
     .view-why-st-bernard {
       @include zen-grid-container($context:  none);
       @include zen-grid-item(3, 1, $columns: 3);    
-      //@include zen-grid-background();
+      @include zen-grid-background();
       border-top: 1px solid $newgrey;
       margin-top: -3em;
       padding-top: 3em;
