@@ -719,6 +719,10 @@ $zen-auto-include-grid-item-base: false;
     }
     .views-field-field-why-image {
       padding: 1em;
+      img {
+        opacity: 0.4;
+        filter: alpha(opacity=40); /* For IE8 and earlier */
+      }
     }
     .views-field-edit-node {
       border: 1px solid $darkblue;
