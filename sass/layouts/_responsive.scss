@@ -261,6 +261,7 @@ $zen-auto-include-grid-item-base: false;
     @include zen-grid-item(5, 1, $columns: 5, $gutters: 40px);
     h2 {
       font-size: 2.3em;
+      width: 500px;
     } 
     .view-why-st-bernard {
       @include zen-grid-container($context:  none);
@@ -584,6 +585,7 @@ $zen-auto-include-grid-item-base: false;
     height: 475px;
     h2 {
       font-size: 2.3em;
+      width: 500px;
     } 
     .view-why-st-bernard {
       @include zen-grid-container($context:  none);
