@@ -342,7 +342,10 @@ $zen-auto-include-grid-item-base: false;
             margin: 0;
             padding: 0;
             br {
-              display: inline;
+              float: left;
+            }
+            br::after {
+              content: "\0000a0";
             }
           }
         }
