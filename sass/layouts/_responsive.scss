@@ -61,14 +61,20 @@ $zen-auto-include-grid-item-base: false;
 #footer {
   @include zen-grid-container();
 }
-.views-field-field-why-tagline {
-  ul {
-    li {
-      display: inline-block;
-      margin: 0;
-      p {
-        br {
-          display: none;
+
+#block-views-why-st-bernard-block {
+  h2 {
+    font-size: 1.3em;
+  } 
+  .views-field-field-why-tagline {
+    ul {
+      li {
+        display: inline-block;
+        margin: 0;
+        p {
+          br {
+            display: none;
+          }
         }
       }
     }
@@ -254,6 +260,7 @@ $zen-auto-include-grid-item-base: false;
     @include zen-grid-container($context: flow);
     @include zen-grid-item(5, 1, $columns: 5, $gutters: 40px);
     h2 {
+      font-size: 2.3em;
     } 
     .view-why-st-bernard {
       @include zen-grid-container($context:  none);
@@ -576,6 +583,7 @@ $zen-auto-include-grid-item-base: false;
     @include zen-grid-item(5, 1, $columns: 5, $gutters: 40px);
     height: 475px;
     h2 {
+      font-size: 2.3em;
     } 
     .view-why-st-bernard {
       @include zen-grid-container($context:  none);
