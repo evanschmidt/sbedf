@@ -720,8 +720,8 @@ $zen-auto-include-grid-item-base: false;
     .views-field-field-why-image {
       padding: 1em;
       img {
-        opacity: 0.4;
-        filter: alpha(opacity=40); /* For IE8 and earlier */
+        opacity: 0.2;
+        filter: alpha(opacity=20); /* For IE8 and earlier */
       }
     }
     .views-field-edit-node {

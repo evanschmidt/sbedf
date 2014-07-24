@@ -1795,8 +1795,8 @@ table {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003722}}
   #block-views-why-st-bernard-block .views-field-field-why-image img {
-    opacity: 0.4;
-    filter: alpha(opacity=40);
+    opacity: 0.2;
+    filter: alpha(opacity=20);
     /* For IE8 and earlier */
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003727}}
