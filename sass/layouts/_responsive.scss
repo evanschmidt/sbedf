@@ -244,7 +244,7 @@ $zen-auto-include-grid-item-base: false;
     background: none repeat scroll 0 0 $darkgrey;
     color: $lightergrey;
     padding-top: 1em;
-    height: 375px;
+    height: 475px;
     h2 {
       background: none repeat scroll 0 0 $darkgrey;
       color: $newgrey;
@@ -259,7 +259,7 @@ $zen-auto-include-grid-item-base: false;
     .view-why-st-bernard {
       @include zen-grid-container($context:  none);
       @include zen-grid-item(5, 1, $columns: 5);    
-      @include zen-grid-background();
+      //@include zen-grid-background();
       border-top: 1px solid $newgrey;
       margin-top: -3em;
       padding-top: 3em;
