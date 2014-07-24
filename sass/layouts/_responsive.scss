@@ -619,7 +619,7 @@ $zen-auto-include-grid-item-base: false;
     background: none repeat scroll 0 0 $darkgrey;
     color: $lightergrey;
     padding-top: 1em;
-    height: 375px;
+    height: 450px;
     h2 {
       background: none repeat scroll 0 0 $darkgrey;
       color: $newgrey;
@@ -642,7 +642,6 @@ $zen-auto-include-grid-item-base: false;
     }
     .views-row {
       margin-bottom: 1em;
-      min-height: 235px;
     }  
     .views-row:nth-child(1) {
       @include zen-grid-item(1, 1);
