@@ -110,7 +110,9 @@ $zen-auto-include-grid-item-base: false;
       margin-bottom: -100%;
       padding: 1em 2em 0.75em 2em;
       position: absolute;
-      top: 31.5%;      
+      top: 31.5%;
+      width: 270px;
+
     }
   }
   #header {
@@ -178,6 +180,7 @@ $zen-auto-include-grid-item-base: false;
     }
     #block-block-6 {
       //background: none repeat scroll 0 0 $darkblue;
+      font-size: 0.75em;
       margin-bottom: -0.475em;
       h2 {
         //display: none;
