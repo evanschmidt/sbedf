@@ -365,7 +365,7 @@ $zen-auto-include-grid-item-base: false;
     $zen-columns: 3;
     //@include zen-grid-background();
     .region-content-bottom {
-      padding: 4em;
+      padding: 0 4em;
     }
     h2 {
       color: $blue;
@@ -374,7 +374,6 @@ $zen-auto-include-grid-item-base: false;
       margin-bottom: 1em;
     }
     .block {
-      border-bottom: 1px solid $blue;
       p {
         margin: 0.5em 3em 0.5em 0;
       }
@@ -385,10 +384,12 @@ $zen-auto-include-grid-item-base: false;
     .block:nth-child(1) {
       @include zen-grid-item(3, 1);
       @include zen-new-row();
+      border-bottom: 1px solid $blue;
     }
     .block:nth-child(2) {
       @include zen-grid-item(3, 1);
       @include zen-new-row();
+      border-bottom: 1px solid $blue;
     }
     .block:nth-child(3) {
       @include zen-grid-item(3, 1);
