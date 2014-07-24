@@ -343,10 +343,11 @@ $zen-auto-include-grid-item-base: false;
             padding: 0;
             br {
               float: left;
+              border: 1px solid #000;
 
             }
             br::after {
-              content: "hello";
+              content: "\00a0\00a0";
             }
           }
         }
