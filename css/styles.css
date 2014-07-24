@@ -1136,7 +1136,7 @@ table {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003347}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline ul li p br::after {
-    content: "\00a0";
+    content: "\00a0-\00a0";
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003354}}
   #block-views-why-st-bernard-block .views-field-field-why-image {
