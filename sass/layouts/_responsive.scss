@@ -269,45 +269,40 @@ $zen-auto-include-grid-item-base: false;
     }  
     .views-row:nth-child(1) {
       @include zen-grid-item(1, 1);
-      .views-field-title {
-        background: none repeat scroll 0 0 #0E4C91;
-      }
+      .views-field-title,
+      .views-field-field-why-image,
       .views-field-field-why-tagline {
         background: none repeat scroll 0 0 #0E4C91;
       }
    }
     .views-row:nth-child(2) {
       @include zen-grid-item(1, 2);
-      .views-field-title {
-        background: none repeat scroll 0 0 #0F529E;
-      }
+      .views-field-title,
+      .views-field-field-why-image,
       .views-field-field-why-tagline {
         background: none repeat scroll 0 0 #0F529E;
       }
     }
     .views-row:nth-child(3) {
       @include zen-grid-item(1, 3);
-      .views-field-title {
-        background: none repeat scroll 0 0 #1059AA;
-      }
+      .views-field-title,
+      .views-field-field-why-image,
       .views-field-field-why-tagline {
         background: none repeat scroll 0 0 #1059AA;
       }
     }
     .views-row:nth-child(4) {
       @include zen-grid-item(1, 4);
-      .views-field-title {
-        background: none repeat scroll 0 0 #115DB1;
-      }
+      .views-field-title,
+      .views-field-field-why-image,
       .views-field-field-why-tagline {
         background: none repeat scroll 0 0 #115DB1;
       }
     }
     .views-row:nth-child(5) {
       @include zen-grid-item(1, 5);
-      .views-field-title {
-        background: none repeat scroll 0 0 #1262BB;
-      }
+      .views-field-title,
+      .views-field-field-why-image,
       .views-field-field-why-tagline {
         background: none repeat scroll 0 0 #1262BB;
       }
@@ -651,45 +646,40 @@ $zen-auto-include-grid-item-base: false;
     }  
     .views-row:nth-child(1) {
       @include zen-grid-item(1, 1);
-      .views-field-title {
-        background: none repeat scroll 0 0 #0E4C91;
-      }
+      .views-field-title,
+      .views-field-field-why-image,
       .views-field-field-why-tagline {
         background: none repeat scroll 0 0 #0E4C91;
       }
    }
     .views-row:nth-child(2) {
       @include zen-grid-item(1, 2);
-      .views-field-title {
-        background: none repeat scroll 0 0 #0F529E;
-      }
+      .views-field-title,
+      .views-field-field-why-image,
       .views-field-field-why-tagline {
         background: none repeat scroll 0 0 #0F529E;
       }
     }
     .views-row:nth-child(3) {
       @include zen-grid-item(1, 3);
-      .views-field-title {
-        background: none repeat scroll 0 0 #1059AA;
-      }
+      .views-field-title,
+      .views-field-field-why-image,
       .views-field-field-why-tagline {
         background: none repeat scroll 0 0 #1059AA;
       }
     }
     .views-row:nth-child(4) {
       @include zen-grid-item(1, 4);
-      .views-field-title {
-        background: none repeat scroll 0 0 #115DB1;
-      }
+      .views-field-title,
+      .views-field-field-why-image,
       .views-field-field-why-tagline {
         background: none repeat scroll 0 0 #115DB1;
       }
     }
     .views-row:nth-child(5) {
       @include zen-grid-item(1, 5);
-      .views-field-title {
-        background: none repeat scroll 0 0 #1262BB;
-      }
+      .views-field-title,
+      .views-field-field-why-image,
       .views-field-field-why-tagline {
         background: none repeat scroll 0 0 #1262BB;
       }
