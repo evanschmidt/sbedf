@@ -655,8 +655,8 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-item(5, 1, $columns: 5);    
       //@include zen-grid-background();
       border-top: 1px solid $newgrey;
-      margin-top: -3em;
-      padding-top: 3em;
+      margin-top: -3.75em;
+      padding-top: 3.75em;
       text-align: center;
     }
     .views-row {
