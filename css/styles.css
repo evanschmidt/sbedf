@@ -1123,7 +1123,7 @@ table {
   #block-views-why-st-bernard-block .views-field-field-why-tagline ul li {
     display: inline-block;
     line-height: 1.25em;
-    margin: 1em 0;
+    margin: 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003341}}
   #block-views-why-st-bernard-block .views-field-field-why-tagline ul li p {
