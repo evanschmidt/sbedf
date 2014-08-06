@@ -563,22 +563,22 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-item(3, 2);
     }
     li:nth-child(2) {
-      @include zen-grid-item(3, 5);
+      @include zen-grid-item(3, 21);
     }
     li:nth-child(3) {
-      @include zen-grid-item(3, 7);
+      @include zen-grid-item(3, 21);
     }
     li:nth-child(4) {
-      @include zen-grid-item(3, 9);
+      @include zen-grid-item(3, 21);
     }
     li:nth-child(5) {
-      @include zen-grid-item(3, 11);
+      @include zen-grid-item(3, 21);
     }
     li:nth-child(6) {
-      @include zen-grid-item(3, 13);
+      @include zen-grid-item(3, 21);
     }
     li:nth-child(7) {
-      @include zen-grid-item(3, 15);
+      @include zen-grid-item(3, 21);
     }
   }
   // why st bernard layout
