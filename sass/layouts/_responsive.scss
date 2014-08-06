@@ -554,31 +554,31 @@ $zen-auto-include-grid-item-base: false;
     }
     #nice-menu-1 {
       @include zen-grid-container($context: grid-item);
-      $zen-columns:  12;
+      $zen-columns:  7;
       $zen-gutters: 0;
-      @include zen-grid-item(12, 1, left, $columns: 12);
+      @include zen-grid-item(7, 1, left, $columns: 7);
       @include zen-grid-background();
     }
     li:nth-child(1) {
-      @include zen-grid-item(2, 1);
+      @include zen-grid-item(1, 2);
     }
     li:nth-child(2) {
-      @include zen-grid-item(2, 3);
+      @include zen-grid-item(1, 3);
     }
     li:nth-child(3) {
-      @include zen-grid-item(2, 5);
+      @include zen-grid-item(1, 4);
     }
     li:nth-child(4) {
-      @include zen-grid-item(2, 7);
+      @include zen-grid-item(1, 5);
     }
     li:nth-child(5) {
-      @include zen-grid-item(2, 9);
+      @include zen-grid-item(1, 6);
     }
     li:nth-child(6) {
-      @include zen-grid-item(2, 11);
+      @include zen-grid-item(1, 7);
     }
     li:nth-child(7) {
-      @include zen-grid-item(1, 7);
+      @include zen-grid-item(1, 8);
     }
   }
   // why st bernard layout
