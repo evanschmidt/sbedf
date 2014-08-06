@@ -557,7 +557,7 @@ $zen-auto-include-grid-item-base: false;
       $zen-columns:  19;
       $zen-gutters: 0;
       @include zen-grid-item(19, 1, left);
-      @include zen-grid-background();
+      //@include zen-grid-background();
     }
     li:nth-child(1) {
       @include zen-grid-item(3, 2);
