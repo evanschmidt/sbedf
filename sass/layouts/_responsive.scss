@@ -554,9 +554,9 @@ $zen-auto-include-grid-item-base: false;
     }
     #nice-menu-1 {
       @include zen-grid-container($context: grid-item);
-      $zen-columns:  14;
-      $zen-gutters: 0;
-      @include zen-grid-item(14, 1, left);
+//      $zen-columns:  14;
+ //     $zen-gutters: 0;
+      @include zen-grid-item(14, 1, left, $columns: 14, $gutters: 0);
       @include zen-grid-background();
     }
     li:nth-child(1) {
