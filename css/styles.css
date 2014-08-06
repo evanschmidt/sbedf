@@ -1523,7 +1523,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003562}}
   #header li:nth-child(1) {
     float: left;
-    width: 8.33333%;
+    width: 16.66667%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -1531,40 +1531,40 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003565}}
   #header li:nth-child(2) {
     float: left;
-    width: 8.33333%;
-    margin-left: 8.33333%;
+    width: 16.66667%;
+    margin-left: 16.66667%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003568}}
   #header li:nth-child(3) {
     float: left;
-    width: 8.33333%;
-    margin-left: 16.66667%;
+    width: 16.66667%;
+    margin-left: 33.33333%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003571}}
   #header li:nth-child(4) {
     float: left;
-    width: 8.33333%;
-    margin-left: 25%;
+    width: 16.66667%;
+    margin-left: 50%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003574}}
   #header li:nth-child(5) {
     float: left;
-    width: 8.33333%;
-    margin-left: 33.33333%;
+    width: 16.66667%;
+    margin-left: 66.66667%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003577}}
   #header li:nth-child(6) {
     float: left;
-    width: 8.33333%;
-    margin-left: 41.66667%;
+    width: 16.66667%;
+    margin-left: 83.33333%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
