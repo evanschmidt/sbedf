@@ -1607,7 +1607,8 @@ table {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003592}}
   #block-views-why-st-bernard-block h2 {
-    font-size: 2.3em;
+    font-size: 2.9em;
+    width: 875px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003596}}
   #block-views-why-st-bernard-block .view-why-st-bernard {
