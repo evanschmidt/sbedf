@@ -3300,7 +3300,7 @@ h1 {
 .view-edf-projects.view-display-id-page .views-row .field-name-field-image,
 .view-featured-property.view-display-id-page .views-row .field-name-field-image {
   float: left;
-  padding: 1em 1em 1em 0;
+  padding: 1.75em 1em 1em 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003455}}
