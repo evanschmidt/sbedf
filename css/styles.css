@@ -1379,7 +1379,7 @@ table {
     font-weight: bold;
     line-height: 1.25em;
     margin: 0.5em 0;
-    padding: 0 0.5em;
+    padding: 0 1em;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003490}}
   #header .block {
@@ -1390,7 +1390,7 @@ table {
   #header .block p {
     line-height: 1.25em;
     margin: 0;
-    padding: 0 0.5em;
+    padding: 0 1em;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003499}}
   #header #logo {
