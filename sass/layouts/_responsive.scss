@@ -549,13 +549,13 @@ $zen-auto-include-grid-item-base: false;
     }
     #block-nice-menus-1 {
       @include zen-grid-container($context: grid-item);
-      @include zen-grid-item(4, 2, left, $columns: 12, $gutters:0);
+      @include zen-grid-item(4, 2, left, $columns: 5);
       //@include zen-grid-background();
     }
     #nice-menu-1 {
       @include zen-grid-container($context: grid-item);
-      //$zen-columns:  12;
-      //$zen-gutters: 0;
+      $zen-columns:  12;
+      $zen-gutters: 0;
       @include zen-grid-item(12, 1, left, $columns: 12);
       @include zen-grid-background();
     }
