@@ -550,7 +550,7 @@ $zen-auto-include-grid-item-base: false;
     #block-nice-menus-1 {
       @include zen-grid-container($context: grid-item);
       @include zen-grid-item(4, 2, left, $columns: 5);
-      @include zen-grid-background();
+      //@include zen-grid-background();
     }
     #nice-menu-1 {
       @include zen-grid-container($context: grid-item);
