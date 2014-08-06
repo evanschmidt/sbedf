@@ -549,11 +549,11 @@ $zen-auto-include-grid-item-base: false;
     }
     #block-nice-menus-1 {
       @include zen-grid-container($context: grid-item);
-      @include zen-grid-item(4, 2, left, $columns: 5);      
+      @include zen-grid-item(4, 2, left, $columns: 6);      
     }
     #nice-menu-1 {
       @include zen-grid-container($context: grid-item);
-      @include zen-grid-item(5, 1, left, $columns: 7);
+      @include zen-grid-item(6, 1, left, $columns: 7);
     }
     li:nth-child(1) {
       @include zen-grid-item(1, 2);
