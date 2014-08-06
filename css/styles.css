@@ -3112,7 +3112,6 @@ h1 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003288}}
 #block-block-9 {
   font-size: 0.85em;
-  padding: 1em 0 1em 1.25em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003291}}
 #block-block-9 h2 {
@@ -3121,13 +3120,13 @@ h1 {
   font-weight: bold;
   line-height: 1.25em;
   margin: 0.5em 0;
-  padding: 0 0.5em;
+  padding: 0 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003299}}
 #block-block-9 p {
   line-height: 1.25em;
   margin: 0;
-  padding: 0 0.5em;
+  padding: 0 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003304}}
 #block-block-9 a {
