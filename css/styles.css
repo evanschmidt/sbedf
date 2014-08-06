@@ -3294,11 +3294,11 @@ h1 {
   color: #115db1;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003446}}
-.view-announcements.view-display-id-page .views-row h2 .field-name-field-image,
-.view-accomplishments.view-display-id-page .views-row h2 .field-name-field-image,
-.view-edf-projects.view-display-id-page .views-row h2 .field-name-field-image,
-.view-featured-property.view-display-id-page .views-row h2 .field-name-field-image {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003447}}
+.view-announcements.view-display-id-page .views-row .field-name-field-image,
+.view-accomplishments.view-display-id-page .views-row .field-name-field-image,
+.view-edf-projects.view-display-id-page .views-row .field-name-field-image,
+.view-featured-property.view-display-id-page .views-row .field-name-field-image {
   float: left;
   padding: 1em 1em 1em 0;
 }
