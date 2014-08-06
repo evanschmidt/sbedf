@@ -3119,13 +3119,13 @@ h1 {
   font-size: 1em;
   font-weight: bold;
   line-height: 1.25em;
-  margin: 0.5em 0;
+  margin: 0.5em 0 0.5em -5px;
   padding: 0 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003299}}
 #block-block-9 p {
   line-height: 1.25em;
-  margin: 0;
+  margin: 0 0 0 -5px;
   padding: 0 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003304}}
