@@ -585,6 +585,8 @@ $zen-auto-include-grid-item-base: false;
   #block-views-why-st-bernard-block {
     @include zen-grid-item-base();
     @include zen-grid-container($context: flow);
+    $zen-columns:  5;
+    $zen-gutters: 40px;
     @include zen-grid-item(5, 1, $columns: 5, $gutters: 40px);
     height: 450px;
     h2 {
