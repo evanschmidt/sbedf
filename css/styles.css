@@ -1503,7 +1503,7 @@ table {
     padding-left: 0;
     padding-right: 0;
     float: left;
-    width: 83.33333%;
+    width: 71.42857%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -1521,7 +1521,7 @@ table {
   #header li:nth-child(1) {
     float: left;
     width: 20%;
-    margin-left: 0%;
+    margin-left: 20%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
@@ -1529,7 +1529,7 @@ table {
   #header li:nth-child(2) {
     float: left;
     width: 20%;
-    margin-left: 20%;
+    margin-left: 40%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
@@ -1537,7 +1537,7 @@ table {
   #header li:nth-child(3) {
     float: left;
     width: 20%;
-    margin-left: 40%;
+    margin-left: 60%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
@@ -1545,7 +1545,7 @@ table {
   #header li:nth-child(4) {
     float: left;
     width: 20%;
-    margin-left: 60%;
+    margin-left: 80%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
@@ -1553,7 +1553,7 @@ table {
   #header li:nth-child(5) {
     float: left;
     width: 20%;
-    margin-left: 80%;
+    margin-left: 100%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
@@ -1561,7 +1561,7 @@ table {
   #header li:nth-child(6) {
     float: left;
     width: 20%;
-    margin-left: 100%;
+    margin-left: 120%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
@@ -1569,7 +1569,7 @@ table {
   #header li:nth-child(7) {
     float: left;
     width: 20%;
-    margin-left: 120%;
+    margin-left: 140%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
