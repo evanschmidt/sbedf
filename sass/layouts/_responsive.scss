@@ -586,8 +586,8 @@ $zen-auto-include-grid-item-base: false;
     @include zen-grid-item-base();
     @include zen-grid-container($context: flow);
     $zen-columns:  5;
-    $zen-gutters: 10px;
-    @include zen-grid-item(5, 1, $columns: 5, $gutters: 10px);
+    $zen-gutters: 40px;
+    @include zen-grid-item(5, 1, $columns: 5, $gutters: 40px);
     height: 450px;
     h2 {
       font-size: 2.9em;
@@ -614,12 +614,14 @@ $zen-auto-include-grid-item-base: false;
     }
     .views-field-title {
       @include zen-grid-container($context: grid-item);
+      $zen-gutters: 40px;
       @include zen-grid-item(5, 1);
       @include zen-grid-background();  
       //padding: 0.5em 0 0.75em;
     }
     .views-field-field-why-tagline {
       @include zen-grid-container($context: grid-item);
+      $zen-gutters: 40px;
       @include zen-grid-item(5, 1);
       @include zen-grid-background();  
       ul {
@@ -641,6 +643,7 @@ $zen-auto-include-grid-item-base: false;
     }
     .views-field-field-why-image {
       @include zen-grid-container($context: grid-item);
+      $zen-gutters: 40px;
       @include zen-grid-item(5, 1);
       @include zen-grid-background();  
       //padding: 2em 0 0;
