@@ -597,7 +597,8 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-container($context:  none);
       $zen-columns:  5;
       $zen-gutters: 40px;
-      @include zen-grid-item(5, 1, $columns: 5);    
+      @include zen-grid-item(5, 1, $columns: 5); 
+      @include zen-grid-background();  
     }
     .views-row:nth-child(1) {
       @include zen-grid-item(1, 1);
