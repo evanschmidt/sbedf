@@ -456,7 +456,6 @@ $zen-auto-include-grid-item-base: false;
   }
   .front {
     #home-above-header {
-      position: relative;
     @include zen-grid-item(5, 1);
       padding-top: 0;
       .views-field-field-header-text {
@@ -469,8 +468,7 @@ $zen-auto-include-grid-item-base: false;
         margin-bottom: -100%;
         padding: 1.5em 0 0 2em;
         position: absolute;
-        //top: 23.5%;
-        bottom: 0;
+        top: 25%;
         width: 470px;
       }
     }
