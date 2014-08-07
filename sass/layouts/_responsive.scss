@@ -613,6 +613,7 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-item(1, 5);
     }
     .views-field-title {
+      @include zen-grid-item-base();
       @include zen-grid-container($context: grid-item);
       $zen-gutters: 40px;
       @include zen-grid-item(5, 1);
@@ -620,7 +621,8 @@ $zen-auto-include-grid-item-base: false;
       //padding: 0.5em 0 0.75em;
     }
     .views-field-field-why-tagline {
-      @include zen-grid-container($context: none);
+      @include zen-grid-item-base();
+      @include zen-grid-container($context: flow);
       $zen-gutters: 40px;
       @include zen-grid-item(5, 1);
       @include zen-grid-background();  
@@ -642,6 +644,7 @@ $zen-auto-include-grid-item-base: false;
       }
     }
     .views-field-field-why-image {
+      @include zen-grid-item-base();
       @include zen-grid-container($context: grid-item);
       $zen-gutters: 40px;
       @include zen-grid-item(5, 1);
