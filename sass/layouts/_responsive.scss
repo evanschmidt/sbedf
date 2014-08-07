@@ -586,8 +586,8 @@ $zen-auto-include-grid-item-base: false;
     @include zen-grid-item-base();
     @include zen-grid-container($context: flow);
     $zen-columns:  5;
-    $zen-gutters: 40px;
-    @include zen-grid-item(5, 1, $columns: 5, $gutters: 40px);
+    $zen-gutters: 10px;
+    @include zen-grid-item(5, 1, $columns: 5, $gutters: 10px);
     height: 450px;
     h2 {
       font-size: 2.9em;
@@ -596,6 +596,7 @@ $zen-auto-include-grid-item-base: false;
     .view-why-st-bernard {
       @include zen-grid-container($context:  none);
       @include zen-grid-item(5, 1, $columns: 5); 
+      @include zen-grid-background();  
     }
     .views-row:nth-child(1) {
       @include zen-grid-item(1, 1);
@@ -613,21 +614,11 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-item(1, 5);
     }
     .views-field-title {
-      @include zen-grid-item-base();
-      @include zen-grid-container($context: grid-item);
-      $zen-gutters: 40px;
-      @include zen-grid-item(5, 1);
-      @include zen-grid-background();  
-      //padding: 0.5em 0 0.75em;
+      padding: 0.5em 0 0.75em;
     }
     .views-field-field-why-tagline {
-      @include zen-grid-item-base();
-      @include zen-grid-container($context: flow);
-      $zen-gutters: 40px;
-      @include zen-grid-item(5, 1);
-      @include zen-grid-background();  
       ul {
-        //padding: 0 0.5em 0.5em;
+        padding: 0 0.5em 0.5em;
         li {
           display: block;
           line-height: 1.25em;
@@ -644,12 +635,7 @@ $zen-auto-include-grid-item-base: false;
       }
     }
     .views-field-field-why-image {
-      @include zen-grid-item-base();
-      @include zen-grid-container($context: grid-item);
-      $zen-gutters: 40px;
-      @include zen-grid-item(5, 1);
-      @include zen-grid-background();  
-      //padding: 2em 0 0;
+      padding: 2em 0 0;
     }
   }
   #content-bottom {
