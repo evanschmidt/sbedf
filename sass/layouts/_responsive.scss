@@ -446,7 +446,7 @@ $zen-auto-include-grid-item-base: false;
     padding-top: 3.6em;
     margin-bottom: -1.1em;
     .block {
-      @include zen-grid-item(5, 1, left);      
+      @include zen-grid-item(4, 1, right);      
     }
     .views-field-field-header-text {
       background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
