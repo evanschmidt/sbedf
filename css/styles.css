@@ -714,11 +714,11 @@ table {
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
     color: #333333;
     font-size: 1.875em;
-    float: right;
+    float: left;
     width: 33.33333%;
-    margin-right: 0%;
-    margin-left: -100%;
-    *margin-left: -99.9%;
+    margin-left: 33.33333%;
+    margin-right: -100%;
+    *margin-right: -99.9%;
     height: 3.25em;
     line-height: 1em;
     margin-bottom: -100%;
