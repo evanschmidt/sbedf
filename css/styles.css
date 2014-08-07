@@ -3259,7 +3259,7 @@ h1 {
 #block-views-header-images-block .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
-  background-color: #ffffff;
+  background-color: transparent;
   text-align: center;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003373}}
