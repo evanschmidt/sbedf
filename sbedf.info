@@ -85,6 +85,7 @@ stylesheets[all][] = css/styles.css
 ; And you'll use this variable in maintenance-page.tpl.php:
 ;   <?php print $header_top; ?>
 
+regions[home_above_header]   = Home Above Header
 regions[above_header]   = Above Header
 regions[header]         = Header
 regions[navigation]     = Navigation bar

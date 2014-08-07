@@ -7,12 +7,15 @@
  * @see https://drupal.org/node/1728148
  */
 ?>
+  <div class="home-above-header" id="home-above-header">
+    <?php print render($page['home_above_header']); ?>
+  </div>
+
+<div id="page">
 
   <div class="above-header" id="above-header">
     <?php print render($page['above_header']); ?>
   </div>
-
-<div id="page">
 
   <header class="header" id="header" role="banner">
 
