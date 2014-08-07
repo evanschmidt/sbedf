@@ -614,6 +614,7 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-item(1, 5);
     }
     .views-field-title {
+      @include zen-grid-container($context: flow);
       @include zen-grid-item(5, 1);
       //padding: 0.5em 0 0.75em;
     }
