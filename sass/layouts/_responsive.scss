@@ -596,7 +596,6 @@ $zen-auto-include-grid-item-base: false;
     .view-why-st-bernard {
       @include zen-grid-container($context:  none);
       @include zen-grid-item(5, 1, $columns: 5); 
-      @include zen-grid-background();  
     }
     .views-row:nth-child(1) {
       @include zen-grid-item(1, 1);
@@ -616,11 +615,15 @@ $zen-auto-include-grid-item-base: false;
     .views-field-title {
       @include zen-grid-container($context: flow);
       @include zen-grid-item(5, 1);
+      @include zen-grid-background();  
       //padding: 0.5em 0 0.75em;
     }
     .views-field-field-why-tagline {
+      @include zen-grid-container($context: flow);
+      @include zen-grid-item(5, 1);
+      @include zen-grid-background();  
       ul {
-        padding: 0 0.5em 0.5em;
+        //padding: 0 0.5em 0.5em;
         li {
           display: block;
           line-height: 1.25em;
@@ -637,7 +640,10 @@ $zen-auto-include-grid-item-base: false;
       }
     }
     .views-field-field-why-image {
-      padding: 2em 0 0;
+      @include zen-grid-container($context: flow);
+      @include zen-grid-item(5, 1);
+      @include zen-grid-background();  
+      //padding: 2em 0 0;
     }
   }
   #content-bottom {
