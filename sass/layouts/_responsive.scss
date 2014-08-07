@@ -113,6 +113,25 @@ $zen-auto-include-grid-item-base: false;
   #page {
     //@include zen-grid-background();
   }
+.front {
+  #home-above-header {
+    @include zen-grid-item(3, 1);
+      padding-top: 0;
+      .views-field-field-header-text {
+        background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
+        color: $darkgrey;
+        font-size: 1.875em;
+        @include zen-grid-item(1, 1, left);
+        height: 3.25em;
+        line-height: 1em;
+        margin-bottom: -100%;
+        padding: 1.5em 0 0 2em;
+        position: absolute;
+        top: 23.5%;
+        width: 470px;
+      }
+    }
+  }
   #above-header {
     display: block;
     $zen-columns: 5;
