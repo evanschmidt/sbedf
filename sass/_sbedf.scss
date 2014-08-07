@@ -368,6 +368,10 @@ h1 {
     box-shadow: none;
     margin: 0;
   }
+
+  .slides > li {display: none; -webkit-backface-visibility: hidden; background-color: #ffffff; text-align: center;} 
+  .slides img {width: auto; display: inline;}
+
   .flex-direction-nav {
     *height: 0;
     a {
