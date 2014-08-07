@@ -370,8 +370,7 @@ h1 {
   }
 
   .slides > li {display: none; -webkit-backface-visibility: hidden; background-color: transparent; text-align: center;} 
-  .slides img {width: auto; display: inline;}
-
+  .slides img {width: auto; display: block; margin-left: auto; margin-right: auto;}
   .flex-direction-nav {
     *height: 0;
     a {
