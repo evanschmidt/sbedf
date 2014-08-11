@@ -705,6 +705,7 @@ $zen-auto-include-grid-item-base: false;
         @include zen-new-row();
       }
       .slider {
+        @include zen-grid-item(3, 1);
       }
     }
   }
