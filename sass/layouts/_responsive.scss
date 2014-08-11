@@ -679,14 +679,15 @@ $zen-auto-include-grid-item-base: false;
     $zen-gutters: 10px;
     @include zen-grid-item(5, 1, $columns: 5, $gutters: 10px);
     @include zen-new-row();
+    @include zen-grid-background();
     padding-top: 4em;
     h2 {
-      @include zen-grid-item(1, 1);
+      @include zen-grid-item(2, 1);
       font-size: 2em;
       color: $grey;
     }
     h3 {
-      @include zen-grid-item(1, 1);
+      @include zen-grid-item(2, 1);
       font-size: 1.5em;
       color: $grey;
     }
