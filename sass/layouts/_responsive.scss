@@ -688,11 +688,14 @@ $zen-auto-include-grid-item-base: false;
       color: $grey;
     }
     .view-economic-overview {
-      @include zen-grid-item(3, 3);
-    }
-    ol {
-      li {
-
+      .view-header {
+        @include zen-grid-item(2, 1);        
+      }
+      #views-slideshow-ddblock-custom-pager-economic_overview_block_1 {
+       @include zen-grid-item(2, 1); 
+      }
+      .slider {
+        @include zen-grid-item(3, 3); 
       }
     }
   }
