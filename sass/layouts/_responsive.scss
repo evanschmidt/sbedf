@@ -680,7 +680,6 @@ $zen-auto-include-grid-item-base: false;
     @include zen-grid-item(5, 1, $columns: 5, $gutters: 10px);
     @include zen-new-row();
     padding-top: 4em;
-    @include zen-grid-background();
     h2 {
       font-size: 2em;
       color: $grey;
@@ -692,6 +691,7 @@ $zen-auto-include-grid-item-base: false;
     .view-economic-overview {
       @include zen-grid-container($context:  none);
       @include zen-grid-item(5, 1, $columns: 5);
+      @include zen-grid-background();
       .view-header {
         @include zen-grid-item(2, 1);        
       }
