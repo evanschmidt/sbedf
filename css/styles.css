@@ -1805,8 +1805,8 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003694}}
   #block-views-economic-overview-block-1 .view-economic-overview {
     float: left;
-    width: 100%;
-    margin-left: 0%;
+    width: 60%;
+    margin-left: 40%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
