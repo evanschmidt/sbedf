@@ -682,7 +682,7 @@ $zen-auto-include-grid-item-base: false;
     @include zen-grid-background();
     padding-top: 4em;
     h2 {
-      @include zen-grid-item(2, 1);
+      @include zen-grid-item(3, 1);
       font-size: 2em;
       color: $grey;
     }
@@ -691,8 +691,9 @@ $zen-auto-include-grid-item-base: false;
       color: $grey;
     }
     .view-economic-overview {
-      @include zen-grid-item(3, 3);
+      @include zen-grid-item(5, 1);
       .view-header {
+        @include zen-grid-item(3, 1);
       }
       #views-slideshow-ddblock-custom-pager-economic_overview_block_1 {
       }
