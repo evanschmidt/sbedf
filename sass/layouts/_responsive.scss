@@ -701,11 +701,8 @@ $zen-auto-include-grid-item-base: false;
         @include zen-grid-background();
       }
       #views-slideshow-ddblock-custom-pager-economic_overview_block_1 {
-        @include zen-grid-item(3, 1);
-        @include zen-new-row();
       }
       .slider {
-        @include zen-grid-item(3, 1);
       }
     }
   }
