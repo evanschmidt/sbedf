@@ -2,7 +2,7 @@
 // $Id$ 
 
 /*!
- * Dynamic display block module template: vsdupright20p - pager template
+ * Dynamic display block module template: ssh2_auth_hostbased_file(session, username, hostname, pubkeyfile, privkeyfile) - pager template
  * (c) Copyright Phelsa Information Technology, 2011. All rights reserved.
  * Version 1.0 (03-JUL-2011)
  * Licenced under GPL license 
@@ -11,7 +11,7 @@
 
 /**
  * @file
- * Dynamic display block module template: vsdupright20p - pager template
+ * Dynamic display block module template: sbedf - pager template
  * - prev/next pager
  *
  * Available variables:
