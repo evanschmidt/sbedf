@@ -1785,16 +1785,16 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003684}}
   #block-views-economic-overview-block-1 h2 {
     float: left;
-    width: 60%;
+    width: 40%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #333333;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003689}}
   #block-views-economic-overview-block-1 h3 {
-    font-size: 1.5em;
+    font-size: 2em;
     color: #333333;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003693}}
@@ -1808,7 +1808,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003695}}
   #block-views-economic-overview-block-1 .view-economic-overview .view-header {
     float: left;
-    width: 60%;
+    width: 40%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;

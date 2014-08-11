@@ -682,18 +682,18 @@ $zen-auto-include-grid-item-base: false;
     @include zen-grid-background();
     padding-top: 4em;
     h2 {
-      @include zen-grid-item(3, 1);
-      font-size: 2em;
+      @include zen-grid-item(2, 1);
+      font-size: 1.5em;
       color: $grey;
     }
     h3 {
-      font-size: 1.5em;
+      font-size: 2em;
       color: $grey;
     }
     .view-economic-overview {
       @include zen-grid-item(5, 1);
       .view-header {
-        @include zen-grid-item(3, 1);
+        @include zen-grid-item(2, 1);
       }
       .view-content {
         @include zen-grid-item(2, 4);        
