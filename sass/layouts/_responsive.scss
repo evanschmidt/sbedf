@@ -674,12 +674,13 @@ $zen-auto-include-grid-item-base: false;
   #block-block-20 { 
     @include zen-grid-item(5, 1);
     @include zen-new-row();
+    padding: 4em;
   }
   #content-bottom {
     $zen-columns: 3;
     //@include zen-grid-background();
     .region-content-bottom {
-      padding: 4em;
+      padding: 0 4em;
     }
     h2 {
       color: $blue;
