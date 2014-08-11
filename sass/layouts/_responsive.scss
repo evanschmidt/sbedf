@@ -697,7 +697,7 @@ $zen-auto-include-grid-item-base: false;
       .view-content {
         @include zen-grid-container($context:  none);
         @include zen-grid-item(5, 1, $columns: 5);
-        @include zen-grid-background();        
+        //@include zen-grid-background();        
       }
       #views-slideshow-ddblock-custom-pager-economic_overview_block_1 {
        @include zen-grid-item(2, 1); 
