@@ -2,7 +2,7 @@
 // $Id$
 
 /*!
- * Dynamic display block module template: vsdupright30p - content template
+ * Dynamic display block module template: sbedf30p - content template
  * (c) Copyright Phelsa Information Technology, 2011. All rights reserved.
  * Version 1.1(04-JUL-2011)
  * Licenced under GPL license 
@@ -11,7 +11,7 @@
 
 /**
  * @file
- * Dynamic display block module template: vsdupright30p - content template
+ * Dynamic display block module template: sbedf30p - content template
  *
  * Available variables:
  * - $settings['origin']: From which module comes the block.

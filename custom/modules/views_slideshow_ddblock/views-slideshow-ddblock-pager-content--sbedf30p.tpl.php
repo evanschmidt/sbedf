@@ -2,7 +2,7 @@
 // $Id$ 
 
 /*!
- * Dynamic display block module template: vsdupright30p - pager template
+ * Dynamic display block module template: sbedf30p - pager template
  * (c) Copyright Phelsa Information Technology, 2011. All rights reserved.
  * Version 1.1 (05-JUL-2011)
  * Licenced under GPL license 
@@ -11,7 +11,7 @@
 
 /**
  * @file
- * Dynamic display block module template: vsdupright30p - pager template
+ * Dynamic display block module template: sbedf30p - pager template
  * - Custom pager with text
  *
  * Available variables:
