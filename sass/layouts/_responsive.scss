@@ -680,7 +680,12 @@ $zen-auto-include-grid-item-base: false;
     padding-top: 4em;
     @include zen-grid-background();
     h2 {
-
+      font-size: 2em;
+      color: $grey;
+    }
+    h3 {
+      font-size: 1.5em;
+      color: $grey;
     }
     ol {
       li {
