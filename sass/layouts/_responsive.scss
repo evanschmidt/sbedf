@@ -670,6 +670,11 @@ $zen-auto-include-grid-item-base: false;
       padding: 2em 0 0;
     }
   }
+  // St. Bernard Economic outlook block
+  #block-block-20 {
+    @include zen-grid-container($context:  none);
+    @include zen-grid-item(5, 1, $columns: 5); 
+  }
   #content-bottom {
     $zen-columns: 3;
     //@include zen-grid-background();
