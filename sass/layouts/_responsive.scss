@@ -688,6 +688,9 @@ $zen-auto-include-grid-item-base: false;
       color: $grey;
     }
     .view-economic-overview {
+      @include zen-grid-item-base();
+      @include zen-grid-container($context: flow);
+      @include zen-grid-item(5, 1);
       .view-header {
         @include zen-grid-item(2, 1);        
       }
