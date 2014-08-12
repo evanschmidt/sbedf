@@ -3204,7 +3204,7 @@ h1 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003222}}
 #block-views-why-st-bernard-block .views-field-title {
   color: #c2d5eb;
-  margin: 0 0.15em;
+  margin: 0 0.15em 0 0.16em;
   font-size: 1.6em;
   text-transform: uppercase;
   letter-spacing: 0.02em;
