@@ -662,7 +662,7 @@ $zen-auto-include-grid-item-base: false;
     li:nth-child(1) {
       @include zen-grid-item(3, 2);
       ul {
-        left: 1em;
+        left: 0;
       }
     }
     li:nth-child(2) {
@@ -680,7 +680,7 @@ $zen-auto-include-grid-item-base: false;
     li:nth-child(4) {
       @include zen-grid-item(3, 11);
       ul {
-        left: 1em;
+        left: 0.75em;
       }
     }
     li:nth-child(5) {
@@ -692,7 +692,7 @@ $zen-auto-include-grid-item-base: false;
     li:nth-child(6) {
       @include zen-grid-item(3, 17);
       ul {
-        left: 1em;
+        left: 0;
       }
     }
     li:nth-child(7) {
