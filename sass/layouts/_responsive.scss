@@ -730,7 +730,7 @@ $zen-auto-include-grid-item-base: false;
     $zen-columns:  5;
     $zen-gutters: 10px;
     @include zen-grid-item(5, 1, $columns: 5, $gutters: 10px);
-    height: 450px;
+    height: 500px;
     h2 {
       font-size: 2.9em;
       width: 875px;
