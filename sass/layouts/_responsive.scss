@@ -700,6 +700,9 @@ $zen-auto-include-grid-item-base: false;
         @include zen-grid-item(5, 1);
         @include zen-new-row();        
       }
+      #flexslider_views_slideshow_main_economic_overview-block_2 {
+        @include zen-grid-item(3, 3);
+      }
       #views-slideshow-ddblock-custom-pager-economic_overview_block_1 {
         @include zen-grid-item(2, 1);
       }
