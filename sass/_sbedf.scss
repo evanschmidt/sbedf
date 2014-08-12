@@ -6,7 +6,7 @@
  *
  */
  body {
-  color: $grey;
+  color: $darkgrey;
  }
  #main, #footer {
   background: none repeat scroll 0 0 $white;
@@ -140,7 +140,7 @@ h1 {
   .view-footer {
     text-align: right;
     a {
-      color: $grey;
+      color: $darkgrey;
       text-decoration: none;
     }
   }
@@ -260,7 +260,7 @@ h1 {
 #content-bottom {
   .block {
     a {
-      color: $grey;
+      color: $darkgrey;
           text-decoration: none;
     }
     .views-field-title {
@@ -296,7 +296,7 @@ h1 {
   font-size: 0.85em;
 //  padding: 1em 0 1em 1.25em;
   h2 {
-    color: $grey;
+    color: $darkgrey;
     font-size: 1em;
     font-weight: bold;
     line-height: 1.25em;
@@ -309,7 +309,7 @@ h1 {
     padding: 0 1em;
   }
   a {
-    color: $grey;
+    color: $darkgrey;
     text-decoration: none;
   }
 }

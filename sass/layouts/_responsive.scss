@@ -199,7 +199,7 @@ $zen-auto-include-grid-item-base: false;
     }
     h2 {
       //display: none;
-      color: $grey;
+      color: $darkgrey;
       font-size: 1em;
       font-weight: bold;
       line-height: 1.25em;
@@ -207,7 +207,7 @@ $zen-auto-include-grid-item-base: false;
       padding: 0 0.5em;
     }
     .block {
-      color: $grey;
+      color: $darkgrey;
       margin: 0;
       p {
         line-height: 1.25em;
@@ -580,7 +580,7 @@ $zen-auto-include-grid-item-base: false;
     }
     h2 {
       //display: none;
-      color: $grey;
+      color: $darkgrey;
       font-size: 1em;
       font-weight: bold;
       line-height: 1.25em;
@@ -588,7 +588,7 @@ $zen-auto-include-grid-item-base: false;
       padding: 0 1em;
     }
     .block {
-      color: $grey;
+      color: $darkgrey;
       margin: 0;
       p {
         line-height: 1.25em;
@@ -794,11 +794,11 @@ $zen-auto-include-grid-item-base: false;
     h2 {
       @include zen-grid-item(2, 1);
       font-size: 1.5em;
-      color: $grey;
+      color: $darkgrey;
     }
     h3 {
       font-size: 2em;
-      color: $grey;
+      color: $darkgrey;
     }
     .view-economic-overview {
       @include zen-grid-item(5, 1);
