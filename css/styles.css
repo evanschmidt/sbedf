@@ -2089,7 +2089,7 @@ table {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003868}}
   #block-views-announcements-block-1 .views-row {
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid #ebebeb;
     margin-bottom: 1em;
     padding-bottom: 1em;
   }
@@ -3611,7 +3611,7 @@ h1 {
 .view-edf-projects.view-display-id-page .views-row,
 .view-featured-property.view-display-id-page .views-row,
 .view-testimonials.view-display-id-page .views-row {
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid #ebebeb;
   margin: 1em 0;
   padding: 1em 0;
 }
