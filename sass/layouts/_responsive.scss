@@ -702,6 +702,9 @@ $zen-auto-include-grid-item-base: false;
       #views-slideshow-ddblock-custom-pager-economic_overview_block_1 {
         @include zen-grid-item(2, 1);
       }
+      .spacer-horizontal {
+        clear: none;
+      }
       .slider {
         @include zen-grid-item(3, 3);
       }
