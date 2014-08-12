@@ -663,42 +663,49 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-item(3, 2);
       ul {
         left: 0;
+        width: 15em;
       }
     }
     li:nth-child(2) {
       @include zen-grid-item(3, 5);
       ul {
         left: 1em;
+        width: 15em;
       }
     }
     li:nth-child(3) {
       @include zen-grid-item(3, 8);
       ul {
         left: -0.5em;
+        width: 15em;
       }
     }
     li:nth-child(4) {
       @include zen-grid-item(3, 11);
       ul {
         left: 0.75em;
+        width: 15em;
       }
     }
     li:nth-child(5) {
       @include zen-grid-item(3, 14);
       ul {
         left: 0.75em;
+        width: 15em;
       }
     }
     li:nth-child(6) {
       @include zen-grid-item(3, 17);
       ul {
         left: 0;
+        width: 15em;
       }
     }
     li:nth-child(7) {
       @include zen-grid-item(3, 21);
       ul {
         left: 1em;
+        width: 15em;
       }
     }
   }
