@@ -131,6 +131,30 @@ $zen-auto-include-grid-item-base: false;
         width: 470px;
       }
     }
+    #above-header {
+      display: block;
+      $zen-columns: 5;
+      @include zen-grid-item(5, 1);
+      padding-top: 2.6em;
+      margin-bottom: -1.1em;
+      .block {
+        @include zen-grid-item(5, 1, right);      
+      }
+      .views-field-field-header-text {
+        background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
+        color: $darkgrey;
+        @include zen-grid-item(1, 1, left);
+        font-size: 1em;
+        height: 2em;
+        line-height: 1em;
+        margin-bottom: -100%;
+        padding: 1em 2em 0.75em 2em;
+        position: absolute;
+        top: 31.5%;
+        width: 270px;
+
+      }
+    }
   }
   #above-header {
     display: block;
