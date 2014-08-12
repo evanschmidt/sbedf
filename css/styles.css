@@ -3367,14 +3367,14 @@ h1 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003226}}
 #block-views-why-st-bernard-block .views-field-title {
   color: #c2d5eb;
-  margin: 0 0.15em 0 0.16em;
+  margin: 0.02em;
   font-size: 1.6em;
   text-transform: uppercase;
   letter-spacing: 0.02em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003233}}
 #block-views-why-st-bernard-block .views-field-field-why-tagline {
-  margin: 0 0.25em;
+  margin: 0 0.09em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003235}}
 #block-views-why-st-bernard-block .views-field-field-why-tagline ul {
@@ -3392,7 +3392,7 @@ h1 {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003247}}
 #block-views-why-st-bernard-block .views-field-field-why-image {
-  margin: 0 0.25em;
+  margin: 0 0.09em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003249}}
 #block-views-why-st-bernard-block .views-field-field-why-image img {
