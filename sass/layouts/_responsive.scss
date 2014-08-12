@@ -672,6 +672,7 @@ $zen-auto-include-grid-item-base: false;
   }
   // St. Bernard Economic outlook block
   #block-views-economic-overview-block-1,
+  #block-views-economic-overview-block-2
   { 
     @include zen-grid-item-base();
     @include zen-grid-container($context: flow);
