@@ -3491,21 +3491,21 @@ h1 {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003340}}
-.page-node-116 #content ul {
+.page-node-116 .node-page ul {
   list-style: none;
   list-style-position: outside;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003344}}
-.page-node-116 #content li {
+.page-node-116 .node-page li {
   color: #e6ba00;
   font-size: 1.75em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003347}}
-.page-node-116 #content li strong {
+.page-node-116 .node-page li strong {
   font-weight: normal;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003350}}
-.page-node-116 #content li span {
+.page-node-116 .node-page li span {
   display: block;
   font-weight: 1em;
 }
