@@ -337,6 +337,10 @@ h1 {
 // top ten reasons page
 .page-node-116 {
   #content {
+    ul {
+      list-style: none;
+      list-style-position: inside;
+    }
     li {
       strong {
         color: $yellow;
