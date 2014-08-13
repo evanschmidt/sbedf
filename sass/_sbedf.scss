@@ -334,6 +334,19 @@ h1 {
     text-decoration: none;
   }
 }
+// top ten reasons page
+.page-node-116 {
+  #content {
+    li {
+      strong {
+        color: $yellow;
+        font-size: 1.75em;
+        font-weight: normal;
+      }
+    }
+  }
+}
+
 //footer block 
 #block-block-2 {
   border-top: 2px solid $grey;
