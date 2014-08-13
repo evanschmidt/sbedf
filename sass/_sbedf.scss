@@ -313,7 +313,14 @@ h1 {
     text-decoration: none;
   }
 }
-
+// top ten reasons callout
+#block-block-19 {
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em;
+  }
+}
 //footer block 
 #block-block-2 {
   border-top: 2px solid $grey;
