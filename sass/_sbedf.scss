@@ -315,11 +315,13 @@ h1 {
 }
 // top ten reasons callout
 #block-block-19 {
+  font-size: 1.75em;
+  line-height: 1.25em;
   padding: 1em;
   a {
+    color: $yellow;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 1em;
   }
 }
 //footer block 
