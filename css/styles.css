@@ -3658,9 +3658,9 @@ h1 {
   padding: 1.75em 1em 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003484}}
-.view-id-incentives.view-display-id-page .views-row .views-column {
-  border: 1px solid #999999;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003483}}
+.view-id-incentives.view-display-id-page .views-row {
+  border-bottom: 1px solid #999999;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003487}}
 .view-id-incentives.view-display-id-page .views-row .views-field-title {
