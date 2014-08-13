@@ -3263,7 +3263,7 @@ h1 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003132}}
 #block-views-partners-block-1 {
-  border-top: 1px solid #ebebeb;
+  border-top: 1px solid #999999;
   padding: 1em;
   margin-bottom: 0;
   /* homepage flexslider */
@@ -3468,7 +3468,7 @@ h1 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003318}}
 #block-block-2 {
-  border-top: 2px solid #ebebeb;
+  border-top: 2px solid #999999;
   font-size: 0.9em;
   line-height: 1.25em;
   padding: 1.5em;
@@ -3611,7 +3611,7 @@ h1 {
 .view-edf-projects.view-display-id-page .views-row,
 .view-featured-property.view-display-id-page .views-row,
 .view-testimonials.view-display-id-page .views-row {
-  border-bottom: 1px solid #ebebeb;
+  border-bottom: 1px solid #999999;
   margin: 1em 0;
   padding: 1em 0;
 }
