@@ -342,10 +342,14 @@ h1 {
       list-style-position: outside;
     }
     li {
+      color: $yellow;
       font-size: 1.75em;
       strong {
-        color: $yellow;
         font-weight: normal;
+      }
+      span {
+        display: block;
+        font-weight: 1em;
       }
     }
   }
