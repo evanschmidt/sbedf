@@ -482,6 +482,7 @@ h1 {
 .view-id-incentives.view-display-id-page {
   .views-row {
     border: 1px solid $grey;
+    display: block;
     .views-field-title {
       color: $blue;
       font-size: 1.2em;
