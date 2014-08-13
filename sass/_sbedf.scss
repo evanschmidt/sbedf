@@ -461,8 +461,7 @@ h1 {
 .view-accomplishments.view-display-id-page,
 .view-edf-projects.view-display-id-page,
 .view-featured-property.view-display-id-page,
-.view-testimonials.view-display-id-page,
-.view-id-incentives.view-display-id-page {
+.view-testimonials.view-display-id-page {
   .views-row {
     border-bottom: 1px solid $grey;
     margin: 1em 0;
@@ -480,8 +479,11 @@ h1 {
   }
 }
 // incentive layout
-.view-incentives {
+.view-id-incentives.view-display-id-page {
   .views-row {
+    border: 1px solid $grey;
+    margin: 1em 0;
+    padding: 1em 0;
     .views-field-title {
       color: $blue;
       font-size: 1.2em;
