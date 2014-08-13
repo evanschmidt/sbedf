@@ -481,6 +481,9 @@ h1 {
 // incentive layout
 .view-id-incentives.view-display-id-page {
   .views-row {
+    .views-column {
+      border: 1px solid $grey;
+    }
     .views-field-title {
       color: $blue;
       font-size: 1.2em;
