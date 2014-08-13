@@ -28,6 +28,7 @@
 h1 {
   color: $blue;
   font-weight: 200;
+  text-transform: capitalize;
 }
 #block-nice-menus-1 {
   ul {
@@ -478,7 +479,21 @@ h1 {
     }
   }
 }
+// incentive layout
+.view-incentives {
+  .views-row {
+    .views-field-title {
+      color: $blue;
+      font-size: 1.2em;
+    }
+    .views-field-field-incentive-description {
 
+    }
+    .views-field-field-incentive-link {
+
+    }
+  }
+}
 // responsive grid layout
 .views-responsive-grid {
   @include zen-grid-item-base();
