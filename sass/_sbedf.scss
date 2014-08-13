@@ -12,6 +12,11 @@
   background: none repeat scroll 0 0 $white;
   margin: 0 5px;
  }
+ #content {
+  li{
+    margin: 1em 0;
+  }
+ }
 .front {
   h1.page__title, .field-name-body {
     display: none;
