@@ -29,6 +29,9 @@ h1 {
   color: $blue;
   font-weight: 200;
 }
+.section-incentives h1 {
+  text-transform: capitalize;
+}
 #block-nice-menus-1 {
   ul {
     background: none repeat scroll 0 0 $darkgrey;
