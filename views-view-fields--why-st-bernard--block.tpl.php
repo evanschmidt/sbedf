@@ -24,7 +24,7 @@
  * @ingroup views_templates
  */
 ?>
-<div  class="why-block-wrapper">
+<div  class="why-row-wrapper">
 <?php foreach ($fields as $id => $field): ?>
   <?php if (!empty($field->separator)): ?>
     <?php print $field->separator; ?>
