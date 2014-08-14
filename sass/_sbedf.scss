@@ -206,10 +206,6 @@ h1 {
     span {
       display: block;
     }
-    .why-row-wrapper {
-      border: 5px solid;
-      display: block;      
-    }
     .view-why-st-bernard {
       border-top: 1px solid $newgrey;
       margin-top: -4.75em;
@@ -219,50 +215,58 @@ h1 {
     .views-row {
       margin-bottom: 1em;
     }  
+    .why-row-wrapper {
+      margin: 0.25em;
+    }
     .views-row:nth-child(1) {
-      .views-field-title,
-      .views-field-field-why-image,
-      .views-field-field-why-tagline {
+//      .views-field-title,
+//      .views-field-field-why-image,
+//      .views-field-field-why-tagline,
+      .why-row-wrapper {
         background: none repeat scroll 0 0 #0E4C91;
       }
    }
     .views-row:nth-child(2) {
-      .views-field-title,
-      .views-field-field-why-image,
-      .views-field-field-why-tagline {
+//      .views-field-title,
+//      .views-field-field-why-image,
+//      .views-field-field-why-tagline,
+      .why-row-wrapper {
         background: none repeat scroll 0 0 #0F529E;
       }
     }
     .views-row:nth-child(3) {
-      .views-field-title,
-      .views-field-field-why-image,
-      .views-field-field-why-tagline {
+//      .views-field-title,
+//      .views-field-field-why-image,
+//      .views-field-field-why-tagline,
+      .why-row-wrapper {
         background: none repeat scroll 0 0 #1059AA;
       }
     }
     .views-row:nth-child(4) {
-      .views-field-title,
-      .views-field-field-why-image,
-      .views-field-field-why-tagline {
+//      .views-field-title,
+//      .views-field-field-why-image,
+//      .views-field-field-why-tagline,
+      .why-row-wrapper {
         background: none repeat scroll 0 0 #115DB1;
       }
     }
     .views-row:nth-child(5) {
-      .views-field-title,
-      .views-field-field-why-image,
-      .views-field-field-why-tagline {
+//      .views-field-title,
+//      .views-field-field-why-image,
+//      .views-field-field-why-tagline,
+      .why-row-wrapper {
         background: none repeat scroll 0 0 #1262BB;
       }
     }
     .views-field-title {
       color: $lightestblue;
-      margin: 0 0.065em;
+//      margin: 0 0.065em;
       font-size: 1.6em;
       text-transform: uppercase;
       letter-spacing: 0.02em;
     }
     .views-field-field-why-tagline {
-      margin: 0 0.09em;
+//      margin: 0 0.09em;
       ul {
         list-style: none inside none;
         margin: 0;
@@ -276,15 +280,15 @@ h1 {
       }
     }
     .views-field-field-why-image {
-      margin: 0 0.09em;
+//        margin: 0 0.09em;
       img {
         opacity: 0.2;
         filter: alpha(opacity=20); /* For IE8 and earlier */
       }
     }
     .views-field-edit-node {
-      border: 1px solid $darkblue;
-      margin: 0 0.25em;
+//      border: 1px solid $darkblue;
+//      margin: 0 0.25em;
     }
   }
 //content bottom layout
