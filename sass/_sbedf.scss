@@ -22,6 +22,10 @@
     text-transform: lowercase;
     text-decoration: none;
   }
+    a {
+    color: $darkgrey;
+    text-decoration: underline;
+  }
  }
  #content {
   li{
