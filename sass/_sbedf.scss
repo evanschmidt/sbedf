@@ -13,11 +13,14 @@
   margin: 0 5px;
  }
  .breadcrumb {
+  color: $grey;
   font-size: 0.75em;
   margin-bottom: 2em;
   margin-top: -2em;
   a {
     color: $grey;
+    text-transform: lowercase;
+    text-decoration: none;
   }
  }
  #content {
