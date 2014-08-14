@@ -779,7 +779,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003165}}
   #above-header .block {
     float: right;
-    width: 100%;
+    width: 80%;
     margin-right: 0%;
     margin-left: -100%;
     *margin-left: -99.9%;
@@ -2089,7 +2089,7 @@ table {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003868}}
   #block-views-announcements-block-1 .views-row {
-    border-bottom: 1px solid #999999;
+    border-bottom: 1px solid #ebebeb;
     margin-bottom: 1em;
     padding-bottom: 1em;
   }

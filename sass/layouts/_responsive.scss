@@ -163,7 +163,7 @@ $zen-auto-include-grid-item-base: false;
     padding-top: 2.6em;
     margin-bottom: -1.1em;
     .block {
-      @include zen-grid-item(5, 1, right);      
+      @include zen-grid-item(4, 1, right);      
     }
     .views-field-field-header-text {
       background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
@@ -866,7 +866,7 @@ $zen-auto-include-grid-item-base: false;
   #block-views-announcements-block-1 {
     padding-right: 3em;
     .views-row {
-      border-bottom: 1px solid $grey;
+      border-bottom: 1px solid $lightgrey;
       margin-bottom: 1em;
       padding-bottom: 1em;
     }
