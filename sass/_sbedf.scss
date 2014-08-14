@@ -12,6 +12,14 @@
   background: none repeat scroll 0 0 $white;
   margin: 0 5px;
  }
+ .breadcrumb {
+  font-size: 0.75em;
+  margin-bottom: 2em;
+  margin-top: -2em;
+  a {
+    color: $grey;
+  }
+ }
  #content {
   li{
     margin: 1em 0;
