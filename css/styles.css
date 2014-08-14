@@ -3136,7 +3136,7 @@ body {
   text-decoration: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000325}}
-.breadcrumb a {
+.breadcrumb a:hover {
   color: #333333;
   text-decoration: underline;
 }
