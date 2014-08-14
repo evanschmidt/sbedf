@@ -285,10 +285,12 @@ h1 {
   .block {
     a {
       color: $darkgrey;
-          text-decoration: none;
     }
     .views-field-title {
       font-weight: bold;
+      a {
+        text-decoration: none;
+      }
     }
   }
 }
