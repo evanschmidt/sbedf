@@ -84,7 +84,9 @@ $zen-auto-include-grid-item-base: false;
   display: block;
   clear: both;
 }
-
+#block-views-announcements-block-1 {
+  display: none;
+}
 #header {
   background: none repeat scroll 0 0 $darkblue;
   h2 {
@@ -446,6 +448,7 @@ $zen-auto-include-grid-item-base: false;
   }
 //announcment block
   #block-views-announcements-block-1 {
+    display: none;
     @include zen-grid-item(2, 2);
     padding-right: 0em;
     h2 {
@@ -1022,6 +1025,7 @@ $zen-auto-include-grid-item-base: false;
   }
 
   #block-views-announcements-block-1 {
+    display: block;
     padding-right: 3em;
     .views-row {
       border-bottom: 1px solid $lightgrey;
