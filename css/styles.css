@@ -1645,7 +1645,7 @@ table {
   .two-sidebars .region-sidebar-second h2 {
     color: #115db1;
     font-weight: 200;
-    margin-bottom: 1em;
+    margin: 1em;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003611}}
   .two-sidebars .region-sidebar-second .block {
