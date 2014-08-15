@@ -447,10 +447,15 @@ $zen-auto-include-grid-item-base: false;
   #block-views-announcements-block-1 {
     @include zen-grid-item(2, 2);
     padding-right: 0em;
+    h2 {
+      color: $blue;
+      font-weight: 200;
+      margin: 0 0.75em;
+    }
     .views-row {
       border-bottom: 1px solid $lightgrey;
-      margin: 1em;
-      padding: 1em;
+      margin: 0 0.75em;
+      padding: 0.5em 0;
     }
     .views-field-title {
       font-size: 0.9em;
@@ -602,11 +607,6 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-item(3, 1);
       @include zen-grid-container($context: flow); // Since we're making every block in this region be a grid item.
       @include zen-new-row();
-      h2 {
-        color: $blue;
-        font-weight: 200;
-        margin: 0 1.75em;
-      }
       /* Apply the shared properties of grid items in a single, efficient ruleset. */
       .block {
         @include zen-grid-item-base();
