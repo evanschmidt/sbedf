@@ -771,7 +771,7 @@ table {
     color: #333333;
     float: left;
     width: 20%;
-    margin-left: 0%;
+    margin-left: 20%;
     margin-right: -100%;
     *margin-right: -99.9%;
     font-size: 1em;
@@ -809,7 +809,7 @@ table {
     color: #333333;
     float: left;
     width: 20%;
-    margin-left: 20%;
+    margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
     font-size: 1em;
