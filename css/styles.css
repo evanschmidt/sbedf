@@ -1292,12 +1292,12 @@ table {
   #block-views-announcements-block-1 h2 {
     color: #115db1;
     font-weight: 200;
-    margin: 0 0.75em;
+    margin: 0 1.2em;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003455}}
   #block-views-announcements-block-1 .views-row {
     border-bottom: 1px solid #ebebeb;
-    margin: 0 0.75em;
+    margin: 0 1.2em;
     padding: 0.5em 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003460}}
