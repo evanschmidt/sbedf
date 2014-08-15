@@ -1281,13 +1281,13 @@ table {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003447}}
   #block-views-announcements-block-1 {
-    padding-right: 3em;
+    padding-right: 0em;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003449}}
   #block-views-announcements-block-1 .views-row {
     border-bottom: 1px solid #ebebeb;
-    margin-bottom: 1em;
-    padding-bottom: 1em;
+    margin: 1em;
+    padding: 1em;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003454}}
   #block-views-announcements-block-1 .views-field-title {
