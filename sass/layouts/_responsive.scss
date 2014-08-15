@@ -602,11 +602,10 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-item(3, 1);
       @include zen-grid-container($context: flow); // Since we're making every block in this region be a grid item.
       @include zen-new-row();
-
       h2 {
         color: $blue;
         font-weight: 200;
-        margin: 1em;
+        margin: 0 1.75em;
       }
       /* Apply the shared properties of grid items in a single, efficient ruleset. */
       .block {
