@@ -84,13 +84,14 @@ $zen-auto-include-grid-item-base: false;
   display: none;
 }
 
-#header #logo img {
-//   left: 55px;
-//    position: absolute;
-//    height: 36px;
-//    top: 0;
+#header {
+  background: none repeat scroll 0 0 $darkblue;
+  #logo {
+    img {
+      
+    }
+  }
 }
-
 /* Navigation bar */
 @media all and (min-width: 480px) {
   #main {
