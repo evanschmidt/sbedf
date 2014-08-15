@@ -1327,7 +1327,7 @@ table {
   .views-responsive-grid.views-columns-2 .views-column-2 {
     float: left;
     width: 50%;
-    margin-left: 50%;
+    margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
     clear: left;
