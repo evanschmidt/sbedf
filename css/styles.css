@@ -944,7 +944,7 @@ table {
     background: none repeat scroll 0 0 #0e4c91;
     color: #79b3f2;
     font-size: 1.25em;
-    font-size: 1.25vw;
+    font-size: 2vw;
     font-weight: normal;
     line-height: 1em;
     margin: 0;
@@ -954,7 +954,7 @@ table {
   #header #block-block-8 {
     padding: 0 0 2.95em;
     font-size: 0.75em;
-    font-size: 0.75vw;
+    font-size: 1.45vw;
     display: block;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003289}}
