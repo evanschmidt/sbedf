@@ -1882,7 +1882,7 @@ table {
     background: none repeat scroll 0 0 #0e4c91;
     color: #79b3f2;
     font-size: 2em;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: normal;
     line-height: 0.97em;
     margin: 0;
@@ -1891,7 +1891,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003758}}
   #header #block-block-8 {
     font-size: 0.85em;
-    font-size: 0.85vw;
+    font-size: 1.2vw;
     padding: 0 0 2.85em;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003763}}
