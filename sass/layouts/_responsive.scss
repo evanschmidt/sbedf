@@ -61,7 +61,7 @@ $zen-auto-include-grid-item-base: false;
 #footer {
   @include zen-grid-container();
 }
-
+// mobile specific layout
 #block-views-why-st-bernard-block {
   h2 {
     font-size: 1.3em;
@@ -83,6 +83,14 @@ $zen-auto-include-grid-item-base: false;
 #above-header {
   display: none;
 }
+
+#header #logo img {
+    left: 55px;
+    position: absolute;
+    height: 36px;
+    top: 0;
+}
+
 /* Navigation bar */
 @media all and (min-width: 480px) {
   #main {
@@ -221,6 +229,8 @@ $zen-auto-include-grid-item-base: false;
       img {
         position: relative;
         left: -5px;
+        height: auto;
+        top: auto;
       }
     }
     #block-block-6 {
@@ -602,6 +612,8 @@ $zen-auto-include-grid-item-base: false;
       img {
         position: relative;
         left: -5px;
+        height: auto;
+        top: auto;
       }
     }
     #block-block-6 {
