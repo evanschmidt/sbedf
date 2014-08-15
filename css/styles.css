@@ -673,14 +673,6 @@ table {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\0000387}}
-#header #logo img {
-  left: 55px;
-  position: absolute;
-  height: 36px;
-  top: 0;
-}
-
 /* Navigation bar */
 @media all and (min-width: 480px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\0000396}}
