@@ -96,6 +96,9 @@ $zen-auto-include-grid-item-base: false;
 
     }
   }
+  #block-block-8 {
+    display: none;
+  }
 }
 /* Navigation bar */
 @media all and (min-width: 480px) {
@@ -255,6 +258,7 @@ $zen-auto-include-grid-item-base: false;
       @include zen-new-row();
       position: relative;
       z-index: 10;
+      display: block;
     }
     #block-views-header-images-block {
       @include zen-grid-item(5, 1, right);      
@@ -276,6 +280,7 @@ $zen-auto-include-grid-item-base: false;
     #block-block-8 {
       padding: 0 0 0.9em;
       font-size: 0.75em;
+      display: block;
     }
     #name-and-slogan {
       @include zen-grid-item(1, 1);
@@ -638,6 +643,7 @@ $zen-auto-include-grid-item-base: false;
       @include zen-new-row();
       position: relative;
       z-index: 10;
+      display: block;
     }
     #block-views-header-images-block {
       @include zen-grid-item(5, 1, right);      
