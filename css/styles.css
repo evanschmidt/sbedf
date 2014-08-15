@@ -3864,7 +3864,7 @@ h1 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003190}}
 #block-views-why-st-bernard-block {
   background: none repeat scroll 0 0 #333333;
-  color: #555;
+  color: #cccccc;
   padding: 0 3em;
   position: relative;
   z-index: 99;
@@ -3872,7 +3872,7 @@ h1 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003196}}
 #block-views-why-st-bernard-block h2 {
   background: none repeat scroll 0 0 #333333;
-  color: #909090;
+  color: #555;
   font-weight: lighter;
   margin: 1em auto;
   position: relative;

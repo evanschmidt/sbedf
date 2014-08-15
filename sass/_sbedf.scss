@@ -189,13 +189,13 @@ h1 {
   // why st bernard layout
   #block-views-why-st-bernard-block {
     background: none repeat scroll 0 0 $darkgrey;
-    color: #555;
+    color: $lightergrey;
     padding: 0 3em;
     position: relative;
     z-index: 99;
     h2 {
       background: none repeat scroll 0 0 $darkgrey;
-      color: $newgrey;
+      color: #555;
       font-weight: lighter;
       margin: 1em auto;
       position: relative;
