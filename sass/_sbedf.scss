@@ -182,6 +182,9 @@ h1 {
 }
 .view-id-partners.view-display-id-page {
   text-align: center;
+  .views-column {
+    margin-bottom: 2em;
+  }
   .views-field-field-partner-logo {
     padding: 0.25em;
   }
