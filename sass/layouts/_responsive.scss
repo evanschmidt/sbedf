@@ -630,6 +630,9 @@ $zen-auto-include-grid-item-base: false;
       .block {
         @include zen-grid-item(5, 1, right);      
       }
+      img {
+        height: 100%;
+      }
       .views-field-field-header-text {
         background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
         color: $darkgrey;
