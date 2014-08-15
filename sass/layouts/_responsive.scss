@@ -199,6 +199,7 @@ $zen-auto-include-grid-item-base: false;
   }
   #header {
     //@include zen-grid-background();
+    background: none repeat scroll 0 0 transparent;
     $zen-columns: 5;
     .region-header {
       @include zen-grid-container($context: grid-item);
@@ -585,6 +586,7 @@ $zen-auto-include-grid-item-base: false;
   }
   #header {
     //@include zen-grid-background();
+    background: none repeat scroll 0 0 transparent;    
     .region-header {
       @include zen-grid-container($context: grid-item);
       @include zen-grid-item(5, 1, right);
