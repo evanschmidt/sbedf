@@ -449,27 +449,6 @@ $zen-auto-include-grid-item-base: false;
 //announcment block
   #block-views-announcements-block-1 {
     display: none;
-    @include zen-grid-item(2, 2);
-    padding-right: 0em;
-    h2 {
-      color: $blue;
-      font-weight: 200;
-      margin: 0 1.2em;
-    }
-    .views-row {
-      border-bottom: 1px solid $lightgrey;
-      margin: 0 1.2em;
-      padding: 0.5em 0;
-    }
-    .views-field-title {
-      font-size: 0.9em;
-      a {
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-    }
   }
 
 // partner page
