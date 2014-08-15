@@ -668,11 +668,6 @@ table {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\0000383}}
-#above-header {
-  display: none;
-}
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\0000387}}
 #header {
   background: none repeat scroll 0 0 #0e4c91;
