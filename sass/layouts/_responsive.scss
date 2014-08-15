@@ -130,6 +130,11 @@ $zen-auto-include-grid-item-base: false;
   #page {
     //@include zen-grid-background();
   }
+  .breadcrumb {
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
 .front {
   #home-above-header {
     @include zen-grid-item(3, 1);
@@ -605,6 +610,10 @@ $zen-auto-include-grid-item-base: false;
   }
   #page {
     //@include zen-grid-background();
+  }
+  .breadcrumb {
+    margin-bottom: 2em;
+    margin-top: -2em;
   }
   .front {
     #home-above-header {
