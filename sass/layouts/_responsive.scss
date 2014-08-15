@@ -443,6 +443,25 @@ $zen-auto-include-grid-item-base: false;
       @include zen-new-row();
     }
   }
+//announcment block
+  #block-views-announcements-block-1 {
+    padding-right: 3em;
+    .views-row {
+      border-bottom: 1px solid $lightgrey;
+      margin-bottom: 1em;
+      padding-bottom: 1em;
+    }
+    .views-field-title {
+      font-size: 0.9em;      
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
 // partner page
 .view-id-partners.view-display-id-page {
   text-align: center;
