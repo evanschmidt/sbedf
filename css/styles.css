@@ -1320,8 +1320,8 @@ table {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003475}}
   .view-id-partners.view-display-id-page .views-column {
-    margin-bottom: 0;
-    margin-top: 0;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003479}}
   .view-id-partners.view-display-id-page .views-field-field-partner-logo {
