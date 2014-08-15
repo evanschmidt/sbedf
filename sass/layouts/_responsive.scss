@@ -447,11 +447,11 @@ $zen-auto-include-grid-item-base: false;
   $zen-columns:  2;
   @include zen-grid-container($context: flow);
   .views-column-1 {
-    @include zen-grid-item(1, 1);
+    @include zen-grid-item(2, 1);
     @include zen-new-row();
   }
   .views-column-2 {
-    @include zen-grid-item(1, 1);
+    @include zen-grid-item(2, 1);
     @include zen-new-row();
   }
 }

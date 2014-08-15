@@ -1317,7 +1317,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003449}}
   .views-responsive-grid.views-columns-2 .views-column-1 {
     float: left;
-    width: 50%;
+    width: 100%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
@@ -1326,7 +1326,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003453}}
   .views-responsive-grid.views-columns-2 .views-column-2 {
     float: left;
-    width: 50%;
+    width: 100%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
