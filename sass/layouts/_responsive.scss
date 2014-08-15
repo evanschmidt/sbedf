@@ -81,7 +81,8 @@ $zen-auto-include-grid-item-base: false;
   }
 }
 #above-header {
-  display: inline;
+  display: block;
+  clear: both;
 }
 
 #header {
