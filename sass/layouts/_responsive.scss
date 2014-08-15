@@ -445,7 +445,7 @@ $zen-auto-include-grid-item-base: false;
   }
 //announcment block
   #block-views-announcements-block-1 {
-    @include zen-grid-item(3, 1);
+    @include zen-grid-item(2, 2);
     padding-right: 0em;
     .views-row {
       border-bottom: 1px solid $lightgrey;
