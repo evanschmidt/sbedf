@@ -280,6 +280,7 @@ h1 {
       img {
         opacity: 0.2;
         filter: alpha(opacity=20); /* For IE8 and earlier */
+        margin: 1em;
       }
     }
     .views-field-edit-node {
