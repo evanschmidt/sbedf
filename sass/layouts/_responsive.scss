@@ -95,8 +95,11 @@ $zen-auto-include-grid-item-base: false;
   }
   #logo {
     img {
-      width: 50%;
       height: auto;
+      position: absolute;
+      top: 28%;
+      width: 35%;
+      z-index: 999999;
     }
   }
   #block-block-8 {
