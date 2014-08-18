@@ -84,6 +84,13 @@ $zen-auto-include-grid-item-base: false;
   display: block;
   clear: both;
 }
+.front {
+  #above-header {
+    .views-field-field-header-text {
+      display: none;
+    }
+  }
+}
 #block-views-announcements-block-1 {
   display: none;
 }
