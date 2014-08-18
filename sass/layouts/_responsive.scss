@@ -96,9 +96,13 @@ $zen-auto-include-grid-item-base: false;
 }
 #header {
   h2 {
-    display: none;
     font-size: 1.25em;
     margin: 1em 0;
+  }
+  #block-block-6 {
+    h2 {
+      display: none;
+    }
   }
   #logo {
     img {
