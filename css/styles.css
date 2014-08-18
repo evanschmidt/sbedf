@@ -3941,10 +3941,6 @@ h1 {
 #block-views-why-st-bernard-block .view-why-st-bernard {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003211}}
-#block-views-why-st-bernard-block .views-row {
-  margin-bottom: 1em;
-}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003214}}
 #block-views-why-st-bernard-block .why-row-wrapper {
   margin: 0.09em 0;
