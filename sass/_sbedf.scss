@@ -190,14 +190,12 @@ h1 {
   #block-views-why-st-bernard-block {
     background: none repeat scroll 0 0 $darkgrey;
     color: $lightergrey;
-    padding: 0 3em;
     position: relative;
     z-index: 99;
     h2 {
       background: none repeat scroll 0 0 $darkgrey;
       color: $newgrey;
       font-weight: lighter;
-      margin: 1em auto;
       position: relative;
       text-align: center;
       z-index: 1;
@@ -206,16 +204,10 @@ h1 {
       display: block;
     }
     .view-why-st-bernard {
-      border-top: 1px solid $newgrey;
-      margin-top: -4.75em;
-      padding-top: 4.75em;
-      text-align: center;
     }
     .views-row {
-      margin-bottom: 1em;
     }  
     .why-row-wrapper {
-      margin: 0.09em;
     }
     .views-row:nth-child(1) {
 //      .views-field-title,

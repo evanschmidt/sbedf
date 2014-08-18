@@ -379,16 +379,26 @@ $zen-auto-include-grid-item-base: false;
     @include zen-grid-item-base();
     @include zen-grid-container($context: flow);
     @include zen-grid-item(5, 1, $columns: 5, $gutters: 40px);
+    padding: 0 3em;
     h2 {
       font-size: 2.3em;
+      margin: 1em auto;
       width: 500px;
     } 
     .view-why-st-bernard {
       @include zen-grid-container($context:  none);
       @include zen-grid-item(5, 1, $columns: 5);    
+      border-top: 1px solid $newgrey;
       margin-top: -3.75em;
       padding-top: 3.75em;
+      text-align: center;
     }
+    .views-row {
+      margin-bottom: 1em;
+    }  
+    .why-row-wrapper {
+      margin: 0.09em;
+    }    
     .views-row:nth-child(1) {
       @include zen-grid-item(3, 1, $columns: 3);
       @include zen-new-row();
@@ -899,10 +909,24 @@ $zen-auto-include-grid-item-base: false;
     $zen-gutters: 10px;
     @include zen-grid-item(5, 1, $columns: 5, $gutters: 10px);
     height: 450px;
+    padding: 0 3em;
     h2 {
       font-size: 2.9em;
+      margin: 1em auto;
       width: 875px;
-    } 
+    }
+    .view-why-st-bernard {
+      border-top: 1px solid $newgrey;
+      margin-top: -4.75em;
+      padding-top: 4.75em;
+      text-align: center;
+    }
+    .views-row {
+      margin-bottom: 1em;
+    }  
+    .why-row-wrapper {
+      margin: 0.09em;
+    }
     .view-why-st-bernard {
       @include zen-grid-container($context:  none);
       @include zen-grid-item(5, 1, $columns: 5); 
