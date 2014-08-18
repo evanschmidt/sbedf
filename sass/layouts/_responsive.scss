@@ -120,6 +120,11 @@ $zen-auto-include-grid-item-base: false;
     display: none;
   }
 }
+#content-bottom {
+  .region-content-bottom {
+    padding: 1em;
+  }
+}
 /* Navigation bar */
 @media all and (min-width: 480px) {
   #main {
