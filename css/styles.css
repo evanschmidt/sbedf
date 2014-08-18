@@ -4138,15 +4138,15 @@ h1 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003422}}
 .mean-container .mean-nav h2 {
   color: #79b3f2;
-  font-size: 0.95em;
+  font-size: 0.9em;
   font-weight: normal;
   line-height: 1em;
   margin: auto;
   position: absolute;
-  text-align: center;
+  text-align: right;
   text-transform: capitalize;
   top: 15px;
-  width: 100%;
+  width: 98%;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003436}}
