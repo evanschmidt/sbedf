@@ -414,6 +414,17 @@ h1 {
   }
   a.meanmenu-reveal {
     z-index: 99;
+    width: auto;
+    span {
+      background: none repeat scroll 0 0 #fff;
+      display: block;
+      height: 3px;
+      margin-top: 3px;
+      width: 22px;
+    }
+    p {
+      float: left;
+    }
   }
 
   .mean-nav {
