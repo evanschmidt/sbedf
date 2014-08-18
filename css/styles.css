@@ -689,8 +689,8 @@ table {
 #header #logo img {
   height: auto;
   position: absolute;
-  top: 28%;
-  width: 35%;
+  top: 75px;
+  width: 150px;
   z-index: 999999;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/layouts\/_responsive\.scss}line{font-family:\00003105}}
