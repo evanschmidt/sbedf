@@ -95,12 +95,13 @@ $zen-auto-include-grid-item-base: false;
   display: none;
 }
 #header {
-  margin-bottom: 0;
+  margin: 0;
   h2 {
     font-size: 1.25em;
     margin: 1em 0;
   }
   #block-block-6 {
+    margin: 0;
     h2 {
       display: none;
     }
