@@ -124,6 +124,12 @@ $zen-auto-include-grid-item-base: false;
   .region-content-bottom {
     padding: 1em;
   }
+  .block:nth-child(1) {
+    border-bottom: 1px solid $blue;
+  }
+  .block:nth-child(2) {
+    border-bottom: 1px solid $blue;
+  } 
 }
 /* Navigation bar */
 @media all and (min-width: 480px) {
@@ -1043,9 +1049,11 @@ $zen-auto-include-grid-item-base: false;
     }
     .block:nth-child(1) {
       @include zen-grid-item(1, 1);
+      border-bottom: none;
     }
     .block:nth-child(2) {
      @include zen-grid-item(1, 2);
+      border-bottom: none;
     }
     .block:nth-child(3) {
       @include zen-grid-item(1, 3);
