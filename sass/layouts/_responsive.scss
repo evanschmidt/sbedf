@@ -117,6 +117,11 @@ $zen-auto-include-grid-item-base: false;
     height: $nav-height;
     width: $zen-grid-width;
   }
+#block-block-6 {
+  h2 {
+    display: none;
+  }
+}
 }
 
 } // End of @if $zen-reverse-all-floats == true
@@ -277,7 +282,7 @@ $zen-auto-include-grid-item-base: false;
       //background: none repeat scroll 0 0 $darkblue;
       margin-bottom: -0.475em;
       h2 {
-        //display: none;
+        display: block;
         background: none repeat scroll 0 0 $darkblue;
         color: $lightblue;
         font-size: 1.25em;
@@ -770,7 +775,7 @@ $zen-auto-include-grid-item-base: false;
       //background: none repeat scroll 0 0 $darkblue;
       margin-bottom: -0.475em;
       h2 {
-        //display: none;
+        display: block;
         background: none repeat scroll 0 0 $darkblue;
         color: $lightblue;
         font-size: 2em;
