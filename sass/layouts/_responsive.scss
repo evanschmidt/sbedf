@@ -88,8 +88,8 @@ $zen-auto-include-grid-item-base: false;
   display: none;
 }
 #header {
-  background: none repeat scroll 0 0 $darkblue;
   h2 {
+    display: none;
     font-size: 1.25em;
     margin: 1em 0;
   }
@@ -117,11 +117,6 @@ $zen-auto-include-grid-item-base: false;
     height: $nav-height;
     width: $zen-grid-width;
   }
-#block-block-6 {
-  h2 {
-    display: none;
-  }
-}
 }
 
 } // End of @if $zen-reverse-all-floats == true
@@ -212,7 +207,6 @@ $zen-auto-include-grid-item-base: false;
   }
   #header {
     //@include zen-grid-background();
-    background: none repeat scroll 0 0 transparent;
     $zen-columns: 5;
     .region-header {
       @include zen-grid-container($context: grid-item);
@@ -706,7 +700,6 @@ $zen-auto-include-grid-item-base: false;
   }
   #header {
     //@include zen-grid-background();
-    background: none repeat scroll 0 0 transparent;    
     .region-header {
       @include zen-grid-container($context: grid-item);
       @include zen-grid-item(5, 1, right);
