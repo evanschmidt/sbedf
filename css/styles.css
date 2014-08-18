@@ -3947,7 +3947,7 @@ h1 {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003214}}
 #block-views-why-st-bernard-block .why-row-wrapper {
-  margin: 0.09em;
+  margin: 0.09em 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003221}}
 #block-views-why-st-bernard-block .views-row:nth-child(1) .why-row-wrapper {
