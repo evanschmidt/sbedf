@@ -290,6 +290,15 @@ h1 {
   }
 //content bottom layout
 #content-bottom {
+  .region-content-bottom {
+    padding: 4em;
+  }
+    h2 {
+      color: $blue;
+      font-weight: normal;
+      font-size: 1.6em;
+      margin-bottom: 1em;
+    }
   .block {
     a {
       color: $darkgrey;
@@ -304,7 +313,11 @@ h1 {
       }
     }
   }
+  p {
+    margin: 0.5em 3em 0.5em 0;
+  }
 }
+
 // board member view layout
 .view-board-members {
   h3 {
