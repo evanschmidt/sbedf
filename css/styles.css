@@ -3822,15 +3822,15 @@ h1 {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000393}}
-#block-menu-block-1 {
+#block-menu-block-1, #block-menu-menu-working-on-the-water {
   margin: 0 -5px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000395}}
-#block-menu-block-1 .menu-block-wrapper {
+#block-menu-block-1 .menu-block-wrapper, #block-menu-menu-working-on-the-water .menu-block-wrapper {
   background: none repeat scroll 0 0 #115db1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\0000398}}
-#block-menu-block-1 ul {
+#block-menu-block-1 ul, #block-menu-menu-working-on-the-water ul {
   border-bottom: 40px solid #e6ba00;
   font-size: 1.25em;
   list-style: none outside none;
@@ -3838,13 +3838,13 @@ h1 {
   padding: 1em 0 1em 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003104}}
-#block-menu-block-1 ul li {
+#block-menu-block-1 ul li, #block-menu-menu-working-on-the-water ul li {
   border: none;
   padding: 5px 0 5px 10px;
   list-style: none outside none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003108}}
-#block-menu-block-1 ul li a {
+#block-menu-block-1 ul li a, #block-menu-menu-working-on-the-water ul li a {
   color: #79b3f2;
   display: block;
   padding: 5px 0;
@@ -3852,34 +3852,34 @@ h1 {
   line-height: 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003118}}
-#block-menu-block-1 ul li.active-trail, #block-menu-block-1 ul li.active-trail a, #block-menu-block-1 ul a:hover, #block-menu-block-1 ul li:hover {
+#block-menu-block-1 ul li.active-trail, #block-menu-block-1 ul li.active-trail a, #block-menu-block-1 ul a:hover, #block-menu-block-1 ul li:hover, #block-menu-menu-working-on-the-water ul li.active-trail, #block-menu-menu-working-on-the-water ul li.active-trail a, #block-menu-menu-working-on-the-water ul a:hover, #block-menu-menu-working-on-the-water ul li:hover {
   background: url("../images/arrow.png") no-repeat scroll right center #115db1;
   color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003122}}
-#block-menu-block-1 ul li.even {
+#block-menu-block-1 ul li.even, #block-menu-menu-working-on-the-water ul li.even {
   background: none repeat scroll 0 0 #115db1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003125}}
-#block-menu-block-1 ul li.odd {
+#block-menu-block-1 ul li.odd, #block-menu-menu-working-on-the-water ul li.odd {
   background: none repeat scroll 0 0 #115db1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003129}}
-#block-menu-block-1 ul ul {
+#block-menu-block-1 ul ul, #block-menu-menu-working-on-the-water ul ul {
   border: medium none;
   top: 3.8em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003133}}
-#block-menu-block-1 ul ul li {
+#block-menu-block-1 ul ul li, #block-menu-menu-working-on-the-water ul ul li {
   border: medium none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003136}}
-#block-menu-block-1 ul ul li a {
+#block-menu-block-1 ul ul li a, #block-menu-menu-working-on-the-water ul ul li a {
   padding: 0.5em;
   text-align: left;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/websites\/StBernardEDF\/drupal\/sites\/all\/themes\/sbedf\/sass\/_sbedf\.scss}line{font-family:\00003140}}
-#block-menu-block-1 ul ul li a.active-trail {
+#block-menu-block-1 ul ul li a.active-trail, #block-menu-menu-working-on-the-water ul ul li a.active-trail {
   color: #e6ba00;
 }
 
