@@ -90,9 +90,12 @@ h1 {
    color: $white;
   }
 }
+#block-menu-menu-working-on-the-water ul {
+  background: none repeat scroll 0 0 $blue;    
+}
 #block-menu-block-1, #block-menu-menu-working-on-the-water {
   margin: 0 -5px;
-  .menu-block-wrapper, #block-menu-menu-working-on-the-water ul {
+  .menu-block-wrapper {
       background: none repeat scroll 0 0 $blue;    
   }
   ul {
