@@ -189,6 +189,12 @@ h1 {
   .views-field-field-partner-logo {
   }
 }
+// investor layout
+#block-views-investors-block-2 {
+  h2, h3 {
+    text-align: center;
+  }
+}
   // why st bernard layout
   #block-views-why-st-bernard-block {
     background: none repeat scroll 0 0 $darkgrey;
@@ -406,7 +412,7 @@ h1 {
 
 //footer block 
 #block-block-2 {
-  border-top: 2px solid $grey;
+  border-top: 1px solid $grey;
   font-size: 0.9em;
   line-height: 1.25em;
   padding: 1.5em;
