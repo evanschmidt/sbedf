@@ -195,6 +195,14 @@ h1 {
     h2 {
       text-transform: uppercase;
     }
+    h3: before {
+      content: "<hr>";
+      display: inline;
+    }
+    h3: after {
+      content: "<hr>";
+      display: inline;
+    }
 }
   // why st bernard layout
   #block-views-why-st-bernard-block {
