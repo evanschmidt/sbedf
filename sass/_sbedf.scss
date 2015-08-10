@@ -193,6 +193,7 @@ h1 {
 // investor layout
 #block-views-investors-block-1, #block-views-investors-block-2 {
     text-align: center;
+    margin-top: 2em;
     h2 {
       color: $blue;
       font-size: 1.6em;
@@ -229,7 +230,6 @@ h1 {
     }
 }
 #block-views-investors-block-2 {
-  margin-top: 2em;
     h3:before {
       width: 40%;
     }

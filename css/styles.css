@@ -3938,19 +3938,20 @@ h1 {
 /* line 194, ../sass/_sbedf.scss */
 #block-views-investors-block-1, #block-views-investors-block-2 {
   text-align: center;
+  margin-top: 2em;
 }
-/* line 196, ../sass/_sbedf.scss */
+/* line 197, ../sass/_sbedf.scss */
 #block-views-investors-block-1 h2, #block-views-investors-block-2 h2 {
   color: #115db1;
   font-size: 1.6em;
   font-weight: normal;
 }
-/* line 201, ../sass/_sbedf.scss */
+/* line 202, ../sass/_sbedf.scss */
 #block-views-investors-block-1 h3, #block-views-investors-block-2 h3 {
   font-size: 0.9em;
   line-height: 1.25em;
 }
-/* line 205, ../sass/_sbedf.scss */
+/* line 206, ../sass/_sbedf.scss */
 #block-views-investors-block-1 h3:before, #block-views-investors-block-2 h3:before {
   content: "";
   display: inline-block;
@@ -3958,7 +3959,7 @@ h1 {
   margin: 5px;
   background: #dfdfdf;
 }
-/* line 212, ../sass/_sbedf.scss */
+/* line 213, ../sass/_sbedf.scss */
 #block-views-investors-block-1 h3:after, #block-views-investors-block-2 h3:after {
   content: "";
   display: inline-block;
@@ -3967,23 +3968,19 @@ h1 {
   background: #dfdfdf;
 }
 
-/* line 221, ../sass/_sbedf.scss */
+/* line 222, ../sass/_sbedf.scss */
 #block-views-investors-block-1 h3:before {
   width: 30%;
 }
-/* line 224, ../sass/_sbedf.scss */
+/* line 225, ../sass/_sbedf.scss */
 #block-views-investors-block-1 h3:after {
   width: 30%;
 }
-/* line 227, ../sass/_sbedf.scss */
+/* line 228, ../sass/_sbedf.scss */
 #block-views-investors-block-1 .view-display-id-attachment_2 .view-content {
   text-align: left;
 }
 
-/* line 231, ../sass/_sbedf.scss */
-#block-views-investors-block-2 {
-  margin-top: 2em;
-}
 /* line 233, ../sass/_sbedf.scss */
 #block-views-investors-block-2 h3:before {
   width: 40%;
