@@ -197,6 +197,10 @@ h1 {
       font-size: 1.6em;
       font-weight: normal;
     }
+    h3 {
+      font-size: 0.9em;
+      line-height: 1.25em;
+    }
     h3:before {
       content: "";
       display: inline-block;
@@ -220,6 +224,10 @@ h1 {
       color: $blue;
       font-size: 1.6em;
       font-weight: normal;
+    }
+    h3 {
+      font-size: 0.9em;
+      line-height: 1.25em;
     }
     h3:before {
       content: "";
