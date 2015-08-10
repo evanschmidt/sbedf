@@ -197,7 +197,7 @@ h1 {
     }
     h3:before {
       content: "";
-      display: block;
+      display: inline-block;
       height: 1px;
       width: 40%;
       margin: 10px;
@@ -205,7 +205,7 @@ h1 {
     }
     h3:after {
       content: "";
-      display: block;
+      display: inline-block;
       height: 1px;
       width: 40%;
       margin: 10px;

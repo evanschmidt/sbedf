@@ -3946,7 +3946,7 @@ h1 {
 /* line 198, ../sass/_sbedf.scss */
 #block-views-investors-block-1 h3:before, #block-views-investors-block-2 h3:before {
   content: "";
-  display: block;
+  display: inline-block;
   height: 1px;
   width: 40%;
   margin: 10px;
@@ -3955,7 +3955,7 @@ h1 {
 /* line 206, ../sass/_sbedf.scss */
 #block-views-investors-block-1 h3:after, #block-views-investors-block-2 h3:after {
   content: "";
-  display: block;
+  display: inline-block;
   height: 1px;
   width: 40%;
   margin: 10px;
