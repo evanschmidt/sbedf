@@ -193,28 +193,34 @@ h1 {
 #block-views-investors-block-1 {
     text-align: center;
     h2 {
+      color: $blue;
+      font-size: 1.6em;
+      font-weight: normal;
       text-transform: uppercase;
     }
     h3:before {
       content: "";
       display: inline-block;
       height: 1px;
-      width: 40%;
-      margin: 10px;
+      width: 30%;
+      margin: 5px;
       background: #999;
     }
     h3:after {
       content: "";
       display: inline-block;
       height: 1px;
-      width: 40%;
-      margin: 10px;
+      width: 30%;
+      margin: 5px;
       background: #999;
     }
 }
 #block-views-investors-block-2 {
     text-align: center;
     h2 {
+      color: $blue;
+      font-size: 1.6em;
+      font-weight: normal;
       text-transform: uppercase;
     }
     h3:before {
