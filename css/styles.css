@@ -3950,7 +3950,7 @@ h1 {
   height: 1px;
   width: 40%;
   margin: 10px;
-  background: #f00;
+  background: #999;
 }
 /* line 206, ../sass/_sbedf.scss */
 #block-views-investors-block-1 h3:after {
@@ -3959,7 +3959,7 @@ h1 {
   height: 1px;
   width: 40%;
   margin: 10px;
-  background: #f00;
+  background: #999;
 }
 
 /* line 215, ../sass/_sbedf.scss */
@@ -3976,8 +3976,8 @@ h1 {
   display: inline-block;
   height: 1px;
   width: 40%;
-  margin: 10px;
-  background: #f00;
+  margin: 5px;
+  background: #999;
 }
 /* line 228, ../sass/_sbedf.scss */
 #block-views-investors-block-2 h3:after {
@@ -3985,8 +3985,8 @@ h1 {
   display: inline-block;
   height: 1px;
   width: 40%;
-  margin: 10px;
-  background: #f00;
+  margin: 5px;
+  background: #999;
 }
 
 /* line 240, ../sass/_sbedf.scss */
