@@ -3938,16 +3938,20 @@ h1 {
 /* line 193, ../sass/_sbedf.scss */
 #block-views-investors-block-1, #block-views-investors-block-2 {
   text-align: center;
-  h3: before;
-  h3-content: "<hr>";
-  h3-display: inline;
-  h3: after;
-  h3-content: "<hr>";
-  h3-display: inline;
 }
 /* line 195, ../sass/_sbedf.scss */
 #block-views-investors-block-1 h2, #block-views-investors-block-2 h2 {
   text-transform: uppercase;
+}
+/* line 198, ../sass/_sbedf.scss */
+#block-views-investors-block-1 h3:before, #block-views-investors-block-2 h3:before {
+  content: "<hr>";
+  display: inline;
+}
+/* line 202, ../sass/_sbedf.scss */
+#block-views-investors-block-1 h3:after, #block-views-investors-block-2 h3:after {
+  content: "<hr>";
+  display: inline;
 }
 
 /* line 208, ../sass/_sbedf.scss */
