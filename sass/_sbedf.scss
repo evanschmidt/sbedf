@@ -189,8 +189,9 @@ h1 {
   .views-field-field-partner-logo {
   }
 }
+
 // investor layout
-#block-views-investors-block-1 {
+#block-views-investors-block-1, #block-views-investors-block-2 {
     text-align: center;
     h2 {
       color: $blue;
@@ -205,48 +206,33 @@ h1 {
       content: "";
       display: inline-block;
       height: 1px;
-      width: 30%;
       margin: 5px;
-      background: #999;
+      background: #dfdfdf;
     }
     h3:after {
       content: "";
       display: inline-block;
       height: 1px;
-      width: 30%;
       margin: 5px;
-      background: #999;
+      background: #dfdfdf;
+    }
+}
+#block-views-investors-block-1 {
+    h3:before {
+      width: 30%;
+    }
+    h3:after {
+      width: 30%;
     }
 }
 #block-views-investors-block-2 {
-    text-align: center;
-    h2 {
-      color: $blue;
-      font-size: 1.6em;
-      font-weight: normal;
-    }
-    h3 {
-      font-size: 0.9em;
-      line-height: 1.25em;
-    }
     h3:before {
-      content: "";
-      display: inline-block;
-      height: 1px;
       width: 40%;
-      margin: 5px;
-      background: #999;
     }
     h3:after {
-      content: "";
-      display: inline-block;
-      height: 1px;
       width: 40%;
-      margin: 5px;
-      background: #999;
     }
 }
-
 
   // why st bernard layout
   #block-views-why-st-bernard-block {
