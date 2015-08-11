@@ -120,6 +120,24 @@ $zen-auto-include-grid-item-base: false;
     display: none;
   }
 }
+// investor layout
+#block-views-investors-block-1 {
+    h3:before {
+      width: 35%;
+    }
+    h3:after {
+      width: 35%;
+    }
+}
+#block-views-investors-block-2 {
+    h3:before {
+      width: 40%;
+    }
+    h3:after {
+      width: 40%;
+    }
+}
+
 #content-bottom {
   .region-content-bottom {
     padding: 1em;
@@ -493,6 +511,24 @@ $zen-auto-include-grid-item-base: false;
   #block-views-announcements-block-1 {
     display: none;
   }
+
+// investor layout
+#block-views-investors-block-1 {
+    h3:before {
+      width: 35%;
+    }
+    h3:after {
+      width: 35%;
+    }
+}
+#block-views-investors-block-2 {
+    h3:before {
+      width: 40%;
+    }
+    h3:after {
+      width: 40%;
+    }
+}
 
 // partner page
 .view-id-partners.view-display-id-page {
@@ -1086,6 +1122,24 @@ $zen-auto-include-grid-item-base: false;
       }
     }
   }
+
+// investor layout
+#block-views-investors-block-1 {
+    h3:before {
+      width: 35%;
+    }
+    h3:after {
+      width: 35%;
+    }
+}
+#block-views-investors-block-2 {
+    h3:before {
+      width: 40%;
+    }
+    h3:after {
+      width: 40%;
+    }
+}
 
 // partner page
 .view-id-partners.view-display-id-page {
