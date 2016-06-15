@@ -413,9 +413,9 @@ $zen-auto-include-grid-item-base: false;
     .view-why-st-bernard {
       @include zen-grid-container($context:  none);
       @include zen-grid-item(5, 1, $columns: 5);    
-      border-top: 1px solid $newgrey;
-      margin-top: -3.75em;
-      padding-top: 3.75em;
+//      border-top: 1px solid $newgrey;
+//      margin-top: -3.75em;
+//      padding-top: 3.75em;
       text-align: center;
     }
     .views-row {
@@ -958,9 +958,9 @@ $zen-auto-include-grid-item-base: false;
       width: 875px;
     }
     .view-why-st-bernard {
-      border-top: 1px solid $newgrey;
-      margin-top: -4.75em;
-      padding-top: 4.75em;
+//      border-top: 1px solid $newgrey;
+//      margin-top: -4.75em;
+//      padding-top: 4.75em;
       text-align: center;
     }
     .views-row {
