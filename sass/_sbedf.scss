@@ -49,7 +49,7 @@ h1 {
 }
 #block-nice-menus-1 {
   ul {
-    background: none repeat scroll 0 0 $darkgrey;
+    background: none repeat scroll 0 0 $navy;
     z-index: 99;
     li {
       border: none;
@@ -65,10 +65,10 @@ h1 {
       color: $yellow;
     }
     li.even {
-      background: none repeat scroll 0 0 $darkgrey;
+      background: none repeat scroll 0 0 $navy;
     }
     li.odd {
-      background: none repeat scroll 0 0 $darkgrey;      
+      background: none repeat scroll 0 0 $navy;
     }
   }
  ul.nice-menu ul {
