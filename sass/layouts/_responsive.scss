@@ -40,6 +40,8 @@ $zen-auto-include-grid-item-base: false;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
@@ -60,6 +62,8 @@ $zen-auto-include-grid-item-base: false;
 #main,
 #footer {
   @include zen-grid-container();
+  padding-left: 0;
+  padding-right: 0;
 }
 // mobile specific layout
 #block-views-why-st-bernard-block {
