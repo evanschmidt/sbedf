@@ -39,7 +39,7 @@ $zen-auto-include-grid-item-base: false;
 .region-bottom {
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%; //1200px;
+  max-width: 1200px;
 }
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
@@ -471,7 +471,7 @@ $zen-auto-include-grid-item-base: false;
       padding: 0 4em;
     }
     h2 {
-      color: $blue;
+      color: $navy;
       font-weight: normal;
       font-size: 1.6em;
       margin-bottom: 1em;
@@ -833,7 +833,7 @@ $zen-auto-include-grid-item-base: false;
       display: block;
       .head-phone {
         font-size: 1.5em;
-        padding: 0.65em;        
+        padding: 0 0.65em;        
       }
     }
     #block-views-header-images-block {
@@ -1028,7 +1028,7 @@ $zen-auto-include-grid-item-base: false;
     h2 {
       @include zen-grid-item(2, 1);
       font-size: 1.5em;
-      color: $darkgrey;
+      color: $navy;
     }
     h3 {
       font-size: 2em;
@@ -1063,7 +1063,7 @@ $zen-auto-include-grid-item-base: false;
       padding: 4em;
     }
     h2 {
-      color: $blue;
+      color: $navy;
       font-weight: normal;
       font-size: 1.6em;
       margin-bottom: 1em;
@@ -1268,7 +1268,7 @@ $zen-auto-include-grid-item-base: false;
       @include zen-grid-item(1, 5);
       padding-top: 7em;
       h2 {
-        color: $blue;
+        color: $navy;
         font-weight: 200;
         margin-bottom: 0.5em;
       }
