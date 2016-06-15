@@ -1817,7 +1817,7 @@ table {
     margin-bottom: -100%;
     padding: 1.75em 0 0 2em;
     position: absolute;
-    text-transform: uppercase;
+    text-transform: none;
     top: 25%;
     width: 470px;
   }
