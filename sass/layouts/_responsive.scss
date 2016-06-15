@@ -144,10 +144,10 @@ $zen-auto-include-grid-item-base: false;
     padding: 1em;
   }
   .block:nth-child(1) {
-    border-bottom: 1px solid $blue;
+    border-bottom: 1px solid $aqua;
   }
   .block:nth-child(2) {
-    border-bottom: 1px solid $blue;
+    border-bottom: 1px solid $aqua;
   } 
 }
 /* Navigation bar */
@@ -487,12 +487,12 @@ $zen-auto-include-grid-item-base: false;
     .block:nth-child(1) {
       @include zen-grid-item(3, 1);
       @include zen-new-row();
-      border-bottom: 1px solid $blue;
+      border-bottom: 1px solid $aqua;
     }
     .block:nth-child(2) {
       @include zen-grid-item(3, 1);
       @include zen-new-row();
-      border-bottom: 1px solid $blue;
+      border-bottom: 1px solid $aqua;
     }
     .block:nth-child(3) {
       @include zen-grid-item(3, 1);
@@ -734,7 +734,7 @@ $zen-auto-include-grid-item-base: false;
       .views-field-field-header-text {
         display: none;
         background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
-        color: $blue;
+        color: $aqua;
         font-size: 2em;
         @include zen-grid-item(1, 2, left);
         height: 2.5em;
