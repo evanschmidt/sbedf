@@ -1803,9 +1803,9 @@ table {
   }
   /* line 734, ../sass/layouts/_responsive.scss */
   .front #above-header .views-field-field-header-text {
-    display: none;
+    display: block;
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
-    color: #21bfd4;
+    color: #003164;
     font-size: 2em;
     float: left;
     width: 20%;
@@ -1818,7 +1818,7 @@ table {
     padding: 1.75em 0 0 2em;
     position: absolute;
     text-transform: uppercase;
-    top: 23.5%;
+    top: 25%;
     width: 470px;
   }
 

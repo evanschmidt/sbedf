@@ -732,9 +732,9 @@ $zen-auto-include-grid-item-base: false;
         height: auto;
       }
       .views-field-field-header-text {
-        display: none;
+        display: block;
         background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
-        color: $aqua;
+        color: $navy;
         font-size: 2em;
         @include zen-grid-item(1, 2, left);
         height: 2.5em;
@@ -743,7 +743,7 @@ $zen-auto-include-grid-item-base: false;
         padding: 1.75em 0 0 2em;
         position: absolute;
         text-transform: uppercase;
-        top: 23.5%;
+        top: 25%;
         width: 470px;
       }
     }
