@@ -3899,7 +3899,7 @@ h1 {
 }
 /* line 112, ../sass/_sbedf.scss */
 #block-menu-block-1 ul li a, #block-menu-menu-working-on-the-water ul li a {
-  color: #79b3f2;
+  color: #eb4031;
   display: block;
   padding: 5px 0;
   text-decoration: none;
@@ -3907,16 +3907,16 @@ h1 {
 }
 /* line 122, ../sass/_sbedf.scss */
 #block-menu-block-1 ul li.active-trail, #block-menu-block-1 ul li.active-trail a, #block-menu-block-1 ul a:hover, #block-menu-block-1 ul li:hover, #block-menu-menu-working-on-the-water ul li.active-trail, #block-menu-menu-working-on-the-water ul li.active-trail a, #block-menu-menu-working-on-the-water ul a:hover, #block-menu-menu-working-on-the-water ul li:hover {
-  background: url("../images/arrow.png") no-repeat scroll right center #115db1;
+  background: url("../images/arrow.png") no-repeat scroll right center #21bfd4;
   color: white;
 }
 /* line 126, ../sass/_sbedf.scss */
 #block-menu-block-1 ul li.even, #block-menu-menu-working-on-the-water ul li.even {
-  background: none repeat scroll 0 0 #115db1;
+  background: none repeat scroll 0 0 #21bfd4;
 }
 /* line 129, ../sass/_sbedf.scss */
 #block-menu-block-1 ul li.odd, #block-menu-menu-working-on-the-water ul li.odd {
-  background: none repeat scroll 0 0 #115db1;
+  background: none repeat scroll 0 0 #21bfd4;
 }
 /* line 133, ../sass/_sbedf.scss */
 #block-menu-block-1 ul ul, #block-menu-menu-working-on-the-water ul ul {

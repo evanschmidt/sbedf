@@ -110,7 +110,7 @@ h1 {
       padding: 5px 0 5px 10px;
       list-style: none outside none;
       a {
-        color: $lightblue;
+        color: $red;
         display: block;
         padding: 5px 0;
         text-decoration: none;
@@ -120,14 +120,14 @@ h1 {
       }
     }
     li.active-trail, li.active-trail a, a:hover, li:hover {
-      background: url("../images/arrow.png") no-repeat scroll right center $blue;    
+      background: url("../images/arrow.png") no-repeat scroll right center $aqua;    
       color: $white;
     }
     li.even {
-      background: none repeat scroll 0 0 $blue;
+      background: none repeat scroll 0 0 $aqua;
     }
     li.odd {
-      background: none repeat scroll 0 0 $blue;      
+      background: none repeat scroll 0 0 $aqua;      
     }
   }
  ul ul {
