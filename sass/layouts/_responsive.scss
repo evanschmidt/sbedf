@@ -173,9 +173,6 @@ $zen-auto-include-grid-item-base: false;
 @media all and (min-width: 480px) and (max-width: 959px) {
 
   $zen-columns: 3;
-  body {
-    background: none repeat scroll 0 0 $darkergrey;
-  }
   #page {
     //@include zen-grid-background();
   }
@@ -697,9 +694,6 @@ $zen-auto-include-grid-item-base: false;
 
   $zen-columns: 5;
 
-  body {
-    background: none repeat scroll 0 0 $darkergrey;
-  }
   #page {
     //@include zen-grid-background();
   }
