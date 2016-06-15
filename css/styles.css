@@ -617,8 +617,8 @@ table {
 .region-sidebar-first,
 .region-sidebar-second,
 #footer {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 5px;
+  padding-right: 5px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -1156,8 +1156,8 @@ table {
 
   /* line 403, ../sass/layouts/_responsive.scss */
   #block-views-why-st-bernard-block {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 5px;
+    padding-right: 5px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -1165,8 +1165,8 @@ table {
     *word-wrap: break-word;
     *position: relative;
     *zoom: 1;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -5px;
+    margin-right: -5px;
     padding-left: 0;
     padding-right: 0;
     float: left;
@@ -1380,8 +1380,8 @@ table {
 
   /* line 542, ../sass/layouts/_responsive.scss */
   .views-responsive-grid {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 5px;
+    padding-right: 5px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -1409,8 +1409,8 @@ table {
   .views-responsive-grid.views-columns-2 {
     *position: relative;
     *zoom: 1;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -5px;
+    margin-right: -5px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -1446,8 +1446,8 @@ table {
   .views-responsive-grid.views-columns-3 {
     *position: relative;
     *zoom: 1;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -5px;
+    margin-right: -5px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -1489,8 +1489,8 @@ table {
   .views-responsive-grid.views-columns-4 {
     *position: relative;
     *zoom: 1;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -5px;
+    margin-right: -5px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -1540,8 +1540,8 @@ table {
   .views-responsive-grid.views-columns-5 {
     *position: relative;
     *zoom: 1;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -5px;
+    margin-right: -5px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -1684,8 +1684,8 @@ table {
     *margin-right: -99.9%;
     *position: relative;
     *zoom: 1;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -5px;
+    margin-right: -5px;
     padding-left: 0;
     padding-right: 0;
     clear: left;
@@ -1705,8 +1705,8 @@ table {
   }
   /* line 669, ../sass/layouts/_responsive.scss */
   .two-sidebars .region-sidebar-second .block {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 5px;
+    padding-right: 5px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
