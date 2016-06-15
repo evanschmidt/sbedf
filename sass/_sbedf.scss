@@ -294,7 +294,7 @@ h1 {
       }
     }
     .views-field-title {
-      color: $lightestblue;
+      color: $white;
 //      margin: 0 0.065em;
       font-size: 1.6em;
       text-transform: uppercase;
@@ -317,7 +317,7 @@ h1 {
     .views-field-field-why-image {
 //        margin: 0 0.09em;
       img {
-        opacity: 0.2;
+        opacity: 0.5;
         filter: alpha(opacity=50); /* For IE8 and earlier */
         margin: 1em;
       }

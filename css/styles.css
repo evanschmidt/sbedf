@@ -4074,7 +4074,7 @@ h1 {
 }
 /* line 296, ../sass/_sbedf.scss */
 #block-views-why-st-bernard-block .views-field-title {
-  color: #c2d5eb;
+  color: white;
   font-size: 1.6em;
   text-transform: uppercase;
   letter-spacing: 0.02em;
@@ -4095,7 +4095,7 @@ h1 {
 }
 /* line 319, ../sass/_sbedf.scss */
 #block-views-why-st-bernard-block .views-field-field-why-image img {
-  opacity: 0.2;
+  opacity: 0.5;
   filter: alpha(opacity=50);
   /* For IE8 and earlier */
   margin: 1em;
