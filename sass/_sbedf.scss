@@ -92,12 +92,12 @@ h1 {
   }
 }
 #block-menu-menu-working-on-the-water ul {
-  background: none repeat scroll 0 0 $aqua;    
+  background: none repeat scroll 0 0 $lightaqua;    
 }
 #block-menu-block-1, #block-menu-menu-working-on-the-water {
   margin: 0 -5px;
   .menu-block-wrapper {
-      background: none repeat scroll 0 0 $aqua;    
+      background: none repeat scroll 0 0 $lightaqua;    
   }
   ul {
     border-bottom: 40px solid $red;
@@ -110,7 +110,7 @@ h1 {
       padding: 5px 0 5px 10px;
       list-style: none outside none;
       a {
-        color: $lightaqua;
+        color: $aqua;
         display: block;
         padding: 5px 0;
         text-decoration: none;
@@ -120,14 +120,14 @@ h1 {
       }
     }
     li.active-trail, li.active-trail a, a:hover, li:hover {
-      background: url("../images/arrow.png") no-repeat scroll right center $aqua;    
+      background: url("../images/arrow.png") no-repeat scroll right center $lightaqua;    
       color: $white;
     }
     li.even {
-      background: none repeat scroll 0 0 $aqua;
+      background: none repeat scroll 0 0 $lightaqua;
     }
     li.odd {
-      background: none repeat scroll 0 0 $aqua;      
+      background: none repeat scroll 0 0 $lightaqua;      
     }
   }
  ul ul {
