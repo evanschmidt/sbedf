@@ -999,7 +999,7 @@ table {
   #header #block-block-6 h2 {
     display: block;
     background: none repeat scroll 0 0 #0e4c91;
-    color: #79b3f2;
+    color: #003164;
     font-size: 1.25em;
     font-size: 2.5vw;
     font-weight: normal;
@@ -1984,7 +1984,7 @@ table {
   #header #block-block-6 h2 {
     display: block;
     background: none repeat scroll 0 0 white;
-    color: #79b3f2;
+    color: #003164;
     font-size: 2em;
     font-weight: normal;
     line-height: 0.97em;
@@ -3834,7 +3834,7 @@ h1 {
 }
 /* line 64, ../sass/_sbedf.scss */
 #block-nice-menus-1 ul li.active-trail a, #block-nice-menus-1 ul a:hover {
-  color: #e6ba00;
+  color: #21bfd4;
 }
 /* line 67, ../sass/_sbedf.scss */
 #block-nice-menus-1 ul li.even {
@@ -4031,7 +4031,7 @@ h1 {
 /* line 234, ../sass/_sbedf.scss */
 #block-views-why-st-bernard-block h2 {
   background: none repeat scroll 0 0 #21bfd4;
-  color: #555555;
+  color: white;
   font-weight: lighter;
   margin: auto;
   padding: 1em 0;
