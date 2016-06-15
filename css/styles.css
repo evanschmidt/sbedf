@@ -4092,7 +4092,7 @@ h1 {
 /* line 319, ../sass/_sbedf.scss */
 #block-views-why-st-bernard-block .views-field-field-why-image img {
   opacity: 0.2;
-  filter: alpha(opacity=20);
+  filter: alpha(opacity=50);
   /* For IE8 and earlier */
   margin: 1em;
 }
