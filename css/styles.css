@@ -786,7 +786,7 @@ table {
   }
   /* line 189, ../sass/layouts/_responsive.scss */
   .front #home-above-header .views-field-field-header-text {
-    display: block;
+    display: none;
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
     color: #333333;
     font-size: 1.875em;
