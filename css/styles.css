@@ -111,7 +111,7 @@ audio:not([controls]) {
  */
 /* line 106, ../sass/_normalize.scss */
 html {
-  font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-family: "Yantramanav", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   /* 1 */
   font-size: 100%;
   /* 3 */
