@@ -226,10 +226,11 @@ h1 {
 }
 
   // why st bernard layout
-  #block-views-why-st-bernard-block {
+  #block-views-why-st-bernard-block, .view-id-why_st_bernard {
     background: none repeat scroll 0 0 $lightaqua;
     color: $lightergrey;
     position: relative;
+    text-align: center;
     z-index: 99;
     h2 {
       background: none repeat scroll 0 0 $lightaqua;
@@ -245,7 +246,6 @@ h1 {
       display: block;
     }
     .view-why-st-bernard {
-      text-align: center;
     }
     .views-row {
       //margin-bottom: 1em;
