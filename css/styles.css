@@ -936,11 +936,6 @@ table {
   }
   /* line 292, ../sass/layouts/_responsive.scss */
   #header #logo {
-    float: left;
-    width: 120%;
-    margin-left: 0%;
-    margin-right: -100%;
-    *margin-right: -99.9%;
     overflow: hidden;
   }
   /* line 295, ../sass/layouts/_responsive.scss */
