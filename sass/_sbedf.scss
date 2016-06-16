@@ -231,7 +231,7 @@ h1 {
     color: $lightergrey;
     position: relative;
     z-index: 99;
-    h2 {
+    h2, .views-field-title {
       background: none repeat scroll 0 0 $lightaqua;
       color: $white;
       font-weight: lighter;
@@ -244,7 +244,7 @@ h1 {
     span {
       display: block;
     }
-    .view-why-st-bernard {
+    .view-why-st-bernard, .view-content {
       text-align: center;
     }
     .views-row {

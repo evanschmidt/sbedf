@@ -4028,7 +4028,7 @@ h1 {
   z-index: 99;
 }
 /* line 234, ../sass/_sbedf.scss */
-#block-views-why-st-bernard-block h2, .view-id-why_st_bernard h2 {
+#block-views-why-st-bernard-block h2, #block-views-why-st-bernard-block .views-field-title, .view-id-why_st_bernard h2, .view-id-why_st_bernard .views-field-title {
   background: none repeat scroll 0 0 #b6eaf1;
   color: white;
   font-weight: lighter;
@@ -4043,7 +4043,7 @@ h1 {
   display: block;
 }
 /* line 247, ../sass/_sbedf.scss */
-#block-views-why-st-bernard-block .view-why-st-bernard, .view-id-why_st_bernard .view-why-st-bernard {
+#block-views-why-st-bernard-block .view-why-st-bernard, #block-views-why-st-bernard-block .view-content, .view-id-why_st_bernard .view-why-st-bernard, .view-id-why_st_bernard .view-content {
   text-align: center;
 }
 /* line 253, ../sass/_sbedf.scss */
