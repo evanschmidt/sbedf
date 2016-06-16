@@ -4021,7 +4021,7 @@ h1 {
 }
 
 /* line 229, ../sass/_sbedf.scss */
-#block-views-why-st-bernard-block, .view-id-why_st_bernard {
+#block-views-why-st-bernard-block, .view-id-why_st_bernard .view-content {
   background: none repeat scroll 0 0 #b6eaf1;
   color: #cccccc;
   position: relative;
@@ -4029,7 +4029,7 @@ h1 {
   z-index: 99;
 }
 /* line 235, ../sass/_sbedf.scss */
-#block-views-why-st-bernard-block h2, .view-id-why_st_bernard h2 {
+#block-views-why-st-bernard-block h2, .view-id-why_st_bernard .view-content h2 {
   background: none repeat scroll 0 0 #b6eaf1;
   color: white;
   font-weight: lighter;
@@ -4040,55 +4040,55 @@ h1 {
   z-index: 1;
 }
 /* line 245, ../sass/_sbedf.scss */
-#block-views-why-st-bernard-block span, .view-id-why_st_bernard span {
+#block-views-why-st-bernard-block span, .view-id-why_st_bernard .view-content span {
   display: block;
 }
 /* line 253, ../sass/_sbedf.scss */
-#block-views-why-st-bernard-block .why-row-wrapper, .view-id-why_st_bernard .why-row-wrapper {
+#block-views-why-st-bernard-block .why-row-wrapper, .view-id-why_st_bernard .view-content .why-row-wrapper {
   margin: 0.09em 0;
 }
 /* line 260, ../sass/_sbedf.scss */
-#block-views-why-st-bernard-block .views-row:nth-child(1) .why-row-wrapper, .view-id-why_st_bernard .views-row:nth-child(1) .why-row-wrapper {
+#block-views-why-st-bernard-block .views-row:nth-child(1) .why-row-wrapper, .view-id-why_st_bernard .view-content .views-row:nth-child(1) .why-row-wrapper {
   background: none repeat scroll 0 0 rgba(33, 191, 212, 0.25);
 }
 /* line 268, ../sass/_sbedf.scss */
-#block-views-why-st-bernard-block .views-row:nth-child(2) .why-row-wrapper, .view-id-why_st_bernard .views-row:nth-child(2) .why-row-wrapper {
+#block-views-why-st-bernard-block .views-row:nth-child(2) .why-row-wrapper, .view-id-why_st_bernard .view-content .views-row:nth-child(2) .why-row-wrapper {
   background: none repeat scroll 0 0 rgba(33, 191, 212, 0.35);
 }
 /* line 276, ../sass/_sbedf.scss */
-#block-views-why-st-bernard-block .views-row:nth-child(3) .why-row-wrapper, .view-id-why_st_bernard .views-row:nth-child(3) .why-row-wrapper {
+#block-views-why-st-bernard-block .views-row:nth-child(3) .why-row-wrapper, .view-id-why_st_bernard .view-content .views-row:nth-child(3) .why-row-wrapper {
   background: none repeat scroll 0 0 rgba(33, 191, 212, 0.4);
 }
 /* line 284, ../sass/_sbedf.scss */
-#block-views-why-st-bernard-block .views-row:nth-child(4) .why-row-wrapper, .view-id-why_st_bernard .views-row:nth-child(4) .why-row-wrapper {
+#block-views-why-st-bernard-block .views-row:nth-child(4) .why-row-wrapper, .view-id-why_st_bernard .view-content .views-row:nth-child(4) .why-row-wrapper {
   background: none repeat scroll 0 0 rgba(33, 191, 212, 0.45);
 }
 /* line 292, ../sass/_sbedf.scss */
-#block-views-why-st-bernard-block .views-row:nth-child(5) .why-row-wrapper, .view-id-why_st_bernard .views-row:nth-child(5) .why-row-wrapper {
+#block-views-why-st-bernard-block .views-row:nth-child(5) .why-row-wrapper, .view-id-why_st_bernard .view-content .views-row:nth-child(5) .why-row-wrapper {
   background: none repeat scroll 0 0 rgba(33, 191, 212, 0.5);
 }
 /* line 296, ../sass/_sbedf.scss */
-#block-views-why-st-bernard-block .views-field-title, .view-id-why_st_bernard .views-field-title {
+#block-views-why-st-bernard-block .views-field-title, .view-id-why_st_bernard .view-content .views-field-title {
   color: white;
   font-size: 1.6em;
   letter-spacing: 0.02em;
 }
 /* line 305, ../sass/_sbedf.scss */
-#block-views-why-st-bernard-block .views-field-field-why-tagline ul, .view-id-why_st_bernard .views-field-field-why-tagline ul {
+#block-views-why-st-bernard-block .views-field-field-why-tagline ul, .view-id-why_st_bernard .view-content .views-field-field-why-tagline ul {
   list-style: none inside none;
   margin: 0;
 }
 /* line 308, ../sass/_sbedf.scss */
-#block-views-why-st-bernard-block .views-field-field-why-tagline ul li, .view-id-why_st_bernard .views-field-field-why-tagline ul li {
+#block-views-why-st-bernard-block .views-field-field-why-tagline ul li, .view-id-why_st_bernard .view-content .views-field-field-why-tagline ul li {
   line-height: 1.25em;
 }
 /* line 310, ../sass/_sbedf.scss */
-#block-views-why-st-bernard-block .views-field-field-why-tagline ul li p, .view-id-why_st_bernard .views-field-field-why-tagline ul li p {
+#block-views-why-st-bernard-block .views-field-field-why-tagline ul li p, .view-id-why_st_bernard .view-content .views-field-field-why-tagline ul li p {
   margin: 0;
   padding: 0;
 }
 /* line 319, ../sass/_sbedf.scss */
-#block-views-why-st-bernard-block .views-field-field-why-image img, .view-id-why_st_bernard .views-field-field-why-image img {
+#block-views-why-st-bernard-block .views-field-field-why-image img, .view-id-why_st_bernard .view-content .views-field-field-why-image img {
   opacity: 0.5;
   filter: alpha(opacity=50);
   /* For IE8 and earlier */
