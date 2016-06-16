@@ -303,6 +303,10 @@ h1 {
     .views-field-field-why-tagline {
       color: $navy;
 //      margin: 0 0.09em;
+      p {
+        margin: 0;
+        padding: 0;
+      }
       ul {
         list-style: none inside none;
         margin: 0;
