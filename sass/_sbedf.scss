@@ -304,8 +304,7 @@ h1 {
       color: $navy;
 //      margin: 0 0.09em;
       p {
-        margin: 0;
-        padding: 0;
+        display: inline;
       }
       ul {
         list-style: none inside none;
