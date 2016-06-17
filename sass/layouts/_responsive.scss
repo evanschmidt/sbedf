@@ -256,11 +256,6 @@ $zen-auto-include-grid-item-base: false;
 
     }
   }
-  .front #logo {
-    img {
-      width: 69%;
-    }
-  }
   #header {
     //@include zen-grid-background();
     $zen-columns: 5;
@@ -406,6 +401,11 @@ $zen-auto-include-grid-item-base: false;
       ul li {
         padding-left: 1em;
       }
+    }
+  }
+  .front #logo {
+    img {
+      width: 69%;
     }
   }
 
@@ -781,13 +781,7 @@ $zen-auto-include-grid-item-base: false;
       top: 23.5%;
       width: 470px;
     }
-  }
-  .front #logo {
-    img {
-      width: 69%;
-    }
-  }
-  
+  }  
   #header {
     //@include zen-grid-background();
     .region-header {
@@ -961,6 +955,12 @@ $zen-auto-include-grid-item-base: false;
       }
     }
   }
+  .front #logo {
+    img {
+      width: 69%;
+    }
+  }
+ 
   // why st bernard layout
   #block-views-why-st-bernard-block {
     @include zen-grid-item-base();
