@@ -426,7 +426,7 @@ $zen-auto-include-grid-item-base: false;
       margin-bottom: 0;
     }  
     .why-row-wrapper {
-      margin: 0!important;
+      margin: 0;
       padding-bottom: 2em;
     }    
     .views-row:nth-child(1) {
@@ -971,7 +971,7 @@ $zen-auto-include-grid-item-base: false;
       margin-bottom: 0;
     }  
     .why-row-wrapper {
-      margin: 0.09em;
+      margin: 0;
     }
     .view-why-st-bernard {
       @include zen-grid-container($context:  none);

@@ -1218,7 +1218,7 @@ table {
   }
   /* line 428, ../sass/layouts/_responsive.scss */
   #block-views-why-st-bernard-block .why-row-wrapper {
-    margin: 0 !important;
+    margin: 0;
     padding-bottom: 2em;
   }
   /* line 432, ../sass/layouts/_responsive.scss */
@@ -2205,7 +2205,7 @@ table {
   }
   /* line 973, ../sass/layouts/_responsive.scss */
   #block-views-why-st-bernard-block .why-row-wrapper {
-    margin: 0.09em;
+    margin: 0;
   }
   /* line 976, ../sass/layouts/_responsive.scss */
   #block-views-why-st-bernard-block .view-why-st-bernard {
@@ -4032,10 +4032,6 @@ h1 {
 /* line 245, ../sass/_sbedf.scss */
 #block-views-why-st-bernard-block span, .view-id-why_st_bernard span {
   display: block;
-}
-/* line 253, ../sass/_sbedf.scss */
-#block-views-why-st-bernard-block .why-row-wrapper, .view-id-why_st_bernard .why-row-wrapper {
-  margin: 0.09em 0;
 }
 /* line 260, ../sass/_sbedf.scss */
 #block-views-why-st-bernard-block .views-row:nth-child(1) .why-row-wrapper, .view-id-why_st_bernard .views-row:nth-child(1) .why-row-wrapper {
