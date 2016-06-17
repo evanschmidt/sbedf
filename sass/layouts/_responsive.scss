@@ -256,6 +256,11 @@ $zen-auto-include-grid-item-base: false;
 
     }
   }
+  .front #logo {
+    img {
+      width: 69%;
+    }
+  }
   #header {
     //@include zen-grid-background();
     $zen-columns: 5;
@@ -299,11 +304,6 @@ $zen-auto-include-grid-item-base: false;
         height: auto;
         width: 65%;
         top: auto;
-      }
-    }
-    .front #logo {
-      img {
-        width: 69%;
       }
     }
     #block-block-6 {
@@ -782,6 +782,12 @@ $zen-auto-include-grid-item-base: false;
       width: 470px;
     }
   }
+  .front #logo {
+    img {
+      width: 69%;
+    }
+  }
+  
   #header {
     //@include zen-grid-background();
     .region-header {
@@ -824,11 +830,6 @@ $zen-auto-include-grid-item-base: false;
         height: auto;
         width: 63%;
         top: auto;
-      }
-    }
-    .front #logo {
-      img {
-        width: 69%;
       }
     }
     #block-block-6 {
