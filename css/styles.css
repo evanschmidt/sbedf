@@ -1175,7 +1175,7 @@ table {
     *margin-right: -99.9%;
     padding-left: 20px;
     padding-right: 20px;
-    padding: 0 3em;
+    padding: 0;
   }
   /* line 43, ../sass-extensions/zen-grids/zen-grids/_grids.scss */
   #block-views-why-st-bernard-block:before, #block-views-why-st-bernard-block:after {
@@ -1214,7 +1214,7 @@ table {
   }
   /* line 425, ../sass/layouts/_responsive.scss */
   #block-views-why-st-bernard-block .views-row {
-    margin-bottom: 1em;
+    margin-bottom: 0;
   }
   /* line 428, ../sass/layouts/_responsive.scss */
   #block-views-why-st-bernard-block .why-row-wrapper {

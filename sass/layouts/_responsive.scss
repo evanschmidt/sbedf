@@ -408,7 +408,7 @@ $zen-auto-include-grid-item-base: false;
     @include zen-grid-item-base();
     @include zen-grid-container($context: flow);
     @include zen-grid-item(5, 1, $columns: 5, $gutters: 40px);
-    padding: 0 3em;
+    padding: 0;
     h2 {
       font-size: 2.3em;
       margin: 1em auto;
@@ -423,7 +423,7 @@ $zen-auto-include-grid-item-base: false;
       text-align: center;
     }
     .views-row {
-      margin-bottom: 1em;
+      margin-bottom: 0;
     }  
     .why-row-wrapper {
       margin: 0.09em;
