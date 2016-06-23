@@ -460,6 +460,9 @@ h1 {
 }
 #block-mailchimp-signup-sbedf-mailchimp {
   padding: 0 1em;
+  h2 {
+    font-size: 1em;
+  }
   label {
     display: none;
   }
@@ -467,7 +470,7 @@ h1 {
     margin-bottom: 0.5em;
     margin-top: 0;
   }
-  .form-type-textfield input {
+  .form-type-textfield input, .form-submit {
     background: none repeat scroll 0 0 $lightaqua;
     border: none;
   }
