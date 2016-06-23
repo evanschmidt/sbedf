@@ -548,6 +548,15 @@ $zen-auto-include-grid-item-base: false;
     padding: 0.25em;
   }
 }
+  #block-block-2 {
+    @include zen-grid-item(1, 1);
+  }
+  #block-block-25 {
+    @include zen-grid-item(1, 2);  
+  }
+  #block-mailchimp-signup-sbedf-mailchimp {
+    @include zen-grid-item(1, 3);
+  }
 
 // responsive grid layout
 .views-responsive-grid {
@@ -1164,12 +1173,15 @@ $zen-auto-include-grid-item-base: false;
     padding: 0.25em;
   }
 }
-#block-mailchimp-signup-sbedf-mailchimp {
-  @include zen-grid-item(1, 3);
-}
-#block-block-2 {
-  @include zen-grid-item(2, 1);
-}
+  #block-block-2 {
+    @include zen-grid-item(1, 1);
+  }
+  #block-block-25 {
+    @include zen-grid-item(1, 2);  
+  }
+  #block-mailchimp-signup-sbedf-mailchimp {
+    @include zen-grid-item(1, 3);
+  }
 
 // responsive grid layout
 .views-responsive-grid {
