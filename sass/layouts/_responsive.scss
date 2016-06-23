@@ -1040,7 +1040,7 @@ $zen-auto-include-grid-item-base: false;
     $zen-gutters: 10px;
     @include zen-grid-item(5, 1, $columns: 5, $gutters: 10px);
     @include zen-new-row();
-    @include zen-grid-background();
+//    @include zen-grid-background();
     padding-top: 4em;
     h2 {
       @include zen-grid-item(2, 1);
@@ -1163,6 +1163,12 @@ $zen-auto-include-grid-item-base: false;
   .views-field-field-partner-logo {
     padding: 0.25em;
   }
+}
+#block-block-2 {
+  @include zen-grid-item(5, 1);
+}
+#block-mailchimp-signup-sbedf-mailchimp {
+  @include zen-grid-item(5, 1);
 }
 
 // responsive grid layout
