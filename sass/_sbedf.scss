@@ -469,11 +469,13 @@ h1 {
   .form-item {
     margin-bottom: 0.5em;
     margin-top: 0;
+    float: left;
   }
   .form-type-textfield input, .form-submit {
     background: none repeat scroll 0 0 $lightaqua;
     border: none;
     color: $white;
+    padding: 0.25em;
   }
   .form-type-textfield input:focus,
   .form-type-textfield input:hover,
