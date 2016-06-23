@@ -1176,15 +1176,16 @@ $zen-auto-include-grid-item-base: false;
 //footer 
 #footer {
   $zen-columns: 3;
+  $zen-gutters: 0;
   @include zen-grid-background();
   #block-block-2 {
     @include zen-grid-item(1, 1);
   }
   #block-block-25 {
-    @include zen-grid-item(1, 1);  
+    @include zen-grid-item(1, 2);  
   }
   #block-mailchimp-signup-sbedf-mailchimp {
-    @include zen-grid-item(1, 1);
+    @include zen-grid-item(1, 3);
   }
 
 }
