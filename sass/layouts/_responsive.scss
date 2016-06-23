@@ -1165,10 +1165,10 @@ $zen-auto-include-grid-item-base: false;
   }
 }
 #block-mailchimp-signup-sbedf-mailchimp {
-  @include zen-grid-item(1, 1);
+  @include zen-grid-item(1, 3);
 }
 #block-block-2 {
-  @include zen-grid-item(2, 2);
+  @include zen-grid-item(2, 1);
 }
 
 // responsive grid layout

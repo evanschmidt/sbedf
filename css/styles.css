@@ -2542,7 +2542,7 @@ table {
   #block-mailchimp-signup-sbedf-mailchimp {
     float: left;
     width: 33.33333%;
-    margin-left: 0%;
+    margin-left: 66.66667%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
@@ -2551,7 +2551,7 @@ table {
   #block-block-2 {
     float: left;
     width: 66.66667%;
-    margin-left: 33.33333%;
+    margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
