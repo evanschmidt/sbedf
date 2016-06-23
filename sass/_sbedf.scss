@@ -466,11 +466,11 @@ h1 {
   .form-item {
     margin-top: 0;
   }
-  .form-type-textfield {
+  .form-type-textfield input {
     background: none repeat scroll 0 0 $lightaqua;
     border: none;
   }
-  .form-type-textfield:focus {
+  .form-type-textfield input:focus {
     background: none repeat scroll 0 0 $aqua;
     color: $white;    
   }

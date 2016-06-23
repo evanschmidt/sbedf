@@ -4264,12 +4264,12 @@ h1 {
   margin-top: 0;
 }
 /* line 469, ../sass/_sbedf.scss */
-#block-mailchimp-signup-sbedf-mailchimp .form-type-textfield {
+#block-mailchimp-signup-sbedf-mailchimp .form-type-textfield input {
   background: none repeat scroll 0 0 #b6eaf1;
   border: none;
 }
 /* line 473, ../sass/_sbedf.scss */
-#block-mailchimp-signup-sbedf-mailchimp .form-type-textfield:focus {
+#block-mailchimp-signup-sbedf-mailchimp .form-type-textfield input:focus {
   background: none repeat scroll 0 0 #21bfd4;
   color: white;
 }
