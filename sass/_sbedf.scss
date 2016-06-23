@@ -481,6 +481,10 @@ h1 {
   }
   .form-submit {
     background: none repeat scroll 0 0 $navy;
+    padding: 0.25em 1em;
+  }
+  .form-submit:hover {
+    background: none repeat scroll 0 0 $aqua;
   }
 }
 //meanbar layout
