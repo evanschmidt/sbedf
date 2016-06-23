@@ -1176,6 +1176,7 @@ $zen-auto-include-grid-item-base: false;
 //footer 
 #footer {
   $zen-columns: 3;
+  @include zen-grid-background();
   #block-block-2 {
     @include zen-grid-item(1, 1);
   }
