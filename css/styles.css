@@ -4287,56 +4287,56 @@ h1 {
 #block-block-2 p {
   margin: 0;
 }
-/* line 461, ../sass/_sbedf.scss */
-#block-block-2 img {
-  padding: 0 1em;
-}
 
-/* line 465, ../sass/_sbedf.scss */
+/* line 462, ../sass/_sbedf.scss */
 #block-mailchimp-signup-sbedf-mailchimp {
   padding: 0 1em;
 }
-/* line 467, ../sass/_sbedf.scss */
+/* line 464, ../sass/_sbedf.scss */
 #block-mailchimp-signup-sbedf-mailchimp h2 {
   font-size: 1em;
 }
-/* line 470, ../sass/_sbedf.scss */
+/* line 467, ../sass/_sbedf.scss */
 #block-mailchimp-signup-sbedf-mailchimp label {
   display: none;
 }
-/* line 473, ../sass/_sbedf.scss */
+/* line 470, ../sass/_sbedf.scss */
 #block-mailchimp-signup-sbedf-mailchimp .form-item {
   margin-bottom: 0.5em;
   margin-top: 0;
   float: left;
 }
-/* line 478, ../sass/_sbedf.scss */
+/* line 475, ../sass/_sbedf.scss */
 #block-mailchimp-signup-sbedf-mailchimp .form-type-textfield input, #block-mailchimp-signup-sbedf-mailchimp .form-submit {
   background: none repeat scroll 0 0 #b6eaf1;
   border: none;
   color: white;
   padding: 0.25em;
 }
-/* line 484, ../sass/_sbedf.scss */
+/* line 481, ../sass/_sbedf.scss */
 #block-mailchimp-signup-sbedf-mailchimp .form-type-textfield input:focus,
 #block-mailchimp-signup-sbedf-mailchimp .form-type-textfield input:hover,
 #block-mailchimp-signup-sbedf-mailchimp .form-submit:hover {
   background: none repeat scroll 0 0 #21bfd4;
   color: white;
 }
-/* line 490, ../sass/_sbedf.scss */
+/* line 487, ../sass/_sbedf.scss */
 #block-mailchimp-signup-sbedf-mailchimp .form-submit {
   background: none repeat scroll 0 0 #003164;
   padding: 0.25em 1em;
 }
 
-/* line 495, ../sass/_sbedf.scss */
+/* line 492, ../sass/_sbedf.scss */
 #block-block-25 {
   text-align: center;
 }
-/* line 497, ../sass/_sbedf.scss */
+/* line 494, ../sass/_sbedf.scss */
 #block-block-25 p {
   margin: 0;
+}
+/* line 497, ../sass/_sbedf.scss */
+#block-block-25 img {
+  padding: 0 1em;
 }
 
 /* line 503, ../sass/_sbedf.scss */
