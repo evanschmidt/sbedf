@@ -1174,6 +1174,8 @@ $zen-auto-include-grid-item-base: false;
   }
 }
 //footer 
+#footer {
+  $zen-columns: 3;
   #block-block-2 {
     @include zen-grid-item(1, 1);
   }
@@ -1183,6 +1185,8 @@ $zen-auto-include-grid-item-base: false;
   #block-mailchimp-signup-sbedf-mailchimp {
     @include zen-grid-item(1, 1);
   }
+
+}
 
 // responsive grid layout
 .views-responsive-grid {
