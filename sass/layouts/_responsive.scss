@@ -1168,7 +1168,7 @@ $zen-auto-include-grid-item-base: false;
   @include zen-grid-item(1, 1);
 }
 #block-block-2 {
-  @include zen-grid-item(4, 2);
+  @include zen-grid-item(3, 2);
 }
 
 // responsive grid layout
