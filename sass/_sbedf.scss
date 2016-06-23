@@ -463,6 +463,12 @@ h1 {
   label {
     display: none;
   }
+  .form-item {
+    margin-top: 0;
+  }
+  input {
+    background: none repeat scroll 0 0 $lightaqua;
+  }
 }
 //meanbar layout
 .mean-container {
