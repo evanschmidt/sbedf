@@ -2541,8 +2541,8 @@ table {
   /* line 1167, ../sass/layouts/_responsive.scss */
   #block-block-2 {
     float: left;
-    width: 166.66667%;
-    margin-left: 0%;
+    width: 133.33333%;
+    margin-left: 33.33333%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
@@ -2550,7 +2550,7 @@ table {
   /* line 1170, ../sass/layouts/_responsive.scss */
   #block-mailchimp-signup-sbedf-mailchimp {
     float: left;
-    width: 166.66667%;
+    width: 33.33333%;
     margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
