@@ -2539,19 +2539,19 @@ table {
   }
 
   /* line 1167, ../sass/layouts/_responsive.scss */
-  #block-block-2 {
+  #block-mailchimp-signup-sbedf-mailchimp {
     float: left;
-    width: 133.33333%;
-    margin-left: 33.33333%;
+    width: 33.33333%;
+    margin-left: 0%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
 
   /* line 1170, ../sass/layouts/_responsive.scss */
-  #block-mailchimp-signup-sbedf-mailchimp {
+  #block-block-2 {
     float: left;
-    width: 33.33333%;
-    margin-left: 0%;
+    width: 133.33333%;
+    margin-left: 33.33333%;
     margin-right: -100%;
     *margin-right: -99.9%;
   }
