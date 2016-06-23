@@ -473,10 +473,13 @@ h1 {
   .form-type-textfield input, .form-submit {
     background: none repeat scroll 0 0 $lightaqua;
     border: none;
+    color: $white;
   }
   .form-type-textfield input:focus {
     background: none repeat scroll 0 0 $aqua;
     color: $white;    
+  }
+  .form-submit {
   }
 }
 //meanbar layout
