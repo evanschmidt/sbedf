@@ -241,6 +241,9 @@ h1 {
     position: relative;
     text-align: center;
     z-index: 99;
+    a {
+      text-decoration: none;
+    }
     h2 {
       background: none repeat scroll 0 0 $lightaqua;
       color: $white;
