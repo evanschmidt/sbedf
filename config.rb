@@ -8,8 +8,8 @@
 
 
 # Change this to :production when ready to deploy the CSS to the live server.
-environment = :development
-#environment = :production
+#environment = :development
+environment = :production
 
 # If in development (set above), we can turn on the sourcemap file generation.
 # Requires sass 3.3+ and compass 1.0.1+
@@ -20,13 +20,13 @@ sourcemap = false
 # Alternative development debugging methods
 # If in development (above), we can enable line_comments for FireCompass plugin.
 # Requires Firebug plugin and FireCompass plugin
-#firecompass = false
-firecompass = true
+firecompass = false
+#firecompass = true
 
 # If in development (above), we can enable debug_info for the FireSass plugin.
 # Requires Firebug plugin and Firesass plugin
-firesass = false
-#firesass = true
+#firesass = false
+firesass = true
 
 disable_warnings = true
 
