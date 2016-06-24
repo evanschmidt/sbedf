@@ -24,8 +24,8 @@
  * @ingroup views_templates
  */
 ?>
-<a href="/think-st-bernard" title="Think St. Bernard Parish">
-	<div  class="why-row-wrapper">
+<div  class="why-row-wrapper">
+	<a href="/think-st-bernard" title="Think St. Bernard Parish">
 	<?php foreach ($fields as $id => $field): ?>
 	  <?php if (!empty($field->separator)): ?>
 	    <?php print $field->separator; ?>
@@ -36,5 +36,5 @@
 	    <?php print $field->content; ?>
 	  <?php print $field->wrapper_suffix; ?>
 	<?php endforeach; ?>
-	</div>
-</a>
+	</a>
+</div>
