@@ -29,6 +29,7 @@
 ?>
 <div class="<?php print $classes; ?>">
   <div class="why-block-wrapper">
+  <a href="/think-st-bernard" title="Think St. Bernard Parish">
     <?php print render($title_prefix); ?>
     <?php if ($title): ?>
       <?php print $title; ?>
@@ -87,5 +88,6 @@
         <?php print $feed_icon; ?>
       </div>
     <?php endif; ?>
+  </a>
   </div>
 </div><?php /* class view */ ?>
