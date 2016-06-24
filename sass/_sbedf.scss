@@ -150,6 +150,9 @@ h1 {
     color: $navy;
     font-weight: normal;
     line-height: 1em;
+    a {
+      text-decoration: none;
+    }
   }
 }
 
