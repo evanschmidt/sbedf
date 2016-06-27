@@ -297,8 +297,8 @@ $zen-auto-include-grid-item-base: false;
       text-align: center;
       img {
         position: relative;
-        padding: 2.5em;
-        padding: 2.5vw;
+        padding: 0em;
+        padding: 0vw;
         left: -5px;
         height: auto;
         width: 65%;
@@ -409,6 +409,8 @@ $zen-auto-include-grid-item-base: false;
   }
   .front #logo {
     img {
+      padding: 2.5em;
+      padding: 2.5vw;
       width: 69%!important;
     }
   }
@@ -832,8 +834,8 @@ $zen-auto-include-grid-item-base: false;
       overflow: hidden;
       text-align: center;
       img {
-        padding: 2.5em;
-        padding: 2.25vw;
+        padding: 0em;
+        padding: 0vw;
         position: relative;
         left: -5px;
         height: auto;
@@ -973,6 +975,8 @@ $zen-auto-include-grid-item-base: false;
   }
   .front #logo {
     img {
+      padding: 2.5em;
+      padding: 2.5vw;
       width: 69%!important;
     }
   }
