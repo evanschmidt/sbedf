@@ -113,10 +113,11 @@ $zen-auto-include-grid-item-base: false;
   }
   #logo {
     img {
+      background: #fff none repeat scroll 0 0;
       height: auto;
       left: 0;
+      padding: 5vw 0;
       position: absolute;
-      padding: 1.5em;
       top: 50px;
       width: 100px;
       z-index: 10;
