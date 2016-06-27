@@ -127,6 +127,12 @@ $zen-auto-include-grid-item-base: false;
     display: none;
   }
 }
+.front #logo {
+  img {
+    left: 0;
+    padding: 5vw 0;
+  }
+}
 // investor layout
 #block-views-investors-block-1 {
     h3:before {
