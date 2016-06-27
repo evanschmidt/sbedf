@@ -1955,7 +1955,7 @@ table {
   /* line 834, ../sass/layouts/_responsive.scss */
   #header #logo img {
     padding: 2.5em;
-    padding: 2vw;
+    padding: 2.5vw;
     position: relative;
     left: -5px;
     height: auto;
