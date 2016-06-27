@@ -296,7 +296,8 @@ $zen-auto-include-grid-item-base: false;
       text-align: center;
       img {
         position: relative;
-        padding: 0;
+        padding: 2.5em;
+        padding: 2.5vw;
         left: -5px;
         height: auto;
         width: 65%;
@@ -830,7 +831,8 @@ $zen-auto-include-grid-item-base: false;
       overflow: hidden;
       text-align: center;
       img {
-        padding: 1.5em;
+        padding: 2.5em;
+        padding: 2.5vw;
         position: relative;
         left: -5px;
         height: auto;
