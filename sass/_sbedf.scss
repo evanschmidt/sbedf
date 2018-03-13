@@ -234,7 +234,7 @@ h1 {
 }
 #block-views-investors-block-1 {
     .view-display-id-attachment_2 .view-content {
-      text-align: left;
+      //text-align: left;
     }
 }
 
@@ -464,6 +464,10 @@ h1 {
   }
 }
 
+#footer {
+  border-top: 1px solid;
+  padding-top: 20px;
+}
 //footer block 
 #block-block-2 {
   font-size: 0.9em;
